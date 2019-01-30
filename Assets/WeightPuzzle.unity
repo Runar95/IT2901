@@ -179,7 +179,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d55f86cf3b124c8fb1158da26ffa96d, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d55f86cf3b124c8fb1158da26ffa96d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -401,7 +401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d55f86cf3b124c8fb1158da26ffa96d, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d55f86cf3b124c8fb1158da26ffa96d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -503,7 +503,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d55f86cf3b124c8fb1158da26ffa96d, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d55f86cf3b124c8fb1158da26ffa96d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -606,7 +606,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &825737423
 PrefabInstance:
@@ -649,7 +649,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d55f86cf3b124c8fb1158da26ffa96d, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d55f86cf3b124c8fb1158da26ffa96d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -751,7 +751,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d55f86cf3b124c8fb1158da26ffa96d, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d55f86cf3b124c8fb1158da26ffa96d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -865,7 +865,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d55f86cf3b124c8fb1158da26ffa96d, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d55f86cf3b124c8fb1158da26ffa96d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -999,7 +999,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1081,7 +1081,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1155,7 +1155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d55f86cf3b124c8fb1158da26ffa96d, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d55f86cf3b124c8fb1158da26ffa96d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1316,7 +1316,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1675663931 stripped
 CircleCollider2D:
@@ -1336,6 +1336,108 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18a0e492e94664ec0ac44d252c40e3a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1853159769
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_Name
+      value: DragTargetSprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.054
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.317
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.295
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.104
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5800000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+--- !u!1 &1853159771 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1853159769}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1853159772
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853159771}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 3}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3, y: 3}
+  m_EdgeRadius: 0
 --- !u!1001 &1865519071
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1385,7 +1487,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1467,7 +1569,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1549,7 +1651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1659,7 +1761,7 @@ Transform:
   m_LocalScale: {x: 0.972, y: 0.923, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1915463829 stripped
 MonoBehaviour:
@@ -1722,7 +1824,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1772,7 +1874,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: variables.Array.size
-      value: 8
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: variables.Array.data[0]
@@ -1797,38 +1899,38 @@ PrefabInstance:
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: variables.Array.data[1]
       value: 
-      objectReference: {fileID: 1958185424}
+      objectReference: {fileID: 1958185445}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: variables.Array.data[2]
       value: 
-      objectReference: {fileID: 1958185423}
+      objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: variables.Array.data[3]
       value: 
-      objectReference: {fileID: 1958185422}
+      objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: variables.Array.data[4]
       value: 
-      objectReference: {fileID: 1958185421}
+      objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: variables.Array.data[5]
       value: 
-      objectReference: {fileID: 1958185420}
+      objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: variables.Array.data[6]
       value: 
-      objectReference: {fileID: 1958185419}
+      objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: variables.Array.data[7]
       value: 
-      objectReference: {fileID: 1958185418}
+      objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: variables.Array.data[8]
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.size
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: blockName
@@ -1849,19 +1951,23 @@ PrefabInstance:
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[3]
       value: 
-      objectReference: {fileID: 1958185397}
+      objectReference: {fileID: 1958185391}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[4]
       value: 
-      objectReference: {fileID: 1958185359}
+      objectReference: {fileID: 1958185397}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[5]
       value: 
-      objectReference: {fileID: 1958185358}
+      objectReference: {fileID: 1958185359}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[6]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1958185388}
+    - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
+      propertyPath: commandList.Array.data[7]
+      value: 
+      objectReference: {fileID: 1958185358}
     - target: {fileID: 467082, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1952,7 +2058,6 @@ MonoBehaviour:
   eventHandler: {fileID: 1958185353}
   commandList:
   - {fileID: 1958185356}
-  - {fileID: 1958185417}
 --- !u!114 &1958185353
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2178,7 +2283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 6
-  indentLevel: 0
+  indentLevel: 1
 --- !u!114 &1958185360
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2195,7 +2300,7 @@ MonoBehaviour:
   indentLevel: 1
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 15
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &1958185361
 MonoBehaviour:
@@ -2347,7 +2452,6 @@ MonoBehaviour:
   eventHandler: {fileID: 1958185362}
   commandList:
   - {fileID: 1958185365}
-  - {fileID: 1958185400}
 --- !u!114 &1958185367
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2453,7 +2557,6 @@ MonoBehaviour:
   eventHandler: {fileID: 1958185361}
   commandList:
   - {fileID: 1958185368}
-  - {fileID: 1958185416}
 --- !u!114 &1958185370
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2559,7 +2662,6 @@ MonoBehaviour:
   eventHandler: {fileID: 1958185364}
   commandList:
   - {fileID: 1958185371}
-  - {fileID: 1958185403}
 --- !u!114 &1958185373
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2665,7 +2767,6 @@ MonoBehaviour:
   eventHandler: {fileID: 1958185370}
   commandList:
   - {fileID: 1958185374}
-  - {fileID: 1958185406}
 --- !u!114 &1958185376
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2771,7 +2872,6 @@ MonoBehaviour:
   eventHandler: {fileID: 1958185376}
   commandList:
   - {fileID: 1958185377}
-  - {fileID: 1958185410}
 --- !u!114 &1958185379
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2877,7 +2977,6 @@ MonoBehaviour:
   eventHandler: {fileID: 1958185382}
   commandList:
   - {fileID: 1958185380}
-  - {fileID: 1958185412}
 --- !u!114 &1958185382
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2983,7 +3082,6 @@ MonoBehaviour:
   eventHandler: {fileID: 1958185386}
   commandList:
   - {fileID: 1958185383}
-  - {fileID: 1958185414}
 --- !u!114 &1958185385
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3029,6 +3127,20 @@ MonoBehaviour:
   parentBlock: {fileID: 1958185405}
   draggableObject: {fileID: 1194733924}
   targetObject: {fileID: 1429622527}
+--- !u!114 &1958185388
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 127
+  indentLevel: 0
 --- !u!114 &1958185389
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3119,7 +3231,70 @@ MonoBehaviour:
   eventHandler: {fileID: 1958185363}
   commandList:
   - {fileID: 1958185389}
-  - {fileID: 1958185407}
+--- !u!114 &1958185391
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 126
+  indentLevel: 1
+  compareOperator: 0
+  variable: {fileID: 1958185445}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 7
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1958185392
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3210,7 +3385,70 @@ MonoBehaviour:
   eventHandler: {fileID: 1958185367}
   commandList:
   - {fileID: 1958185392}
-  - {fileID: 1958185408}
+--- !u!114 &1958185394
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 125
+  indentLevel: 0
+  variable: {fileID: 1958185445}
+  setOperator: 3
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1958185395
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3301,7 +3539,6 @@ MonoBehaviour:
   eventHandler: {fileID: 1958185373}
   commandList:
   - {fileID: 1958185395}
-  - {fileID: 1958185409}
 --- !u!114 &1958185397
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3315,8 +3552,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 58
-  indentLevel: 1
-  storyText: "Du har n\xE5 {$Moved} av 7 riktig plassert"
+  indentLevel: 2
+  storyText: "Du har n\xE5 {$PlacedCorrect} av 7 riktig plassert"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3419,7 +3656,6 @@ MonoBehaviour:
   eventHandler: {fileID: 1958185379}
   commandList:
   - {fileID: 1958185398}
-  - {fileID: 1958185411}
 --- !u!114 &1958185400
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3432,16 +3668,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 72
+  itemId: 124
   indentLevel: 0
-  variable: {fileID: 1958185420}
-  setOperator: 0
+  variable: {fileID: 1958185445}
+  setOperator: 3
   booleanData:
     booleanRef: {fileID: 0}
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 0
+    integerVal: 1
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -3574,7 +3810,6 @@ MonoBehaviour:
   eventHandler: {fileID: 1958185385}
   commandList:
   - {fileID: 1958185401}
-  - {fileID: 1958185413}
 --- !u!114 &1958185403
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3587,16 +3822,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 71
+  itemId: 123
   indentLevel: 0
-  variable: {fileID: 1958185424}
-  setOperator: 0
+  variable: {fileID: 1958185445}
+  setOperator: 3
   booleanData:
     booleanRef: {fileID: 0}
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 0
+    integerVal: 1
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -3729,7 +3964,6 @@ MonoBehaviour:
   eventHandler: {fileID: 1958185387}
   commandList:
   - {fileID: 1958185404}
-  - {fileID: 1958185415}
 --- !u!114 &1958185406
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3742,16 +3976,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 70
+  itemId: 122
   indentLevel: 0
-  variable: {fileID: 1958185423}
-  setOperator: 0
+  variable: {fileID: 1958185445}
+  setOperator: 3
   booleanData:
     booleanRef: {fileID: 0}
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 0
+    integerVal: 1
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -3806,16 +4040,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 69
+  itemId: 121
   indentLevel: 0
-  variable: {fileID: 1958185420}
-  setOperator: 0
+  variable: {fileID: 1958185445}
+  setOperator: 3
   booleanData:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 0
+    integerVal: 1
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -3870,16 +4104,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 68
+  itemId: 120
   indentLevel: 0
-  variable: {fileID: 1958185424}
-  setOperator: 0
+  variable: {fileID: 1958185445}
+  setOperator: 3
   booleanData:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 0
+    integerVal: 1
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -3934,16 +4168,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 67
+  itemId: 119
   indentLevel: 0
-  variable: {fileID: 1958185423}
-  setOperator: 0
+  variable: {fileID: 1958185445}
+  setOperator: 2
   booleanData:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 0
+    integerVal: 1
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -3998,16 +4232,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 66
+  itemId: 118
   indentLevel: 0
-  variable: {fileID: 1958185421}
-  setOperator: 0
+  variable: {fileID: 1958185445}
+  setOperator: 2
   booleanData:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 0
+    integerVal: 1
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -4062,16 +4296,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 65
+  itemId: 117
   indentLevel: 0
-  variable: {fileID: 1958185421}
-  setOperator: 0
+  variable: {fileID: 1958185445}
+  setOperator: 2
   booleanData:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 0
+    integerVal: 1
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -4126,16 +4360,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 64
+  itemId: 116
   indentLevel: 0
-  variable: {fileID: 1958185419}
-  setOperator: 0
+  variable: {fileID: 1958185445}
+  setOperator: 2
   booleanData:
     booleanRef: {fileID: 0}
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 0
+    integerVal: 1
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -4190,16 +4424,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 63
+  itemId: 115
   indentLevel: 0
-  variable: {fileID: 1958185419}
-  setOperator: 0
+  variable: {fileID: 1958185445}
+  setOperator: 2
   booleanData:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 0
+    integerVal: 1
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -4251,61 +4485,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1958185351}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Script: {fileID: 11500000, guid: eed081ad4ebea41c580e1cdd6fe65ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 62
-  indentLevel: 0
-  variable: {fileID: 1958185421}
-  setOperator: 0
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
-  animatorData:
-    animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
-  audioSourceData:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 0}
-  colorData:
-    colorRef: {fileID: 0}
-    colorVal: {r: 0, g: 0, b: 0, a: 0}
-  gameObjectData:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  materialData:
-    materialRef: {fileID: 0}
-    materialVal: {fileID: 0}
-  objectData:
-    objectRef: {fileID: 0}
-    objectVal: {fileID: 0}
-  rigidbody2DData:
-    rigidbody2DRef: {fileID: 0}
-    rigidbody2DVal: {fileID: 0}
-  spriteData:
-    spriteRef: {fileID: 0}
-    spriteVal: {fileID: 0}
-  textureData:
-    textureRef: {fileID: 0}
-    textureVal: {fileID: 0}
-  transformData:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  vector2Data:
-    vector2Ref: {fileID: 0}
-    vector2Val: {x: 0, y: 0}
-  vector3Data:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
+  parentBlock: {fileID: 1958185415}
+  draggableObject: {fileID: 615463714}
+  targetObject: {fileID: 1853159772}
 --- !u!114 &1958185415
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4315,61 +4500,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1958185351}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 61
-  indentLevel: 0
-  variable: {fileID: 1958185421}
-  setOperator: 0
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
-  animatorData:
-    animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
-  audioSourceData:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 0}
-  colorData:
-    colorRef: {fileID: 0}
-    colorVal: {r: 0, g: 0, b: 0, a: 0}
-  gameObjectData:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  materialData:
-    materialRef: {fileID: 0}
-    materialVal: {fileID: 0}
-  objectData:
-    objectRef: {fileID: 0}
-    objectVal: {fileID: 0}
-  rigidbody2DData:
-    rigidbody2DRef: {fileID: 0}
-    rigidbody2DVal: {fileID: 0}
-  spriteData:
-    spriteRef: {fileID: 0}
-    spriteVal: {fileID: 0}
-  textureData:
-    textureRef: {fileID: 0}
-    textureVal: {fileID: 0}
-  transformData:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  vector2Data:
-    vector2Ref: {fileID: 0}
-    vector2Val: {x: 0, y: 0}
-  vector3Data:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
+  nodeRect:
+    serializedVersion: 2
+    x: 736.7954
+    y: 437.89435
+    width: 212.00026
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 128
+  blockName: DraggedOnSnes (Copy)
+  description: 
+  eventHandler: {fileID: 1958185414}
+  commandList:
+  - {fileID: 1958185409}
 --- !u!114 &1958185416
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4379,61 +4526,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1958185351}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Script: {fileID: 11500000, guid: ca6aad5e417a14505886d0b0307bff32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 60
-  indentLevel: 0
-  variable: {fileID: 1958185418}
-  setOperator: 0
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
-  animatorData:
-    animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
-  audioSourceData:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 0}
-  colorData:
-    colorRef: {fileID: 0}
-    colorVal: {r: 0, g: 0, b: 0, a: 0}
-  gameObjectData:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  materialData:
-    materialRef: {fileID: 0}
-    materialVal: {fileID: 0}
-  objectData:
-    objectRef: {fileID: 0}
-    objectVal: {fileID: 0}
-  rigidbody2DData:
-    rigidbody2DRef: {fileID: 0}
-    rigidbody2DVal: {fileID: 0}
-  spriteData:
-    spriteRef: {fileID: 0}
-    spriteVal: {fileID: 0}
-  textureData:
-    textureRef: {fileID: 0}
-    textureVal: {fileID: 0}
-  transformData:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  vector2Data:
-    vector2Ref: {fileID: 0}
-    vector2Val: {x: 0, y: 0}
-  vector3Data:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
+  parentBlock: {fileID: 1958185417}
+  draggableObject: {fileID: 1975431121}
+  targetObject: {fileID: 1853159772}
 --- !u!114 &1958185417
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4443,19 +4541,265 @@ MonoBehaviour:
   m_GameObject: {fileID: 1958185351}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 959.00476
+    y: 258.9441
+    width: 212.00026
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 129
+  blockName: DraggedOff5 (Copy)
+  description: 
+  eventHandler: {fileID: 1958185416}
+  commandList:
+  - {fileID: 1958185406}
+--- !u!114 &1958185418
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca6aad5e417a14505886d0b0307bff32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1958185419}
+  draggableObject: {fileID: 1282642988}
+  targetObject: {fileID: 1853159772}
+--- !u!114 &1958185419
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 962.0952
+    y: 320.96667
+    width: 212.00026
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 130
+  blockName: DraggedOffHalvannen (Copy)
+  description: 
+  eventHandler: {fileID: 1958185418}
+  commandList:
+  - {fileID: 1958185403}
+--- !u!114 &1958185420
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca6aad5e417a14505886d0b0307bff32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1958185421}
+  draggableObject: {fileID: 244286425}
+  targetObject: {fileID: 1853159772}
+--- !u!114 &1958185421
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 966.485
+    y: 379.7824
+    width: 212.00026
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 131
+  blockName: DraggedOffTrekvart (Copy)
+  description: 
+  eventHandler: {fileID: 1958185420}
+  commandList:
+  - {fileID: 1958185400}
+--- !u!114 &1958185422
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca6aad5e417a14505886d0b0307bff32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1958185423}
+  draggableObject: {fileID: 615463714}
+  targetObject: {fileID: 1853159772}
+--- !u!114 &1958185423
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 967.6449
+    y: 435.3911
+    width: 212.00026
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 132
+  blockName: DraggedOffSnes (Copy)
+  description: 
+  eventHandler: {fileID: 1958185422}
+  commandList:
+  - {fileID: 1958185394}
+--- !u!114 &1958185424
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca6aad5e417a14505886d0b0307bff32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1958185425}
+  draggableObject: {fileID: 1194733924}
+  targetObject: {fileID: 1853159772}
+--- !u!114 &1958185425
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 959.7627
+    y: 135.83183
+    width: 212.00026
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 133
+  blockName: DraggedOffDusin (Copy)
+  description: 
+  eventHandler: {fileID: 1958185424}
+  commandList:
+  - {fileID: 1958185408}
+--- !u!114 &1958185426
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca6aad5e417a14505886d0b0307bff32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1958185427}
+  draggableObject: {fileID: 1915463829}
+  targetObject: {fileID: 1853159772}
+--- !u!114 &1958185427
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 960.0941
+    y: 201.90253
+    width: 212.00026
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 134
+  blockName: DraggedOff (Copy)1 (Copy)
+  description: 
+  eventHandler: {fileID: 1958185426}
+  commandList:
+  - {fileID: 1958185407}
+--- !u!114 &1958185428
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca6aad5e417a14505886d0b0307bff32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1958185430}
+  draggableObject: {fileID: 1791204981}
+  targetObject: {fileID: 1853159772}
+--- !u!114 &1958185429
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 59
+  itemId: 92
   indentLevel: 0
-  variable: {fileID: 1958185418}
-  setOperator: 0
+  variable: {fileID: 1958185445}
+  setOperator: 3
   booleanData:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 0
+    integerVal: 1
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -4498,7 +4842,7 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &1958185418
+--- !u!114 &1958185430
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4507,13 +4851,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1958185351}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
-  key: Target7
-  value: 0
---- !u!114 &1958185419
+  nodeRect:
+    serializedVersion: 2
+    x: 953.81604
+    y: 77.84451
+    width: 195.33356
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 135
+  blockName: DraggedOff1337 (Copy)
+  description: 
+  eventHandler: {fileID: 1958185428}
+  commandList:
+  - {fileID: 1958185429}
+--- !u!114 &1958185431
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4522,13 +4877,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1958185351}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Script: {fileID: 11500000, guid: eed081ad4ebea41c580e1cdd6fe65ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
-  key: Target6
-  value: 0
---- !u!114 &1958185420
+  parentBlock: {fileID: 1958185432}
+  draggableObject: {fileID: 244286425}
+  targetObject: {fileID: 1853159772}
+--- !u!114 &1958185432
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4537,13 +4892,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1958185351}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
-  key: Target5
-  value: 0
---- !u!114 &1958185421
+  nodeRect:
+    serializedVersion: 2
+    x: 737.5077
+    y: 376.1117
+    width: 212.00026
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 136
+  blockName: DraggedOnTrekvart (Copy)
+  description: 
+  eventHandler: {fileID: 1958185431}
+  commandList:
+  - {fileID: 1958185410}
+--- !u!114 &1958185433
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4552,13 +4918,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1958185351}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Script: {fileID: 11500000, guid: eed081ad4ebea41c580e1cdd6fe65ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
-  key: Target4
-  value: 0
---- !u!114 &1958185422
+  parentBlock: {fileID: 1958185434}
+  draggableObject: {fileID: 1282642988}
+  targetObject: {fileID: 1853159772}
+--- !u!114 &1958185434
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4567,13 +4933,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1958185351}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
-  key: Target3
-  value: 0
---- !u!114 &1958185423
+  nodeRect:
+    serializedVersion: 2
+    x: 734.37933
+    y: 318.03888
+    width: 212.00026
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 137
+  blockName: DraggedOnHalvannen (Copy)
+  description: 
+  eventHandler: {fileID: 1958185433}
+  commandList:
+  - {fileID: 1958185411}
+--- !u!114 &1958185435
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4582,13 +4959,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1958185351}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Script: {fileID: 11500000, guid: eed081ad4ebea41c580e1cdd6fe65ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
-  key: Target2
-  value: 0
---- !u!114 &1958185424
+  parentBlock: {fileID: 1958185436}
+  draggableObject: {fileID: 1975431121}
+  targetObject: {fileID: 1853159772}
+--- !u!114 &1958185436
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4597,11 +4974,288 @@ MonoBehaviour:
   m_GameObject: {fileID: 1958185351}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 735.7608
+    y: 255.80042
+    width: 212.00026
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 138
+  blockName: DraggedOn5 (Copy)
+  description: 
+  eventHandler: {fileID: 1958185435}
+  commandList:
+  - {fileID: 1958185412}
+--- !u!114 &1958185437
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed081ad4ebea41c580e1cdd6fe65ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1958185438}
+  draggableObject: {fileID: 1915463829}
+  targetObject: {fileID: 1853159772}
+--- !u!114 &1958185438
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 737.49536
+    y: 197.79541
+    width: 212.00026
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 139
+  blockName: DraggedOnKilo (Copy)
+  description: 
+  eventHandler: {fileID: 1958185437}
+  commandList:
+  - {fileID: 1958185413}
+--- !u!114 &1958185439
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed081ad4ebea41c580e1cdd6fe65ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1958185441}
+  draggableObject: {fileID: 1194733924}
+  targetObject: {fileID: 1853159772}
+--- !u!114 &1958185440
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 77
+  indentLevel: 0
+  variable: {fileID: 1958185445}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1958185441
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 733.0085
+    y: 135.25285
+    width: 212.00026
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 140
+  blockName: DraggedOnDusin (Copy)
+  description: 
+  eventHandler: {fileID: 1958185439}
+  commandList:
+  - {fileID: 1958185440}
+--- !u!114 &1958185442
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed081ad4ebea41c580e1cdd6fe65ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1958185444}
+  draggableObject: {fileID: 1791204981}
+  targetObject: {fileID: 1853159772}
+--- !u!114 &1958185443
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 74
+  indentLevel: 0
+  variable: {fileID: 1958185445}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1958185444
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 731.56836
+    y: 76.26007
+    width: 195.33356
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 141
+  blockName: DraggedOn1337 (Copy)
+  description: 
+  eventHandler: {fileID: 1958185442}
+  commandList:
+  - {fileID: 1958185443}
+--- !u!114 &1958185445
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scope: 0
-  key: Target1
+  key: Placed
   value: 0
 --- !u!1001 &1959838089
 PrefabInstance:
@@ -4656,7 +5310,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
