@@ -6,6 +6,9 @@ public static class Globals {
 
     // Array of four doors, reflecting open/closed state of each door
     public static bool[] openDoors = new bool[4];
+    
+    // Is this the first time the player visits the main room
+    public static bool firstVisitOfMainRoom = true;
 
     static Globals() {
         openDoors[0] = true;
