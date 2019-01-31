@@ -5,6 +5,7 @@ using Fungus;
 
 public class DoorScript : MonoBehaviour {
 
+    // Doornumber of gameObject
     public int doorNumber = 0;
 
     // Start is called before the first frame update
