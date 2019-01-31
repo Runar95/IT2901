@@ -946,7 +946,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5000000, guid: 4d55f86cf3b124c8fb1158da26ffa96d, type: 3}
       propertyPath: m_CollisionDetection
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d55f86cf3b124c8fb1158da26ffa96d, type: 3}
@@ -1020,6 +1020,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 21200000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_Sprite
@@ -1102,6 +1106,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 21200000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_Sprite
@@ -1353,11 +1361,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.054
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.317
+      value: -4.404
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1397,11 +1405,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.295
+      value: 0.00172586
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_LocalScale.x
       value: 6.104
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5800000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
@@ -1509,6 +1529,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 21200000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1591,6 +1615,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 21200000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1672,6 +1700,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.0000715
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 21200000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_Sprite
@@ -1846,6 +1878,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 21200000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1930,7 +1966,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: blockName
@@ -1943,29 +1979,37 @@ PrefabInstance:
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[1]
       value: 
-      objectReference: {fileID: 1958185354}
+      objectReference: {fileID: 1958185446}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[2]
       value: 
-      objectReference: {fileID: 1958185360}
+      objectReference: {fileID: 1958185447}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[3]
       value: 
-      objectReference: {fileID: 1958185391}
+      objectReference: {fileID: 1958185354}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[4]
       value: 
-      objectReference: {fileID: 1958185397}
+      objectReference: {fileID: 1958185360}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[5]
       value: 
-      objectReference: {fileID: 1958185359}
+      objectReference: {fileID: 1958185391}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[6]
       value: 
-      objectReference: {fileID: 1958185388}
+      objectReference: {fileID: 1958185397}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[7]
+      value: 
+      objectReference: {fileID: 1958185359}
+    - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
+      propertyPath: commandList.Array.data[8]
+      value: 
+      objectReference: {fileID: 1958185388}
+    - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
+      propertyPath: commandList.Array.data[9]
       value: 
       objectReference: {fileID: 1958185358}
     - target: {fileID: 467082, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
@@ -2151,7 +2195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: "Du m\xE5 sortere verdiene i stigende rekkef\xF8lge fra venstre"
+  storyText: "Du m\xE5 sortere verdiene i stigende rekkef\xF8lge fra venstre."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5257,6 +5301,61 @@ MonoBehaviour:
   scope: 0
   key: Placed
   value: 0
+--- !u!114 &1958185446
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 143
+  indentLevel: 0
+  storyText: "Dra blokkene p\xE5 veggen ned til beholderene p\xE5 bordet."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1958185447
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 142
+  indentLevel: 0
+  storyText: "Du f\xE5r vite hvor mange du har plassert riktig n\xE5r du har plassert
+    alle verdiene."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1001 &1959838089
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5331,6 +5430,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 21200000, guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b, type: 3}
       propertyPath: m_Sprite
