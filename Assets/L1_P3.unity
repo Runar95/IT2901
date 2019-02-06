@@ -2943,6 +2943,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Back_to_ship_button
       objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.07
@@ -2995,14 +3003,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_Offset.x
       value: 0.005352445
@@ -3531,6 +3531,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Back_button
       objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_LocalPosition.x
       value: 29.9
@@ -3581,14 +3589,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_LocalScale.y
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
@@ -4373,7 +4373,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 1383063396}
+  - {fileID: 1383063402}
   selectedCommands: []
   variables: []
   description: 
@@ -5602,7 +5602,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 455.6866
     y: 209.74368
-    width: 181.18526
+    width: 173.94037
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5627,6 +5627,23 @@ MonoBehaviour:
   parentBlock: {fileID: 1537412353}
   clickableObject: {fileID: 1000682861}
   waitFrames: 0
+--- !u!114 &1537412355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537412352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 30
+  indentLevel: 0
+  targetObject: {fileID: 1489910037}
+  methodName: FinishLevel
+  delay: 0
 --- !u!114 &1537412358
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5670,7 +5687,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 453.5304
     y: 155.16585
-    width: 199.59723
+    width: 183.29434
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5708,6 +5725,7 @@ MonoBehaviour:
   - {fileID: 1537412358}
   - {fileID: 1537412378}
   - {fileID: 1537412376}
+  - {fileID: 1537412355}
 --- !u!114 &1537412361
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6043,7 +6061,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 290.43256
     y: 31.46719
-    width: 171.97928
+    width: 161.07861
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6164,7 +6182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1383063398}
+  selectedFlowchart: {fileID: 1418361327}
 --- !u!4 &1595382671
 Transform:
   m_ObjectHideFlags: 1
