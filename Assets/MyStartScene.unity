@@ -6492,6 +6492,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -45.301636
     y: 497.05136
+
     width: 132.85718
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
