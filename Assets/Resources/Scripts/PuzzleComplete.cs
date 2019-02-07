@@ -23,6 +23,13 @@ public class PuzzleComplete : MonoBehaviour {
     public void FinishLevel() {
         if (puzzle >= 0 && puzzle < 4) {
             Globals.openDoors[puzzle] = true;
+        } else if (puzzle == 4) {
+            // Make next travel location available
+            // Globals.nextLevel();
+            // Globals.resetOpenDoors();
+            // Moved this functionality to MapScreen
+
+            Globals.nextLevelAvailable = true;
         }
     }
 }
