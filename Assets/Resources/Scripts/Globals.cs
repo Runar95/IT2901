@@ -17,7 +17,7 @@ public static class Globals {
 
     // Scene names of puzzles, index=level-1
     public static string[,] levelPuzzleScenes = new string [2, 4] {
-        { "puzzle_L1_P1", "WeightPuzzle", "L1_P3", "puzzle4norwegianIdioms"},
+        { "puzzle_L1_P1", "L1_P2", "L1_P3", "puzzle4norwegianIdioms"},
         { "L2_P1_Test", "", "", ""}
     };
 
