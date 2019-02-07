@@ -10,6 +10,9 @@ public class MapScript : MonoBehaviour
     public Sprite L1_NoTravelSprite;
     public Sprite L2_TravelSprite;
     public Sprite L2_NoTravelSprite;
+
+    public Animator FadeBlack;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,10 +45,21 @@ public class MapScript : MonoBehaviour
         if (Globals.nextLevelAvailable) {
             Globals.nextLevel();
             Globals.resetOpenDoors();
-            // TODO: Update map, animation
-            // Temp fix: load main scene
-            SceneManager.LoadScene("MyStartScene", LoadSceneMode.Single);
+
+            StartCoroutine(LoadScene("MyStartScene"));
         }
 
+    }
+
+    // Loads scene, shows traveling plane for 3 seconds first
+    private IEnumerator LoadScene(string scene) {
+        FadeBlack.Play("FadeOut");
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("PlaneTravelScene", LoadSceneMode.Additive);
+        FadeBlack.Play("FadeIn");
+        yield return new WaitForSeconds(4);
+        FadeBlack.Play("FadeOut");
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene(scene, LoadSceneMode.Single);
     }
 }
