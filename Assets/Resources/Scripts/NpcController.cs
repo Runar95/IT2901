@@ -63,7 +63,6 @@ public class NpcController : MonoBehaviour
     //run when sprite is clicked on
     public void OnMouseDown()
     {
-        Debug.Log("Clicking " + this.character.name + " works like a motherfucking charm");
         bool isFree = DialogController.ClaimDialog(this.flowchart);
         if (isFree)
         {
