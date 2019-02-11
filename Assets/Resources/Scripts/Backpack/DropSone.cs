@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 public class DropSone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPointerExitHandler
 {
 
-    public int slotNUmber;
+    public int slotNumber;
 
     public void OnPointerEnter(PointerEventData eventData)
     {
@@ -18,11 +18,11 @@ public class DropSone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
     }
     public void OnDrop(PointerEventData eventData)
     {
-        Dragable d = eventData.pointerDrag.GetComponent<Dragable>();
-        if(d != null && this.slotNUmber == 0 || BackpackVariables.itemsInBackpack[this.slotNUmber] == BackpackVariables.Item.Empty)
+        Dragable d = eventData.pointerDrag.GetComponent<Dragable>();//get reference to the object you are draging
+        if(d != null && this.slotNumber == 0 || BackpackVariables.itemsInBackpack[this.slotNumber] == BackpackVariables.Item.Empty)
         {
-            d.parentToReturnTo = this.transform;
-            d.inSlot = this.slotNUmber;
+            d.parent = this.transform;
+            d.inSlot = this.slotNumber;
         }
     }
-}
+} 

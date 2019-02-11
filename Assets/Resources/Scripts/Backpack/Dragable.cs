@@ -5,7 +5,7 @@ using System.Collections;
 
 public class Dragable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    public Transform parentToReturnTo = null;
+    public Transform parent = null;
     private Transform oldParent = null;
     public BackpackVariables.Item type;
     public int id;
@@ -16,7 +16,7 @@ public class Dragable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     {
         Debug.Log("begining drag");
         BackpackVariables.itemsInBackpack[inSlot] = BackpackVariables.Item.Empty;
-        parentToReturnTo = this.transform.parent;
+        parent = this.transform.parent;
         this.transform.SetParent(this.transform.parent.parent);
 
         GetComponent<CanvasGroup>().blocksRaycasts = false;
@@ -29,14 +29,14 @@ public class Dragable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        this.transform.SetParent(parentToReturnTo);
+        this.transform.SetParent(parent);
         GetComponent<CanvasGroup>().blocksRaycasts = true;
         
 
-        if (oldParent != parentToReturnTo || parentToReturnTo == null && oldParent == null)
+        if (oldParent != parent || parent == null && oldParent == null)
         {
             BackpackVariables.itemsInBackpack[this.inSlot] = this.type;
-            oldParent = parentToReturnTo;
+            oldParent = parent;
         }
         else
         {
