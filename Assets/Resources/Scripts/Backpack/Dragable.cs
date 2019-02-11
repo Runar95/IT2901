@@ -14,6 +14,7 @@ public class Dragable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        Debug.Log("begining drag");
         BackpackVariables.itemsInBackpack[inSlot] = BackpackVariables.Item.Empty;
         parentToReturnTo = this.transform.parent;
         this.transform.SetParent(this.transform.parent.parent);

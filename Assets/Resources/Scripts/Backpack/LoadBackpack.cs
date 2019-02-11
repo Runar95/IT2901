@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class LoadBackpack : MonoBehaviour
 {
-    public GameObject Man;
+    //public GameObject Man;
     public GameObject Face;
     public GameObject Mushroom;
     public GameObject Stone;
@@ -15,11 +15,12 @@ public class LoadBackpack : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //BackpackVariables.itemsInBackpack[3] = BackpackVariables.Item.CoffeeCup;
+        BackpackVariables.itemsInBackpack[3] = BackpackVariables.Item.CoffeeCup;
         //BackpackVariables.itemsInBackpack[5] = BackpackVariables.Item.Man;
         //BackpackVariables.itemsInBackpack[6] = BackpackVariables.Item.Man;
 
-
+        Debug.Log("Loading variables");
+        Debug.Log(BackpackVariables.itemsInBackpack.ToString());
         for (int i = 0; i < BackpackVariables.itemsInBackpack.Length; i++)
         {
             if(BackpackVariables.itemsInBackpack[i] != BackpackVariables.Item.Empty)
@@ -43,10 +44,10 @@ public class LoadBackpack : MonoBehaviour
                         Stone.GetComponent<Dragable>().inSlot = i;
                         Instantiate(Stone, tr[i-1]);
                         break;
-                    case BackpackVariables.Item.Man:
-                        Man.GetComponent<Dragable>().inSlot = i;
-                        Instantiate(Man, tr[i-1]);
-                        break;
+                    //case BackpackVariables.Item.Man:
+                       // Man.GetComponent<Dragable>().inSlot = i;
+                      //  Instantiate(Man, tr[i-1]);
+                       // break;
               
                 }
             }
