@@ -17,9 +17,11 @@ public static class Globals {
 
     // Scene names of puzzles, index=level-1
     public static string[,] levelPuzzleScenes = new string [2, 4] {
-        { "puzzle_L1_P1", "L1_P2", "L1_P3", "puzzle4norwegianIdioms"},
+        { "L1_P1", "L1_P2", "L1_P3", "L1_P4"},
         { "L2_P1_Test", "", "", ""}
     };
+    
+    public static bool controlroomDoor = true;
 
     static Globals() {
         openDoors[0] = true;
@@ -55,5 +57,13 @@ public static class Globals {
 
     public static string getPuzzleSceneString(int puzzle) {
         return levelPuzzleScenes[level - 1, puzzle - 1];
+    }
+    
+    public static void setControlroomDoor(bool locked) {
+    	controlroomDoor = locked;
+    }
+    
+    public static bool getControlroomDoor(int level) {
+    	return controlroomDoor;
     }
 }
