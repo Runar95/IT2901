@@ -1597,7 +1597,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: MyStartScene
+    stringVal: InsidePlane
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &927595409

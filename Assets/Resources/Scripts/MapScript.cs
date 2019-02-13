@@ -34,19 +34,13 @@ public class MapScript : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void OnMouseDown() {
         Debug.Log("Map Next Destination Clicked");
         if (Globals.nextLevelAvailable) {
             Globals.nextLevel();
             Globals.resetOpenDoors();
 
-            StartCoroutine(LoadScene("MyStartScene"));
+            StartCoroutine(LoadScene("InsidePlane"));
         }
 
     }

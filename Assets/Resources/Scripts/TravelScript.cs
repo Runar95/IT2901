@@ -5,12 +5,10 @@ using Fungus;
 
 public class TravelScript : MonoBehaviour
 {
-
     public GameObject screenNewDest;
 
     public View defaultView;
 
-    // Start is called before the first frame update
     void Start()
     {
         if (Globals.level == 1) {
@@ -22,12 +20,6 @@ public class TravelScript : MonoBehaviour
         }
 
         screenNewDest.SetActive(Globals.nextLevelAvailable);
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
         
     }
 
