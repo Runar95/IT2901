@@ -42,7 +42,7 @@ public class DoorScript : MonoBehaviour {
 
     void OnMouseDown() {
         if (Globals.openDoors[doorNumber-1]) {
-            // SceneManager.LoadScene("puzzle_L1_P1", LoadSceneMode.Single);
+            // SceneManager.LoadScene("L1_P1", LoadSceneMode.Single);
             SceneManager.LoadScene(Globals.getPuzzleSceneString(doorNumber), LoadSceneMode.Single);
         }
     }
