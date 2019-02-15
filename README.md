@@ -16,7 +16,7 @@ Once you have opened unity, you should see a screen similar to this:
 ![](https://gyazo.com/c7b9af37cc046edfef7b1d6a11a57bfe)
 
 On this screen, press *Open*, then locate and select the folder you just unzipped.
-![](https://gyazo.com/0aa5f3dc2d683c945a1148203a9cc7bd)
+![](https://imgur.com/a/wMjx6aw)
 
 **Step 4:**
 Once you have the project opened in unity, find the scene *IntroScene* inside *Resources>Scenes* and select it by double clicking. Now you are ready to press play, and test the game.
