@@ -22,7 +22,7 @@ public class PuzzleComplete : MonoBehaviour {
     // Open next puzzle
     public void FinishLevel() {
         if (puzzle >= 0 && puzzle < 4) {
-            Globals.openDoors[puzzle] = true;
+            Globals.setDoor(puzzle + 1, true);
         } else if (puzzle == 4) {
             // Make next travel location available
             // Globals.nextLevel();
@@ -30,6 +30,9 @@ public class PuzzleComplete : MonoBehaviour {
             // Moved this functionality to MapScreen
 
             Globals.nextLevelAvailable = true;
+
+            //Alerts EventNotifier that one can now travel to a new location
+            EventNotifier.NotifyNewLevel();
         }
     }
 }
