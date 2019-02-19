@@ -42,13 +42,11 @@ public class DragSprite : MonoBehaviour
             lastTarget.gameObject.GetComponent<SpriteRenderer>().enabled = false;
         }
 
-        // TODO: check if puzzle is finished
         cam.GetComponent<L2P2Logic>().CheckLevelComplete();
     }
 
     public void OnMouseOver() {
         scaleUp();
-        // StartCoroutine(Shake());
     }
 
     public void OnMouseExit() {
@@ -77,21 +75,12 @@ public class DragSprite : MonoBehaviour
         snapPos = position;
     }
 
-    public void SetLastTarget(Transform g) {
-        lastTarget = g;
+    public void SetLastTarget(Transform transform) {
+        lastTarget = transform;
     }
 
     public void ResetLastTarget() {
         lastTarget = null;
     }
-
-    /* 
-    private IEnumerator Shake() {
-        float origRot = this.gameObject.transform.eulerAngles.y;
-        this.gameObject.transform.eulerAngles.y *= 0.3f;
-        yield return new WaitForSeconds(0.3f);
-        this.gameObject.transform.eulerAngles.y = origRot;
-    }
-    */
 
 }

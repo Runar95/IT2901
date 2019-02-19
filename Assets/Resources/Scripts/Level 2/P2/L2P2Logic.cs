@@ -6,15 +6,17 @@ using Fungus;
 public class L2P2Logic : MonoBehaviour
 {
 
-    public HashSet<string> cc;
-    public HashSet<string> pc;
+    public HashSet<int> cc; // Correct crayon set
+    public HashSet<int> pc; // Placed crayon set
     public Flowchart flowchart;
+
+    public bool userIsNotified = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        cc = new HashSet<string>();
-        pc = new HashSet<string>();
+        cc = new HashSet<int>();
+        pc = new HashSet<int>();
     }
 
     // Update is called once per frame
@@ -25,11 +27,31 @@ public class L2P2Logic : MonoBehaviour
     }
 
     public void CheckLevelComplete() {
-        if (cc.Count == 5) {
-            // TODO: call fungus block, narrative dialog, return to level
-            flowchart.ExecuteBlock("PuzzleFinish");
-        } else if (pc.Count == 5) {
-            flowchart.ExecuteBlock("PuzzleIncorrect");
+        if (!userIsNotified) {
+            if (cc.Count == 5) {
+                flowchart.ExecuteBlock("PuzzleFinish");
+                userIsNotified = true;
+            } else if (pc.Count == 5) {
+                flowchart.ExecuteBlock("PuzzleIncorrect");
+                userIsNotified = true;
+            }
         }
     }
+
+    public void AddPlacedCrayon(int hash) {
+        pc.Add(hash);
+    }
+
+    public void AddCorrectCrayon(int hash) {
+        cc.Add(hash);
+    }
+
+    public void RemovePlacedCrayon(int hash) {
+        pc.Remove(hash);
+    }
+
+    public void RemoveCorrectCrayon(int hash) {
+        cc.Remove(hash);
+    }
+
 }

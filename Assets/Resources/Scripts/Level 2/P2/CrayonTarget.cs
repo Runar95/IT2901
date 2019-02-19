@@ -35,10 +35,12 @@ public class CrayonTarget : MonoBehaviour
             gameObject.GetComponent<SpriteRenderer>().enabled = true;
         }
 
+        L2P2Logic logic = cam.GetComponent<L2P2Logic>();
+
         if (collision.gameObject == correctCrayon) {
-            cam.GetComponent<L2P2Logic>().cc.Add("" + correctCrayon.GetInstanceID());
+            logic.AddCorrectCrayon(correctCrayon.GetInstanceID());
         }
-        cam.GetComponent<L2P2Logic>().pc.Add("" + correctCrayon.GetInstanceID());
+        logic.AddPlacedCrayon(collision.gameObject.GetInstanceID());
 
     }
 
@@ -56,11 +58,16 @@ public class CrayonTarget : MonoBehaviour
         collision.gameObject.SendMessage("SetSnapPos", Vector3.zero);
         collision.gameObject.SendMessage("ResetLastTarget");
 
+        L2P2Logic logic = cam.GetComponent<L2P2Logic>();
+
         lastCollider = null;
 
         if (collision.gameObject == correctCrayon) {
-            cam.GetComponent<L2P2Logic>().cc.Remove("" + correctCrayon.GetInstanceID());
+            cam.GetComponent<L2P2Logic>().cc.Remove(correctCrayon.GetInstanceID());
+            logic.RemoveCorrectCrayon(correctCrayon.GetInstanceID());
         }
-        cam.GetComponent<L2P2Logic>().pc.Remove("" + correctCrayon.GetInstanceID());
+
+        logic.RemovePlacedCrayon(collision.gameObject.GetInstanceID());
+        logic.userIsNotified = false;
     }
 }
