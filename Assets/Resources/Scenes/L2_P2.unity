@@ -523,6 +523,7 @@ GameObject:
   - component: {fileID: 560239050}
   - component: {fileID: 560239049}
   - component: {fileID: 560239052}
+  - component: {fileID: 560239053}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -608,6 +609,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flowchart: {fileID: 381155515}
   userIsNotified: 0
+--- !u!114 &560239053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560239048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 929ec0c619bca46d9a0a8ebb074f685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 2
+  puzzle: 2
 --- !u!1 &591424835
 GameObject:
   m_ObjectHideFlags: 0
@@ -800,6 +815,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 652181813}
+  - {fileID: 652181823}
   - {fileID: 652181824}
 --- !u!114 &652181817
 MonoBehaviour:
@@ -932,6 +948,23 @@ MonoBehaviour:
     stringVal: InsidePlane
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &652181823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652181811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 11
+  indentLevel: 0
+  targetObject: {fileID: 560239048}
+  methodName: FinishLevel
+  delay: 0
 --- !u!114 &652181824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1219,6 +1252,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Back_to_ship_button
       objectReference: {fileID: 0}
+    - target: {fileID: 1000682861, guid: 8602fef1780064751b589d8a5173a3d4, type: 3}
+      propertyPath: clickEnabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1217651714215359313, guid: 8602fef1780064751b589d8a5173a3d4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1288,10 +1325,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.y
       value: -0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 1000682861, guid: 8602fef1780064751b589d8a5173a3d4, type: 3}
-      propertyPath: clickEnabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8602fef1780064751b589d8a5173a3d4, type: 3}
