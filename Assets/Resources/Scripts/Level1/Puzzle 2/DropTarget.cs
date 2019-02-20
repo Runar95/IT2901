@@ -26,7 +26,7 @@ public class DropTarget : MonoBehaviour
         lastCollider = collision.gameObject;
         if (lastCollider != null) {
 
-            // Snap crayon to target
+            // Snap value to target
             Vector3 pos = gameObject.transform.position;
             pos.z = -1;
             lastCollider.SendMessage("SetSnapPos", pos);
@@ -34,6 +34,13 @@ public class DropTarget : MonoBehaviour
 
             // Show rect
             gameObject.GetComponent<SpriteRenderer>().enabled = true;
+
+            if (collision.gameObject == correctValue)
+            {
+                cam.GetComponent<L1_P2Logic>().cc.Add("" + correctValue.GetInstanceID());
+            }
+            cam.GetComponent<L1_P2Logic>().pc.Add("" + collision.GetInstanceID());
+            cam.GetComponent<L1_P2Logic>().CheckLevelComplete();
 
         }
     }
@@ -45,12 +52,6 @@ public class DropTarget : MonoBehaviour
         pos.z = -1;
         lastCollider.SendMessage("SetSnapPos", pos);
         lastCollider.SendMessage("SetLastTarget", gameObject.transform);
-        if (c.gameObject == correctValue)
-        {
-            cam.GetComponent<L1_P2Logic>().cc.Add("" + correctValue.GetInstanceID());
-        }
-        cam.GetComponent<L1_P2Logic>().pc.Add("" + correctValue.GetInstanceID());
-        cam.GetComponent<L1_P2Logic>().CheckLevelComplete();
     }
 
     void OnTriggerExit2D(Collider2D collision) {
@@ -64,6 +65,6 @@ public class DropTarget : MonoBehaviour
         {
             cam.GetComponent<L1_P2Logic>().cc.Remove("" + correctValue.GetInstanceID());
         }
-        cam.GetComponent<L1_P2Logic>().pc.Remove("" + correctValue.GetInstanceID());
+        cam.GetComponent<L1_P2Logic>().pc.Remove("" + collision.GetInstanceID());
     }
 }
