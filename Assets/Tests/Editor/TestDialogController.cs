@@ -20,16 +20,6 @@ namespace Tests
             //creates a flowchart for use in the test
             GameObject go = new GameObject();
             f = go.AddComponent<Flowchart>();
-
-            /*
-            //here I create two blocks at random coordinats
-            //have not yet figured out how to give them commands
-            Vector2 pos1 = new Vector2(2, 1);
-            Vector2 pos2 = new Vector2(2, 10);
-
-            Block b1 = f.CreateBlock(pos1);
-            Block b2 = f.CreateBlock(pos2);
-            */
         }
 
         [Test]
