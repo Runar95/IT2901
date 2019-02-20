@@ -2,22 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EventNotifier
+
+public class EventNotifier : MonoBehaviour
 {
+    
     public static void NotifyNewPuzzle(int door)
     {
-        Debug.Log("Door" + door + " has nor been opened");
+        string text = "Dør" + door + " har åpnet seg i hovedrommet";
+        EventDrawer.DrawMessage(text);
     }
 
     public static void NotifyNewLevel()
     {
-        Debug.Log("New level available");
+        string text = "Et nytt nivå er tilgjengelig";
+        EventDrawer.DrawMessage(text);
     }
 
     public static void NotifyOpenedControlRoom()
     {
-        Debug.Log("Controll room opened");
+        string text = "kontrollrommet har åpnet seg";
+        EventDrawer.DrawMessage(text);
     }
-
 
 }

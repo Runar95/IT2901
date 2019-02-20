@@ -70,7 +70,6 @@ public static class Globals {
     
     public static void setControlroomDoor(bool locked) {
     	controlroomDoor = locked;
-
         if (controlroomDoor)
         {
             EventNotifier.NotifyOpenedControlRoom();
