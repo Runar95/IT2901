@@ -8,31 +8,35 @@ public class DoorScript : MonoBehaviour {
 
     // Doornumber of gameObject
     public int doorNumber = 0;
+    public Sprite openDoor;
+    public Sprite peekDoor;
+    public Sprite closedDoor;
+
+    public AudioClip doorSound;
+
+    private bool hoverEnabled = false;
+
 
     // Start is called before the first frame update
     void Start() {
-        /* 
-        if (Globals.openDoors[doorNumber-1]) {
-            // Set visible and clickable
-            gameObject.transform.GetChild(0).gameObject.SetActive(true);
-            gameObject.transform.GetChild(1).gameObject.SetActive(true);
-            gameObject.GetComponent<Clickable2D>().ClickEnabled = true;
-        } else {
-            // Set invisible and unclickable
-            gameObject.GetComponent<Clickable2D>().ClickEnabled = false;
-            gameObject.transform.GetChild(0).gameObject.SetActive(false);
-            gameObject.transform.GetChild(1).gameObject.SetActive(false);
-        }
-        */
-        // Set visible and clickable
-        gameObject.transform.GetChild(0).gameObject.SetActive(Globals.openDoors[doorNumber-1]);
+        bool doorOpen = Globals.openDoors[doorNumber-1];
+        
+        hoverEnabled = doorOpen;
+
+        // Set star state, based on globals
         if (doorNumber < 4) {
             gameObject.transform.GetChild(1).gameObject.SetActive(Globals.openDoors[doorNumber]);
         } else {
             gameObject.transform.GetChild(1).gameObject.SetActive(Globals.nextLevelAvailable);
         }
         gameObject.GetComponent<Clickable2D>().ClickEnabled = Globals.openDoors[doorNumber-1];
-        
+
+        // Set clickable, based on global game state
+        gameObject.GetComponent<Clickable2D>().ClickEnabled = doorOpen;
+
+        // Set sprite to closedDoor
+        gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite = closedDoor;
+
     }
 
     // Update is called once per frame
@@ -42,8 +46,24 @@ public class DoorScript : MonoBehaviour {
 
     void OnMouseDown() {
         if (Globals.openDoors[doorNumber-1]) {
-            // SceneManager.LoadScene("L1_P1", LoadSceneMode.Single);
             SceneManager.LoadScene(Globals.getPuzzleSceneString(doorNumber), LoadSceneMode.Single);
+        }
+    }
+
+    void OnMouseEnter() {
+        AudioSource audioSource = GetComponent<AudioSource>();
+
+        if (hoverEnabled) {
+            gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite = peekDoor;
+            if (!audioSource.isPlaying) {
+                audioSource.PlayOneShot(doorSound, 0.7f);
+            }
+        }
+    }
+
+    void OnMouseExit() {
+        if (hoverEnabled) {
+            gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite = closedDoor;
         }
     }
 }

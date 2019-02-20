@@ -21,14 +21,10 @@ public class PuzzleComplete : MonoBehaviour {
 
     // Open next puzzle
     public void FinishLevel() {
+        Debug.Log("Finish puzzle: " + puzzle);
         if (puzzle >= 0 && puzzle < 4) {
             Globals.setDoor(puzzle + 1, true);
         } else if (puzzle == 4) {
-            // Make next travel location available
-            // Globals.nextLevel();
-            // Globals.resetOpenDoors();
-            // Moved this functionality to MapScreen
-
             Globals.nextLevelAvailable = true;
 
             //Alerts EventNotifier that one can now travel to a new location
