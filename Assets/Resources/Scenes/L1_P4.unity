@@ -363,7 +363,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &261099699
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -377,12 +377,12 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: MyStartScene
+    stringVal: InsidePlane
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &261099700
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -394,6 +394,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 989670321}
   waitForFrames: 1
+--- !u!114 &261099701
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261099693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 44
+  indentLevel: 0
+  targetObject: {fileID: 1964528860}
+  methodName: FinishLevel
+  delay: 0
 --- !u!114 &261099702
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -927,6 +944,8 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 261099723}
+  - {fileID: 261099701}
+  - {fileID: 261099733}
   - {fileID: 261099699}
 --- !u!114 &261099723
 MonoBehaviour:
@@ -1011,7 +1030,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &261099726
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1036,7 +1055,7 @@ MonoBehaviour:
   parameterNameOLD: 
 --- !u!114 &261099727
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1061,7 +1080,7 @@ MonoBehaviour:
   parameterNameOLD: 
 --- !u!114 &261099728
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1079,7 +1098,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &261099729
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1104,7 +1123,7 @@ MonoBehaviour:
   parameterNameOLD: 
 --- !u!114 &261099731
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1129,7 +1148,7 @@ MonoBehaviour:
   parameterNameOLD: 
 --- !u!114 &261099732
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1140,6 +1159,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 38
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  durationOLD: 0
+--- !u!114 &261099733
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261099693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 45
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
@@ -1623,6 +1660,7 @@ GameObject:
   - component: {fileID: 1964528863}
   - component: {fileID: 1964528862}
   - component: {fileID: 1964528861}
+  - component: {fileID: 1964528864}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1694,6 +1732,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1964528864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964528860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 929ec0c619bca46d9a0a8ebb074f685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 1
+  puzzle: 4
 --- !u!1 &1966282879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1705,7 +1757,6 @@ GameObject:
   - component: {fileID: 1966282881}
   - component: {fileID: 1966282880}
   - component: {fileID: 1966282882}
-  - component: {fileID: 1966282883}
   - component: {fileID: 1966282884}
   m_Layer: 0
   m_Name: MedievalCharacter
@@ -1795,18 +1846,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1966282883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1966282879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 658f06144ca78f64f93af34cf0e2f236, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1966282884
 MonoBehaviour:
   m_ObjectHideFlags: 0
