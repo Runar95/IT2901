@@ -8,9 +8,11 @@ public class ToggleBackpack : MonoBehaviour
  
     public void OnMouseDown()
     {
-        Debug.Log("wewe");
         canvas.SetActive(!canvas.activeSelf);
     }
-
+    public void Toggele()
+    {
+        canvas.SetActive(!canvas.activeSelf);
+    }
 
 }
