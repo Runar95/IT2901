@@ -68,11 +68,10 @@ public static class Globals {
     }
     
     public static void setControlroomDoor(bool locked) {
-        if (!controlroomDoor && locked)
-        {
-            EventNotifier.NotifyOpenedControlRoom();
-        }
         controlroomDoor = locked;
+
+        //notify the event notifyer 
+        EventNotifier.NotifyOpenedControlRoom();
     }
     
     public static bool getControlroomDoor(int level) {
