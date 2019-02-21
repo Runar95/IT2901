@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Resources/Scenes/PlaneTravelScene.unity
     guid: 96dcdf681c19b45e8a6cf06c129c1d1c
+  - enabled: 1
+    path: Assets/Resources/Scenes/L2_P2.unity
+    guid: d454e77247cb84aaf87aa1f61c80d639
   m_configObjects: {}
