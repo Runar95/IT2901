@@ -43,7 +43,7 @@ public class EventDrawer : MonoBehaviour
     private void OnGUI()
     {
         if (displayMessage) {
-            GUI.Label(new Rect( Screen.width - (Screen.width / 2), Screen.height - (Screen.height / 7), 200, 200), message, gs);
+            GUI.Label(new Rect( (Screen.width / 8), (Screen.height / 8), 200, 200), message, gs);
         }
     }
 }
