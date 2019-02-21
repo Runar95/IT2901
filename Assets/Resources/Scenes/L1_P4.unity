@@ -949,8 +949,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 261099742}
   - {fileID: 261099723}
-  - {fileID: 0}
   - {fileID: 261099733}
   - {fileID: 261099699}
 --- !u!114 &261099723
@@ -1464,6 +1464,23 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &261099742
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261099693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 55
+  indentLevel: 0
+  targetObject: {fileID: 1964528860}
+  methodName: FinishLevel
+  delay: 0
 --- !u!1 &851611736
 GameObject:
   m_ObjectHideFlags: 0
