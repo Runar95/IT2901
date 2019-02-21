@@ -39,18 +39,17 @@ public static class Globals {
         openDoors[0] = true;
 
         //notify EventNotifier that the doors are reset
-        EventNotifier.NotifyNewPuzzle(0);
+        EventNotifier.NotifyNewPuzzle(1);
     }
 
     // Sets the open/close-value of a door 
     public static void setDoor(int door, bool open) {
-        openDoors[door - 1] = open;
-
-        //notifies EventNotifier that a new door is open
-        if (open)
+        //notifies EventNotifier that a new door is open, if that door is not allready open
+        if (open && !openDoors[door - 1])
         {
             EventNotifier.NotifyNewPuzzle(door);
         }
+        openDoors[door - 1] = open;
     }
 
     // Gets the open/close-value of a door 
@@ -69,11 +68,11 @@ public static class Globals {
     }
     
     public static void setControlroomDoor(bool locked) {
-    	controlroomDoor = locked;
-        if (controlroomDoor)
+        if (!controlroomDoor && locked)
         {
             EventNotifier.NotifyOpenedControlRoom();
         }
+        controlroomDoor = locked;
     }
     
     public static bool getControlroomDoor(int level) {

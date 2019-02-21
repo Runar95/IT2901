@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class EventNotifier : MonoBehaviour
 {
-    
+
     public static void NotifyNewPuzzle(int door)
     {
         string text = "Dør" + door + " har åpnet seg i hovedrommet";
