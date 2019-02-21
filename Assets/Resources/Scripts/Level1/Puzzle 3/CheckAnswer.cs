@@ -48,28 +48,32 @@ public class CheckAnswer : MonoBehaviour
     
     //Executes the appropriate block, depending on the score
     void checkAnswer() {
-    	if (totalSelected <=4) {
-    		switch (correctAnswers)
-			{
-				case 0:
-					flowchart.ExecuteBlock("0/4");
-					break;
-				case 1:
-					flowchart.ExecuteBlock("1/4");
-					break;
-				case 2:
-					flowchart.ExecuteBlock("2/4");
-					break;
-				case 3:
-					flowchart.ExecuteBlock("3/4");
-					break;
-				case 4:
-					flowchart.ExecuteBlock("4/4");
-					break;
-			}
-    	} else {
-    		flowchart.ExecuteBlock("Too many selected");
-    	}
+    	if (flowchart != null) {
+    		
     	
+	    	if (totalSelected <=4) {
+	    		switch (correctAnswers)
+				{
+					case 0:
+						flowchart.ExecuteBlock("0/4");
+						break;
+					case 1:
+						flowchart.ExecuteBlock("1/4");
+						break;
+					case 2:
+						flowchart.ExecuteBlock("2/4");
+						break;
+					case 3:
+						flowchart.ExecuteBlock("3/4");
+						break;
+					case 4:
+						flowchart.ExecuteBlock("4/4");
+						break;
+				}
+	    	} else {
+	    		flowchart.ExecuteBlock("Too many selected");
+	    	}
+	    	
+	    }
     }
 }

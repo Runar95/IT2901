@@ -10,12 +10,11 @@ public class DialogueCheck : MonoBehaviour
 	public Flowchart flowchart;
 	public bool dialogue;
  
-	//	Checks if there is a UI element above a button, creating a new boolean variable in a Scene named inDialogue is neccesary if you want to reuse the script. 
+	//	Checks if there is an active dialogue element, creating a new boolean variable in a Scene named inDialogue is neccesary if you want to reuse the script. 
+	//  You also need to call the method after a say element in a block
     public void inDialogue() {
 		var sayDialog = Fungus.SayDialog.GetSayDialog(); 
-		dialogue = sayDialog.isActiveAndEnabled;
-    	//dialogue = Input.GetMouseButton(0) && EventSystem.current.IsPointerOverGameObject();
-    	Debug.Log(dialogue);
+		dialogue = sayDialog.isActiveAndEnabled || EventSystem.current.IsPointerOverGameObject();
     	flowchart.SetBooleanVariable("inDialogue", dialogue);
     }
     
