@@ -20,7 +20,7 @@ public class DoorScript : MonoBehaviour {
     // Start is called before the first frame update
     void Start() {
         bool doorOpen = Globals.openDoors[doorNumber-1];
-        
+
         hoverEnabled = doorOpen;
 
         // Set star state, based on globals
