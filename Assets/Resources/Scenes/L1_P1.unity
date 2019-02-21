@@ -579,6 +579,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: flowchart
+      value: 
+      objectReference: {fileID: 907117886}
     - target: {fileID: 142980, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: m_Name
       value: Flowchart
@@ -736,8 +740,7 @@ PrefabInstance:
       propertyPath: flowchart
       value: 
       objectReference: {fileID: 907117886}
-    m_RemovedComponents:
-    - {fileID: 11462346, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
 --- !u!114 &907117886 stripped
 MonoBehaviour:
@@ -821,6 +824,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 927595376}
   commandList:
+  - {fileID: 927595416}
   - {fileID: 927595415}
   - {fileID: 927595374}
   - {fileID: 927595412}
@@ -941,13 +945,9 @@ MonoBehaviour:
   - {fileID: 927595414}
   - {fileID: 927595413}
   - {fileID: 927595391}
-  - {fileID: 927595419}
   - {fileID: 927595388}
-  - {fileID: 927595418}
   - {fileID: 927595383}
-  - {fileID: 927595417}
   - {fileID: 927595381}
-  - {fileID: 927595416}
   - {fileID: 927595393}
   - {fileID: 927595392}
   - {fileID: 927595379}
@@ -2005,65 +2005,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 67
-  indentLevel: 0
-  targetObject: {fileID: 927595372}
-  methodName: inDialogue
-  delay: 0
---- !u!114 &927595417
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 927595372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 64
-  indentLevel: 0
-  targetObject: {fileID: 927595372}
-  methodName: inDialogue
-  delay: 0
---- !u!114 &927595418
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 927595372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 65
-  indentLevel: 0
-  targetObject: {fileID: 927595372}
-  methodName: inDialogue
-  delay: 0
---- !u!114 &927595419
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 927595372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 66
+  itemId: 69
   indentLevel: 0
   targetObject: {fileID: 927595372}
   methodName: inDialogue
   delay: 0
 --- !u!114 &927595420
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
