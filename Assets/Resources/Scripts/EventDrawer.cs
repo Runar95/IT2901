@@ -14,7 +14,7 @@ public class EventDrawer : MonoBehaviour
     private void Awake()
     {
         gs.fontSize = 30;
-        gs.normal.textColor = Color.cyan;
+        gs.normal.textColor = Color.black;
     }
 
     public static void DrawMessage(string text)
