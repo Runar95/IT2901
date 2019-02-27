@@ -21,39 +21,6 @@ public class Dragable2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Pressed();
-    }
-
-    void OnMouseDown()
-    {
-        if(!this.isLocked){
-            BackpackVariables.items[inSlot] = BackpackVariables.Item.Empty;
-            Debug.Log("Mouse down");
-            isPressed = true; 
-        }
-    }
-
-    public void OnMouseUp()
-    {
-        Debug.Log("Mouse up");
-        isPressed = false;
-        BackpackVariables.items[this.inSlot] = this.type;
-        if (snapPos != Vector3.zero) {
-            this.gameObject.transform.position = snapPos;
-        }
-    }
-
-    public void OnMouseEnter() {
-        Debug.Log("Mouse over");
-        scaleUp();
-    }
-
-    public void OnMouseExit() {
-        scaleNormal();
-    }
-
-    void Pressed()
-    {
         if (isPressed)
         {
             Vector2 MousePosition = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
@@ -62,11 +29,29 @@ public class Dragable2 : MonoBehaviour
         }
     }
 
-    private void scaleUp() {
+    void OnMouseDown()
+    {
+        if(!this.isLocked){
+            //Debug.Log("Mouse down");
+            isPressed = true; 
+        }
+    }
+
+    public void OnMouseUp()
+    {
+        //Debug.Log("Mouse up");
+        isPressed = false;
+        if (snapPos != Vector3.zero) {
+            this.gameObject.transform.position = snapPos;
+        }
+    }
+
+    public void OnMouseEnter() {
+        //Debug.Log("Mouse over");
         gameObject.transform.localScale = origScale * 1.1f; // Scale on hover
     }
 
-    private void scaleNormal() {
+    public void OnMouseExit() {
         gameObject.transform.localScale = origScale;
     }
 
