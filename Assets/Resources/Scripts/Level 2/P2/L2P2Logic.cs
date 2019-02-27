@@ -13,7 +13,7 @@ public class L2P2Logic : MonoBehaviour
     public bool userIsNotified = false;
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         cc = new HashSet<int>();
         pc = new HashSet<int>();
@@ -28,7 +28,7 @@ public class L2P2Logic : MonoBehaviour
 
     public void CheckLevelComplete() {
         if (!userIsNotified) {
-            if (cc.Count == 5) {
+            if (IsLevelComplete()) {
                 flowchart.ExecuteBlock("PuzzleFinish");
                 userIsNotified = true;
             } else if (pc.Count == 5) {
@@ -36,6 +36,10 @@ public class L2P2Logic : MonoBehaviour
                 userIsNotified = true;
             }
         }
+    }
+
+    public bool IsLevelComplete() {
+        return cc.Count == 5;
     }
 
     public void AddPlacedCrayon(int hash) {
