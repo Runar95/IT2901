@@ -40,7 +40,7 @@ public class DropTargetL2P4 : MonoBehaviour
                 cam.GetComponent<L2_P4Logic>().cc.Add("" + correctValue.GetInstanceID());
             }
             cam.GetComponent<L2_P4Logic>().pc.Add("" + collision.GetInstanceID());
-            cam.GetComponent<L2_P4Logic>().CheckLevelComplete();
+            // cam.GetComponent<L2_P4Logic>().CheckLevelComplete();
 
         }
     }

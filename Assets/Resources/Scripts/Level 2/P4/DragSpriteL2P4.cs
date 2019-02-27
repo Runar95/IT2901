@@ -5,7 +5,7 @@ using UnityEngine;
 public class DragSpriteL2P4 : MonoBehaviour
 {
 
-    //public GameObject cam;
+    public GameObject cam;
 
     private bool isPressed = false;
     private Vector3 origScale;
@@ -48,7 +48,7 @@ public class DragSpriteL2P4 : MonoBehaviour
         }
 
         // TODO: check if puzzle is finished
-        //cam.GetComponent<L1_P2Logic>().CheckLevelComplete();
+        cam.GetComponent<L2_P4Logic>().CheckLevelComplete();
     }
 
     public void OnMouseOver() {
