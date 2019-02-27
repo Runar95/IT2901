@@ -12,10 +12,11 @@ public class Dragable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     public string inSlot;
     public bool isLocked;
 
-
     public void OnBeginDrag(PointerEventData eventData)
     {
+        Debug.Log("gg");
         if(!isLocked){
+            Debug.Log("Starting drag");
             BackpackVariables.items[inSlot] = BackpackVariables.Item.Empty;
             parent = this.transform.parent;
             this.transform.SetParent(this.transform.parent.parent);
@@ -32,6 +33,7 @@ public class Dragable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        Debug.Log("ending drag");
         if(!isLocked){
             this.transform.SetParent(parent);
             GetComponent<CanvasGroup>().blocksRaycasts = true;
