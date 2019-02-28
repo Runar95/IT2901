@@ -9,38 +9,44 @@ public class Dragable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     private Transform oldParent = null;
     public BackpackVariables.Item type;
     public int id;
-    public int inSlot;
-
+    public string inSlot;
+    public bool isLocked;
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        Debug.Log("begining drag");
-        BackpackVariables.itemsInBackpack[inSlot] = BackpackVariables.Item.Empty;
-        parent = this.transform.parent;
-        this.transform.SetParent(this.transform.parent.parent);
-
-        GetComponent<CanvasGroup>().blocksRaycasts = false;
+        Debug.Log("gg");
+        if(!isLocked){
+            Debug.Log("Starting drag");
+            BackpackVariables.items[inSlot] = BackpackVariables.Item.Empty;
+            parent = this.transform.parent;
+            this.transform.SetParent(this.transform.parent.parent);
+            GetComponent<CanvasGroup>().blocksRaycasts = false;//Make sure dropZone can accsess mouse information
+        }
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        this.transform.position = eventData.position;
+       if(!isLocked){ 
+            this.transform.position = eventData.position;
+       }
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        this.transform.SetParent(parent);
-        GetComponent<CanvasGroup>().blocksRaycasts = true;
-        
-
-        if (oldParent != parent || parent == null && oldParent == null)
-        {
-            BackpackVariables.itemsInBackpack[this.inSlot] = this.type;
-            oldParent = parent;
-        }
-        else
-        {
-            BackpackVariables.itemsInBackpack[this.inSlot] = this.type;
+        Debug.Log("ending drag");
+        if(!isLocked){
+            this.transform.SetParent(parent);
+            GetComponent<CanvasGroup>().blocksRaycasts = true;
+            if (oldParent != parent || parent == null && oldParent == null)
+            {
+                BackpackVariables.items[this.inSlot] = this.type;
+                oldParent = parent;
+            }
+            else
+            {
+                BackpackVariables.items[this.inSlot] = this.type;
+            }
         }
     }
 }
+
