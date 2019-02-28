@@ -12,9 +12,13 @@ public class PuzzleComplete : MonoBehaviour {
     public void FinishLevel() {
         Debug.Log("Finish puzzle: " + puzzle);
         if (puzzle >= 0 && puzzle < 4) {
-            Globals.openDoors[puzzle] = true;
+            Globals.setDoor(puzzle + 1, true);
         } else if (puzzle == 4) {
             Globals.nextLevelAvailable = true;
+
+            //Alerts EventNotifier that one can now travel to a new location
+            Debug.Log("Hallo");
+            EventNotifier.NotifyNewLevel();
         }
     }
 }
