@@ -1,52 +1,45 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.EventSystems;
-using System.Collections;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class Dragable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
-{
-    public Transform parent = null;
-    private Transform oldParent = null;
-    public BackpackVariables.Item type;
-    public int id;
-    public string inSlot;
-    public bool isLocked;
+public class Dragable : MonoBehaviour{
+    public DropZone inSlot;
+    public bool isLocked;// Makes it possible to lock items in slot
+    private BackpackVariables.Item itemType;
+    public BackpackVariables.Item ItemType{get; set;}
+    private bool isPressed = false;
+    private Vector3 origScale;
+    private Vector3 snapPos = Vector3.zero;
 
-    public void OnBeginDrag(PointerEventData eventData)
-    {
-        Debug.Log("gg");
-        if(!isLocked){
-            Debug.Log("Starting drag");
-            BackpackVariables.items[inSlot] = BackpackVariables.Item.Empty;
-            parent = this.transform.parent;
-            this.transform.SetParent(this.transform.parent.parent);
-            GetComponent<CanvasGroup>().blocksRaycasts = false;//Make sure dropZone can accsess mouse information
+    void Start(){
+        origScale = gameObject.transform.localScale;
+    }
+    void Update(){
+        if (isPressed)
+        {
+            Vector2 MousePosition = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+            Vector2 objPosition = Camera.main.ScreenToWorldPoint(MousePosition);
+            transform.position = objPosition;
         }
     }
-
-    public void OnDrag(PointerEventData eventData)
-    {
-       if(!isLocked){ 
-            this.transform.position = eventData.position;
-       }
-    }
-
-    public void OnEndDrag(PointerEventData eventData)
-    {
-        Debug.Log("ending drag");
-        if(!isLocked){
-            this.transform.SetParent(parent);
-            GetComponent<CanvasGroup>().blocksRaycasts = true;
-            if (oldParent != parent || parent == null && oldParent == null)
-            {
-                BackpackVariables.items[this.inSlot] = this.type;
-                oldParent = parent;
-            }
-            else
-            {
-                BackpackVariables.items[this.inSlot] = this.type;
-            }
+    void OnMouseDown(){
+        if(!this.isLocked && this.inSlot.type != DropZone.Type.drop){
+            isPressed = true; 
         }
+    }
+    public void OnMouseUp(){
+        isPressed = false;
+        if (snapPos != Vector3.zero) {
+            this.gameObject.transform.position = snapPos;
+        }
+    }
+    public void OnMouseEnter() {
+        gameObject.transform.localScale = origScale * 1.1f; // Scale on hover
+    }
+    public void OnMouseExit() {
+        gameObject.transform.localScale = origScale;
+    }
+    public void SetSnapPos(Vector3 position) {
+        snapPos = position;
     }
 }
-
