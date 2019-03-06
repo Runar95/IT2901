@@ -37,7 +37,7 @@ public class DropZone: MonoBehaviour{
     void OnTriggerEnter2D(Collider2D collision) {
         if(this.itemInSlot == null 
         && this.type != Type.take 
-        && this.acceptingItem == BackpackVariables.Item.Any || this.acceptingItem == collision.gameObject.GetComponent<Dragable>().ItemType){
+        && (this.acceptingItem == BackpackVariables.Item.Any || this.acceptingItem == collision.gameObject.GetComponent<Dragable>().ItemType)){
             this.itemInSlot = collision.gameObject;
             this.itemInSlot.SendMessage("SetSnapPos", gameObject.transform.position);
             this.itemInSlot.GetComponent<Dragable>().inSlot = this;
