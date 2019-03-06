@@ -2,11 +2,11 @@
 
 public static class BackpackVariables
 {
-    public enum Item { Any, Empty, Coin, Stone, Man, Mushroom, Face, CoffeeCup ,Star };
+    public enum Item { Any, Key, Empty, Coin, Stone, Man, Mushroom, Face, CoffeeCup ,Star };
 
     private static Dictionary<string, Item> items = new Dictionary<string, Item>(){
-        {"1", Item.Empty},
-        {"2", Item.Empty },
+        {"1", Item.Key},
+        {"2", Item.Star },
         {"3", Item.Empty },
         {"4", Item.Empty },
         {"5", Item.Empty },
@@ -15,7 +15,7 @@ public static class BackpackVariables
         {"8", Item.Empty },
         {"9", Item.Empty },
         {"10", Item.Empty },
-        {"Zone1", Item.Empty },
+        {"L1P3KeySlot", Item.Key },
         {"Zone2", Item.Empty },
         {"Zone3", Item.Empty },
         {"Zone4", Item.Empty },

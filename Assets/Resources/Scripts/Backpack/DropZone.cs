@@ -28,6 +28,9 @@ public class DropZone: MonoBehaviour{
                     case BackpackVariables.Item.Star:
                         loadItem(GameObject.Find("Main Camera/Backpack_NC").GetComponent<LoadBackpack>().Star);
                         break;
+                    case BackpackVariables.Item.Key:
+                        loadItem(GameObject.Find("Main Camera/Backpack_NC").GetComponent<LoadBackpack>().Key);
+                        break;
                     default:
                         Debug.Log("Could not find item");
                         break;
@@ -52,6 +55,7 @@ public class DropZone: MonoBehaviour{
     }
     private void loadItem(GameObject itemType){//load correct item from loadbackpack into this slot. 
             GameObject item = Instantiate(itemType, this.transform);
+            this.itemInSlot.SendMessage("SetSnapPos", this.transform.position);
             item.GetComponent<Dragable>().inSlot = this;
             item.transform.position = new Vector3(this.transform.position.x, this.transform.position.y ,this.transform.position.z);
             OnTriggerEnter2D(item.GetComponent<Collider2D>());
