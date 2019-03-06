@@ -257,6 +257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotName: 4
   type: 0
+  acceptingItem: 0
 --- !u!1 &7878841089294545789
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,6 +401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotName: 6
   type: 0
+  acceptingItem: 0
 --- !u!1 &7878841089334070144
 GameObject:
   m_ObjectHideFlags: 0
@@ -494,9 +496,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655dc901ffab737498ef5610a05f642c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inSlot: 
+  inSlot: {fileID: 0}
   isLocked: 0
-  type: 5
 --- !u!61 &7878841089334070147
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -687,6 +688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotName: 1
   type: 0
+  acceptingItem: 0
 --- !u!1 &7878841089543494925
 GameObject:
   m_ObjectHideFlags: 0
@@ -830,6 +832,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotName: 7
   type: 0
+  acceptingItem: 0
 --- !u!1 &7878841089678357780
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,9 +927,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655dc901ffab737498ef5610a05f642c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inSlot: 
+  inSlot: {fileID: 0}
   isLocked: 0
-  type: 6
 --- !u!61 &7878841089678357783
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1117,6 +1119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotName: 9
   type: 0
+  acceptingItem: 0
 --- !u!1 &7878841089977275822
 GameObject:
   m_ObjectHideFlags: 0
@@ -1260,6 +1263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotName: 3
   type: 0
+  acceptingItem: 0
 --- !u!1 &7878841090299667333
 GameObject:
   m_ObjectHideFlags: 0
@@ -1311,7 +1315,6 @@ MonoBehaviour:
   Stone: {fileID: 7878841091021202983}
   CoffeeCup: {fileID: 7878841090871366622}
   Star: {fileID: 7878841091102763880}
-  gg: hei
 --- !u!1 &7878841090393636009
 GameObject:
   m_ObjectHideFlags: 0
@@ -1455,6 +1458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotName: 2
   type: 0
+  acceptingItem: 0
 --- !u!1 &7878841090443504539
 GameObject:
   m_ObjectHideFlags: 0
@@ -1598,6 +1602,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotName: 5
   type: 0
+  acceptingItem: 0
 --- !u!1 &7878841090486953529
 GameObject:
   m_ObjectHideFlags: 0
@@ -1741,6 +1746,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotName: 10
   type: 0
+  acceptingItem: 0
 --- !u!1 &7878841090708477325
 GameObject:
   m_ObjectHideFlags: 0
@@ -1969,9 +1975,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655dc901ffab737498ef5610a05f642c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inSlot: 
+  inSlot: {fileID: 0}
   isLocked: 0
-  type: 7
 --- !u!61 &7878841090871366617
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2113,9 +2118,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655dc901ffab737498ef5610a05f642c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inSlot: 
+  inSlot: {fileID: 0}
   isLocked: 0
-  type: 3
 --- !u!61 &7878841091021202978
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2178,7 +2182,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7878841091029818303
 Transform:
   m_ObjectHideFlags: 0
@@ -2347,6 +2351,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotName: 8
   type: 0
+  acceptingItem: 0
 --- !u!1 &7878841091102763880
 GameObject:
   m_ObjectHideFlags: 0
@@ -2441,9 +2446,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655dc901ffab737498ef5610a05f642c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inSlot: 
+  inSlot: {fileID: 0}
   isLocked: 0
-  type: 8
 --- !u!61 &7878841091102763883
 BoxCollider2D:
   m_ObjectHideFlags: 0
