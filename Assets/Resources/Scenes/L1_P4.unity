@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 181205632}
   - component: {fileID: 181205631}
   - component: {fileID: 181205630}
+  - component: {fileID: 181205635}
   m_Layer: 0
   m_Name: Key slot
   m_TagString: Untagged
@@ -147,6 +148,7 @@ MonoBehaviour:
   slotName: L1P3KeySlot
   type: 0
   acceptingItem: 1
+  itemInSlot: {fileID: 0}
 --- !u!50 &181205631
 Rigidbody2D:
   serializedVersion: 4
@@ -201,7 +203,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 181205629}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -232,7 +234,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 26
   m_Sprite: {fileID: 21300000, guid: 9a3c5709ed1cce942aecf844d811ee0b, type: 3}
-  m_Color: {r: 0.3962264, g: 0.09158064, b: 0.09158064, a: 1}
+  m_Color: {r: 0.8980393, g: 0.8980393, b: 0.8980393, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -250,12 +252,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 181205629}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.86, y: 1.25, z: 0}
+  m_LocalPosition: {x: -10.72, y: 1.25, z: 0}
   m_LocalScale: {x: 0.95, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &181205635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181205629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f3a1c58a1140d48b9a01826c923065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flowchart: {fileID: 261099743}
 --- !u!1 &261099693 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 142980, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a,
@@ -276,8 +291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: "Her er n\xF8kken som jeg fant. Kanskje du har bruk for den. Dra den
-    inn i ryggsekken din. "
+  storyText: "Her er n\xF8kken som jeg fant. Kanskje du f\xE5r bruk for den senere. "
   description: 
   character: {fileID: 1838748401}
   portrait: {fileID: 21300000, guid: 04c14e950e45b264ea95e727a414eeeb, type: 3}
@@ -383,7 +397,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 525
     y: 39
-    width: 127.70583
+    width: 122.957985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -397,25 +411,6 @@ MonoBehaviour:
   - {fileID: 261099695}
   - {fileID: 261099734}
   - {fileID: 261099730}
---- !u!114 &261099699
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 261099693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 43
-  indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: InsidePlane
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
 --- !u!114 &261099700
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -921,7 +916,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 375.85254
+    x: 366.33627
     y: 252.94684
     width: 120
     height: 40
@@ -969,8 +964,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 373.85242
-    y: 323.49225
+    x: 367.50824
+    y: 333.0085
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -983,8 +978,8 @@ MonoBehaviour:
   - {fileID: 261099742}
   - {fileID: 261099723}
   - {fileID: 261099694}
-  - {fileID: 261099733}
-  - {fileID: 261099699}
+  - {fileID: 261099737}
+  - {fileID: 261099744}
 --- !u!114 &261099723
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1264,25 +1259,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2
-  durationOLD: 0
---- !u!114 &261099733
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 261099693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 46
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 10
+    floatVal: 0
   durationOLD: 0
 --- !u!114 &261099734
 MonoBehaviour:
@@ -1377,6 +1354,41 @@ MonoBehaviour:
   parentBlock: {fileID: 261099698}
   clickableObject: {fileID: 1696148067}
   waitFrames: 1
+--- !u!114 &261099737
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261099693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 598f181ee459641a9b0a5849fbc3240c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 68
+  indentLevel: 0
+  _targetObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 181205629}
+  _tweenName:
+    stringRef: {fileID: 0}
+    stringVal: 
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  easeType: 2
+  loopType: 0
+  stopPreviousTweens: 0
+  waitUntilFinished: 1
+  targetObjectOLD: {fileID: 0}
+  tweenNameOLD: 
+  durationOLD: 0
+  _offset:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 6, y: 0, z: 0}
+  space: 1
+  offsetOLD: {x: 0, y: 0, z: 0}
 --- !u!114 &261099738
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1498,7 +1510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &261099745
+--- !u!114 &261099744
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1507,59 +1519,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 261099693}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 136.00815
-    y: 323.58527
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 65
-  blockName: Shortcut
-  description: 
-  eventHandler: {fileID: 261099747}
-  commandList:
-  - {fileID: 261099746}
---- !u!114 &261099746
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 261099693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 66
+  itemId: 69
   indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 261099722}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &261099747
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 261099693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 000864f8e9e1748a39807861d0e60e29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 261099745}
-  keyPressType: 0
-  keyCode: 113
+  storyText: Dra den inn i ryggsekken din.
+  description: 
+  character: {fileID: 1838748401}
+  portrait: {fileID: 21300000, guid: 04c14e950e45b264ea95e727a414eeeb, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &261099748
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1755,12 +1732,12 @@ PrefabInstance:
     - target: {fileID: 7878841089023398886, guid: 763a5f09552dca44e85db887ed5b1599,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878841091029818302, guid: 763a5f09552dca44e85db887ed5b1599,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878841089237444520, guid: 763a5f09552dca44e85db887ed5b1599,
         type: 3}
@@ -2023,12 +2000,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
+      propertyPath: selectedCommands.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: scrollPos.x
-      value: 542.5872
+      value: 202.16182
       objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: scrollPos.y
-      value: 32.21278
+      value: 28.512503
       objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: zoom
@@ -2037,11 +2018,19 @@ PrefabInstance:
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: selectedBlocks.Array.data[0]
       value: 
-      objectReference: {fileID: 261099698}
+      objectReference: {fileID: 261099722}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: variables.Array.data[0]
       value: 
       objectReference: {fileID: 261099700}
+    - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
+      propertyPath: selectedCommands.Array.data[0]
+      value: 
+      objectReference: {fileID: 261099737}
+    - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
+      propertyPath: variables.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 467082, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

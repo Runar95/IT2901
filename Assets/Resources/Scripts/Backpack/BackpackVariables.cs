@@ -5,7 +5,7 @@ public static class BackpackVariables
     public enum Item { wrong, Any, Key, Empty, Coin, Stone, Man, Mushroom, Face, CoffeeCup ,Star };
 
     private static Dictionary<string, Item> items = new Dictionary<string, Item>(){
-        {"1", Item.Key},
+        {"1", Item.Empty},
         {"2", Item.Star },
         {"3", Item.Empty },
         {"4", Item.Empty },
@@ -28,5 +28,15 @@ public static class BackpackVariables
     public static void SetItemInSlot(string slotName, Item item){
         items[slotName] = item;
     }
+
+    public static bool BackpackContainsKey(Item item){
+        for(int i = 1; i<=10; i++){
+            if(items[i.ToString()] == item){
+                return true;
+            }
+        }
+        return false;
+        
+    } 
 }
 

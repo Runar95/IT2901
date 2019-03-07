@@ -7,7 +7,7 @@ public class DropZone: MonoBehaviour{
     public Type type;
     public BackpackVariables.Item acceptingItem;
     public enum Type{dropAndTake, drop, take}
-    private GameObject itemInSlot = null;
+    public GameObject itemInSlot = null;
 
     void Start(){//Load correct item in this slot
         BackpackVariables.Item slotContains = BackpackVariables.GetItemInSlot(this.slotName); 
@@ -56,6 +56,9 @@ public class DropZone: MonoBehaviour{
             this.itemInSlot = null;
         }  
     }
+     void OnTriggerStay2D(Collider2D collision) {
+         this.itemInSlot.SendMessage("SetSnapPos", gameObject.transform.position);
+     }
     private void loadItem(GameObject itemType){//load correct item from loadbackpack into this slot. 
             GameObject item = Instantiate(itemType, this.transform);
             item.transform.position = new Vector3(this.transform.position.x, this.transform.position.y ,this.transform.position.z);

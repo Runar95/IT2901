@@ -6,7 +6,6 @@ public class Dragable : MonoBehaviour{
     public DropZone inSlot;
     public bool isLocked;// Makes it possible to lock items in slot
     public BackpackVariables.Item itemType;
-    //public BackpackVariables.Item ItemType{get; set;}
     private bool isPressed = false;
     private Vector3 origScale;
     private Vector3 snapPos = Vector3.zero;
