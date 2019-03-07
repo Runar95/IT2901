@@ -2,7 +2,7 @@
 
 public static class BackpackVariables
 {
-    public enum Item { Any, Key, Empty, Coin, Stone, Man, Mushroom, Face, CoffeeCup ,Star };
+    public enum Item { wrong, Any, Key, Empty, Coin, Stone, Man, Mushroom, Face, CoffeeCup ,Star };
 
     private static Dictionary<string, Item> items = new Dictionary<string, Item>(){
         {"1", Item.Key},
@@ -25,7 +25,7 @@ public static class BackpackVariables
     public static Item GetItemInSlot(string itemName){
         return items[itemName];
     }
-    public static void setItemInSlot(string slotName, Item item){
+    public static void SetItemInSlot(string slotName, Item item){
         items[slotName] = item;
     }
 }

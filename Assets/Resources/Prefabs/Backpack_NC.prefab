@@ -96,6 +96,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inSlot: {fileID: 0}
   isLocked: 0
+  itemType: 2
 --- !u!61 &4816806020838424364
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -401,7 +402,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotName: 4
   type: 0
-  acceptingItem: 0
+  acceptingItem: 1
 --- !u!1 &7878841089294545789
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,7 +546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotName: 6
   type: 0
-  acceptingItem: 0
+  acceptingItem: 1
 --- !u!1 &7878841089334070144
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,6 +643,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inSlot: {fileID: 0}
   isLocked: 0
+  itemType: 7
 --- !u!61 &7878841089334070147
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -832,7 +834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotName: 1
   type: 0
-  acceptingItem: 0
+  acceptingItem: 1
 --- !u!1 &7878841089543494925
 GameObject:
   m_ObjectHideFlags: 0
@@ -976,7 +978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotName: 7
   type: 0
-  acceptingItem: 0
+  acceptingItem: 1
 --- !u!1 &7878841089678357780
 GameObject:
   m_ObjectHideFlags: 0
@@ -1073,6 +1075,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inSlot: {fileID: 0}
   isLocked: 0
+  itemType: 8
 --- !u!61 &7878841089678357783
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1263,7 +1266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotName: 9
   type: 0
-  acceptingItem: 0
+  acceptingItem: 1
 --- !u!1 &7878841089977275822
 GameObject:
   m_ObjectHideFlags: 0
@@ -1407,7 +1410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotName: 3
   type: 0
-  acceptingItem: 0
+  acceptingItem: 1
 --- !u!1 &7878841090299667333
 GameObject:
   m_ObjectHideFlags: 0
@@ -1603,7 +1606,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotName: 2
   type: 0
-  acceptingItem: 0
+  acceptingItem: 1
 --- !u!1 &7878841090443504539
 GameObject:
   m_ObjectHideFlags: 0
@@ -1747,7 +1750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotName: 5
   type: 0
-  acceptingItem: 0
+  acceptingItem: 1
 --- !u!1 &7878841090486953529
 GameObject:
   m_ObjectHideFlags: 0
@@ -1891,7 +1894,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotName: 10
   type: 0
-  acceptingItem: 0
+  acceptingItem: 1
 --- !u!1 &7878841090708477325
 GameObject:
   m_ObjectHideFlags: 0
@@ -2122,6 +2125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inSlot: {fileID: 0}
   isLocked: 0
+  itemType: 9
 --- !u!61 &7878841090871366617
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2265,6 +2269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inSlot: {fileID: 0}
   isLocked: 0
+  itemType: 5
 --- !u!61 &7878841091021202978
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2496,7 +2501,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotName: 8
   type: 0
-  acceptingItem: 0
+  acceptingItem: 1
 --- !u!1 &7878841091102763880
 GameObject:
   m_ObjectHideFlags: 0
@@ -2593,6 +2598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inSlot: {fileID: 0}
   isLocked: 0
+  itemType: 10
 --- !u!61 &7878841091102763883
 BoxCollider2D:
   m_ObjectHideFlags: 0
