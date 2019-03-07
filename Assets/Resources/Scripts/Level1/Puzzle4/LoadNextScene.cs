@@ -6,15 +6,11 @@ using Fungus;
 
 public class LoadNextScene : MonoBehaviour
 {
-
-
-    // Update is called once per frame
     private bool check = true;
     public Flowchart flowchart;
     void Update()
     {
-        if(BackpackVariables.BackpackContainsKey(BackpackVariables.Item.Key ) && check)
-        {
+        if(BackpackVariables.BackpackContainsKey(BackpackVariables.Item.Key ) && check){
             Invoke("ChangeScene", 2);
             check = false;
         }

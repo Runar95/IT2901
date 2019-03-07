@@ -6,7 +6,7 @@ public static class BackpackVariables
 
     private static Dictionary<string, Item> items = new Dictionary<string, Item>(){
         {"1", Item.Empty},
-        {"2", Item.Star },
+        {"2", Item.Empty },
         {"3", Item.Empty },
         {"4", Item.Empty },
         {"5", Item.Empty },
@@ -36,7 +36,6 @@ public static class BackpackVariables
             }
         }
         return false;
-        
     } 
 }
 
