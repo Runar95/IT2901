@@ -9,13 +9,13 @@ public class ClickableSaying : MonoBehaviour
     //saying connected to this object
     public string saying;
     private bool isSelected = false;
-    //so that one can change the scale
+    //so that one can change the scale of the gameobject
     public InteractableIndicator ii;
     //gameobject the cs is connected to
     public GameObject go;
-
+   
     public void Start(){
-        this.ii.scale = 1.2f;
+        this.ii.scale = 0.85f;
         this.go = this.gameObject;
     }
 
