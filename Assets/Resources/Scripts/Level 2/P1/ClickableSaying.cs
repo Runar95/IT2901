@@ -13,9 +13,9 @@ public class ClickableSaying : MonoBehaviour
     public InteractableIndicator ii;
     //gameobject the cs is connected to
     public GameObject go;
-   
+
     public void Start(){
-        this.ii.scale = 0.85f;
+        this.ii.scale = 1.1f;
         this.go = this.gameObject;
     }
 
