@@ -249,6 +249,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ship_Entrance_View
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
+      propertyPath: viewSize
+      value: 1.92
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.45
@@ -292,10 +296,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
-      propertyPath: viewSize
-      value: 1.92
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
@@ -389,6 +389,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door_View
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
+      propertyPath: viewSize
+      value: 0.94
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.78
@@ -433,10 +437,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
-      propertyPath: viewSize
-      value: 0.94
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
 --- !u!114 &752202989 stripped
@@ -461,6 +461,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_Name
       value: Fullscreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
+      propertyPath: viewSize
+      value: 5.4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalPosition.x
@@ -505,10 +509,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
-      propertyPath: viewSize
-      value: 5.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
@@ -856,7 +856,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 240.71703
     y: 283.53137
-    width: 166
+    width: 156
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1172,6 +1172,7 @@ MonoBehaviour:
   - {fileID: 844718899}
   - {fileID: 844718889}
   - {fileID: 844718910}
+  - {fileID: 844718912}
 --- !u!114 &844718889
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1308,7 +1309,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 221.88376
     y: 422.03323
-    width: 206
+    width: 194
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1339,6 +1340,25 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &844718896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844718865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 51
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: S2_Character_Intro
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &844718897
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1420,7 +1440,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 422.1371
     y: 326.84155
-    width: 121
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1650,6 +1670,53 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &844718911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844718865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 262.21442
+    y: 531.5542
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 49
+  blockName: NextScene
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 844718896}
+--- !u!114 &844718912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844718865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 50
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 844718911}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1001 &1072475624
 PrefabInstance:
   m_ObjectHideFlags: 0
