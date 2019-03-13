@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Resources/Scenes/Story/S2_Character_Intro.unity
     guid: 0383debde4c044186a3b28a7432623a6
+  - enabled: 1
+    path: Assets/Resources/Scenes/Story/S3_Pre.unity
+    guid: d4537b71389b8406aa8e9d81bb34899e
   m_configObjects: {}
