@@ -10,5 +10,6 @@ public class LoadBackpack : MonoBehaviour
     public GameObject Stone;
     public GameObject CoffeeCup;
     public GameObject Star;
+    public GameObject Key;
 
 }

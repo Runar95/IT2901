@@ -7,10 +7,11 @@ public class DropZone: MonoBehaviour{
     public Type type;
     public BackpackVariables.Item acceptingItem;
     public enum Type{dropAndTake, drop, take}
-    private GameObject itemInSlot = null;
+    public GameObject itemInSlot = null;
 
     void Start(){//Load correct item in this slot
         BackpackVariables.Item slotContains = BackpackVariables.GetItemInSlot(this.slotName); 
+        Debug.Log(slotName + ": " + slotContains);
         if(slotContains != BackpackVariables.Item.Empty){
                 switch (slotContains){
                     case BackpackVariables.Item.CoffeeCup:
@@ -28,6 +29,9 @@ public class DropZone: MonoBehaviour{
                     case BackpackVariables.Item.Star:
                         loadItem(GameObject.Find("Main Camera/Backpack_NC").GetComponent<LoadBackpack>().Star);
                         break;
+                    case BackpackVariables.Item.Key:
+                        loadItem(GameObject.Find("Main Camera/Backpack_NC").GetComponent<LoadBackpack>().Key);
+                        break;
                     default:
                         Debug.Log("Could not find item");
                         break;
@@ -37,22 +41,26 @@ public class DropZone: MonoBehaviour{
     void OnTriggerEnter2D(Collider2D collision) {
         if(this.itemInSlot == null 
         && this.type != Type.take 
-        && (this.acceptingItem == BackpackVariables.Item.Any || this.acceptingItem == collision.gameObject.GetComponent<Dragable>().ItemType)){
+        && (this.acceptingItem == BackpackVariables.Item.Any || this.acceptingItem == collision.gameObject.GetComponent<Dragable>().itemType))
+        {
             this.itemInSlot = collision.gameObject;
             this.itemInSlot.SendMessage("SetSnapPos", gameObject.transform.position);
+            collision.gameObject.transform.SetParent(this.gameObject.transform);
             this.itemInSlot.GetComponent<Dragable>().inSlot = this;
-            BackpackVariables.setItemInSlot(this.slotName, itemInSlot.GetComponent<Dragable>().ItemType); 
+            BackpackVariables.SetItemInSlot(this.slotName, itemInSlot.GetComponent<Dragable>().itemType); 
         }
     }
     void OnTriggerExit2D(Collider2D collision) {//When item is dragged out of this slot.
         if(this.itemInSlot == collision.gameObject){
-            BackpackVariables.setItemInSlot(this.slotName, BackpackVariables.Item.Empty); 
+            BackpackVariables.SetItemInSlot(this.slotName, BackpackVariables.Item.Empty); 
             this.itemInSlot = null;
         }  
     }
+     void OnTriggerStay2D(Collider2D collision) {
+         this.itemInSlot.SendMessage("SetSnapPos", gameObject.transform.position);
+     }
     private void loadItem(GameObject itemType){//load correct item from loadbackpack into this slot. 
             GameObject item = Instantiate(itemType, this.transform);
-            item.GetComponent<Dragable>().inSlot = this;
             item.transform.position = new Vector3(this.transform.position.x, this.transform.position.y ,this.transform.position.z);
             OnTriggerEnter2D(item.GetComponent<Collider2D>());
             this.itemInSlot = item;
