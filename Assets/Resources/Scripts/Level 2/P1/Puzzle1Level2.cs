@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Fungus;
 
 public class Puzzle1Level2 : MonoBehaviour
 {
+    private bool puzzleIsFinished = false;
     private SayingMatcher sm;
     private Dictionary<string, string> playerCombinations;
     private static string[] keys = { "norsk_metafor_1", "norsk_metafor_2", "norsk_metafor_3", "norsk_metafor_4" };
@@ -24,6 +26,11 @@ public class Puzzle1Level2 : MonoBehaviour
 
     //variable that tells the update function to stop updating during teardown
     private bool teardown = false;
+
+    //dialog component to be used for dialog
+    private SayDialog sayDialog;
+    private List<string> toSay = new List<string>();
+    private bool isWriting = false;
 
     //struct representing a line in the scene
     public struct Line
@@ -62,7 +69,51 @@ public class Puzzle1Level2 : MonoBehaviour
         }
 
         instance = this;
+
+        //flowchart components for dialog
+        this.gameObject.AddComponent<Flowchart>();
+        sayDialog = SayDialog.GetSayDialog();
+        sayDialog.SetActive(true);
+        InvokeRepeating("SayNextString", 1f, 1f);
+        PlayWelcomeMessage();
     }
+
+    //plays the dialogs for the begining of the game
+    private void PlayWelcomeMessage()
+    {
+        toSay.Add("Til venstre ser dere norske uttrykk");
+        toSay.Add("Til høyre ser dere uttrykk på tigrinja");
+        toSay.Add("Prøv å koble sammen uttrykk på begge sidene");
+        toSay.Add("Sjekk svar ved å trykke på knappen kalt sjekk svar");
+        SayNextString();
+
+    }
+
+    //function called after dialog boxes are called
+    private void Done() {
+        isWriting = false;
+        //after the last dialog box one should returm to the plane
+        if(puzzleIsFinished){
+            PuzzleComplete pc = gameObject.GetComponent<PuzzleComplete>();
+            pc.FinishLevel();
+            TearDownScene();
+            ReturnToPlane();
+        }
+    }
+
+    private void SayNextString() {
+        if (toSay.Count != 0 && !isWriting) {
+            isWriting = true;
+            string s = toSay[0];
+            toSay.RemoveRange(0,1);
+            sayDialog = SayDialog.GetSayDialog();
+            sayDialog.SetActive(true);
+            sayDialog.Say(s, true, true, true, true, false, null, Done);
+        }
+    }
+
+
+
 
     //creates a new object in the scene with a lineRenderer component, to be attached to Line structs
     public GameObject CreateLineObject()
@@ -86,7 +137,7 @@ public class Puzzle1Level2 : MonoBehaviour
         return gO;
     }
 
-    //connects a key-value sayings pair 
+    //connects a key-value sayings pair
     void ConnectTwoSayings(string key, string value)
     {
         playerCombinations[key] = value;
@@ -98,12 +149,14 @@ public class Puzzle1Level2 : MonoBehaviour
         int[] fraction = instance.sm.CheckCorrectAnswers(instance.playerCombinations);
         if (fraction[0] == fraction[1])
         {
-            ReturnToPlane();
-            TearDownScene();
+            instance.toSay.Add("Gratulerer, dere klarte det!");
+            instance.SayNextString();
+            instance.puzzleIsFinished = true;
         }
         else
         {
-            Debug.Log("" + fraction[0] + " av " + fraction[1] + " fullført");
+            instance.toSay.Add("" + fraction[0] + " av " + fraction[1] + " fullført");
+            instance.SayNextString();
         }
     }
 
@@ -144,7 +197,7 @@ public class Puzzle1Level2 : MonoBehaviour
         if(selectedKey == cs){
             return;
         }else if (selectedValue == cs)
-        {   
+        {
             return;
         }
 
@@ -225,7 +278,7 @@ public class Puzzle1Level2 : MonoBehaviour
     //sets a value saying, called from SetSaying
     private static void SetValueSaying(ClickableSaying cs)
     {
-        //iterates over lines to see if values saying is in a drawn line 
+        //iterates over lines to see if values saying is in a drawn line
         //if it is, that line will no longer be drawn
         Line checkLine;
         foreach (string k in lines.Keys)

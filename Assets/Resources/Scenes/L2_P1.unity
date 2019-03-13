@@ -168,6 +168,7 @@ GameObject:
   - component: {fileID: 587683871}
   - component: {fileID: 587683870}
   - component: {fileID: 587683873}
+  - component: {fileID: 587683874}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -251,6 +252,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 569f3abd3b7914247bc638a4ebce73d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &587683874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587683869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 929ec0c619bca46d9a0a8ebb074f685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 2
+  puzzle: 1
 --- !u!1 &674740106
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,8 +342,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 674740106}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.13, y: -4.31, z: -0.0546875}
-  m_LocalScale: {x: 0.53742, y: 0.44492716, z: 1}
+  m_LocalPosition: {x: 0.1, y: -4.02, z: -0.0546875}
+  m_LocalScale: {x: 0.29338306, y: 0.28535622, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -375,7 +390,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8.69, y: 2.83}
+    oldSize: {x: 16.98, y: 4.45}
     newSize: {x: 8.69, y: 2.83}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
