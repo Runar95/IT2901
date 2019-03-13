@@ -250,7 +250,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 222.68501
     y: 140.62599
-    width: 147.65167
+    width: 135.29071
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -304,7 +304,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 222.68513
     y: 70.68519
-    width: 126.63802
+    width: 120.457535
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -330,7 +330,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 385.94858
     y: 69.50546
-    width: 127.874115
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -341,6 +341,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 138456740}
   - {fileID: 138456739}
+  - {fileID: 138456741}
   - {fileID: 138456732}
   - {fileID: 138456737}
   - {fileID: 138456736}
@@ -610,6 +611,23 @@ MonoBehaviour:
   indentLevel: 0
   targetObject: {fileID: 138456721}
   methodName: inDialogue
+  delay: 0
+--- !u!114 &138456741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138456721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  indentLevel: 1
+  targetObject: {fileID: 974092873}
+  methodName: FinishLevel
   delay: 0
 --- !u!1001 &203749577
 PrefabInstance:
@@ -1328,6 +1346,7 @@ GameObject:
   - component: {fileID: 974092875}
   - component: {fileID: 974092874}
   - component: {fileID: 974092877}
+  - component: {fileID: 974092878}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1412,6 +1431,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowchart: {fileID: 138456722}
+--- !u!114 &974092878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974092873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 929ec0c619bca46d9a0a8ebb074f685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 2
+  puzzle: 4
 --- !u!1001 &995373519
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1783,6 +1816,26 @@ PrefabInstance:
       propertyPath: variables.Array.data[1]
       value: 
       objectReference: {fileID: 138456733}
+    - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
+      propertyPath: commandList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
+      propertyPath: eventHandler
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
+      propertyPath: blockName
+      value: Start
+      objectReference: {fileID: 0}
+    - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
+      propertyPath: commandList.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
+      propertyPath: commandList.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 467082, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1826,26 +1879,6 @@ PrefabInstance:
     - target: {fileID: 467082, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
-      propertyPath: commandList.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
-      propertyPath: eventHandler
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
-      propertyPath: blockName
-      value: Start
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
-      propertyPath: commandList.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
-      propertyPath: commandList.Array.data[1]
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
