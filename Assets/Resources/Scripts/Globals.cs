@@ -18,7 +18,7 @@ public static class Globals {
     // Scene names of puzzles, index=level-1
     public static string[,] levelPuzzleScenes = new string [2, 4] {
         { "L1_P1", "L1_P2", "L1_P3", "L1_P4"},
-        { "L2_P1_Test", "L2_P2", "", ""}
+        { "L2_P1", "L2_P2", "", ""}
     };
     
     public static bool controlroomDoor = true;
