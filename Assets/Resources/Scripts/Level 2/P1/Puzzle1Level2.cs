@@ -314,6 +314,8 @@ public class Puzzle1Level2 : MonoBehaviour
                 checkLine.lineTo = cs.go;
                 lines[selectedKey.saying] = checkLine;
                 selectedKey.ii.Activate();
+                selectedKey = null;
+                selectedValue = null;
                 return;
             }
         }
