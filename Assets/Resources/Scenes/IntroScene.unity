@@ -328,35 +328,35 @@ PrefabInstance:
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[0]
       value: 
-      objectReference: {fileID: 169036104}
+      objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[1]
       value: 
-      objectReference: {fileID: 169036099}
+      objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[2]
       value: 
-      objectReference: {fileID: 169036098}
+      objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[3]
       value: 
-      objectReference: {fileID: 169036097}
+      objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[4]
       value: 
-      objectReference: {fileID: 169036096}
+      objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[5]
       value: 
-      objectReference: {fileID: 169036107}
+      objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[6]
       value: 
-      objectReference: {fileID: 169036102}
+      objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[7]
       value: 
-      objectReference: {fileID: 169036108}
+      objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[8]
       value: 
@@ -368,7 +368,7 @@ PrefabInstance:
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: eventHandler
       value: 
-      objectReference: {fileID: 169036111}
+      objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[9]
       value: 
@@ -450,28 +450,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 169036095}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 4
-  indentLevel: 0
-  commenterName: 
-  commentText: // Zoom
---- !u!114 &169036097
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169036095}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 3
+  itemId: 28
   indentLevel: 0
-  storyText: Ser du det skipet?
+  storyText: "Trykk p\xE5 d\xF8ren for \xE5 g\xE5 inn."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -484,6 +468,23 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &169036097
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169036095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 30
+  indentLevel: 0
+  targetObject: {fileID: 1275255665}
+  methodName: SetDoorInteractionActive
+  delay: 0
 --- !u!114 &169036098
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -491,14 +492,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 169036095}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2
+  itemId: 27
   indentLevel: 0
-  storyText: "Vi er glad for at du valgte \xE5 reise med oss."
+  storyText: Hei! Ser du flyet der framme?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -520,24 +521,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 169036095}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1
-  indentLevel: 0
-  storyText: "Hallo! Trykk hvor som helst for \xE5 g\xE5 til neste dialogboks."
+  nodeRect:
+    serializedVersion: 2
+    x: 139
+    y: 159
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 26
+  blockName: Start
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  eventHandler: {fileID: 169036104}
+  commandList:
+  - {fileID: 169036098}
+  - {fileID: 169036102}
+  - {fileID: 169036097}
+  - {fileID: 169036096}
 --- !u!114 &169036100
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -571,8 +574,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 326
-    y: 172
+    x: 372
+    y: 160
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -599,14 +602,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 169036095}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 24
+  itemId: 29
   indentLevel: 0
-  targetObject: {fileID: 1275255665}
-  methodName: SetDoorInteractionActive
-  delay: 0
+  duration: 1
+  targetView: {fileID: 682740936}
+  waitUntilFinished: 1
+  targetCamera: {fileID: 0}
 --- !u!114 &169036103
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -633,15 +637,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 169036095}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 5
-  indentLevel: 0
-  duration: 0
-  targetView: {fileID: 2024437216}
-  waitUntilFinished: 0
-  targetCamera: {fileID: 1424613176}
+  parentBlock: {fileID: 169036099}
+  waitForFrames: 1
 --- !u!114 &169036105
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -658,63 +658,6 @@ MonoBehaviour:
   indentLevel: 0
   commenterName: 
   commentText: '// Open door: set open_door sprite visible'
---- !u!114 &169036106 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a,
-    type: 3}
-  m_PrefabInstance: {fileID: 169036093}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169036095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &169036107
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169036095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 13
-  indentLevel: 0
-  duration: 1
-  targetView: {fileID: 682740936}
-  waitUntilFinished: 1
-  targetCamera: {fileID: 0}
---- !u!114 &169036108
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169036095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 12
-  indentLevel: 0
-  storyText: "Trykk p\xE5 d\xF8ren for \xE5 stige p\xE5, eventyr venter!\n"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &169036109
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -751,20 +694,6 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 1.1
   durationOLD: 0
---- !u!114 &169036111
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169036095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 169036106}
-  waitForFrames: 1
 --- !u!114 &169036114
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -970,18 +899,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: hoverCursor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: clickEnabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: useEventSystem
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -998,6 +915,18 @@ PrefabInstance:
     - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_Color.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: hoverCursor
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: clickEnabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: useEventSystem
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1489,18 +1418,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
---- !u!114 &2024437216 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583,
-    type: 3}
-  m_PrefabInstance: {fileID: 2024437215}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2115533299 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583,
