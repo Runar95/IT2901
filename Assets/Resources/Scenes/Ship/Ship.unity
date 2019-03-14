@@ -2502,6 +2502,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52741a46683600a469ee198b025d04d9, type: 3}
+--- !u!1 &877543655 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2729455656643061038, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+    type: 3}
+  m_PrefabInstance: {fileID: 2729455656840832457}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &897611109
 GameObject:
   m_ObjectHideFlags: 0
@@ -6718,6 +6724,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1997413623}
+  - {fileID: 1997413666}
   - {fileID: 1997413618}
   - {fileID: 1997413649}
   - {fileID: 1997413648}
@@ -7666,6 +7673,34 @@ MonoBehaviour:
   - {fileID: 1997413792}
   - {fileID: 1997413642}
   - {fileID: 1997413754}
+--- !u!114 &1997413666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997413617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 231
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 877543655}
+  targetComponentAssemblyName: Timer, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Timer
+  targetMethod: StartTimer
+  targetMethodText: 'StartTimer (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &1997413667
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8009,7 +8044,7 @@ MonoBehaviour:
   - {fileID: 1997413679}
 --- !u!114 &1997413681
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8096,7 +8131,7 @@ MonoBehaviour:
   - {fileID: 1997413683}
 --- !u!114 &1997413685
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8670,6 +8705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da11b7f1e975ad641bdb387cbe363869, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flowchart: {fileID: 0}
 --- !u!114 &1997413766
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10288,6 +10324,125 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
+--- !u!1001 &2729455656840832457
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2729455656643061038, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_Name
+      value: Timer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b4d4fa05a2bcbb848958ade507cc3adb, type: 3}
 --- !u!1001 &7878841089532762636
 PrefabInstance:
   m_ObjectHideFlags: 0

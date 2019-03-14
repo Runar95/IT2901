@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public static class Globals {
 
+ public static DateTime startGameTime = DateTime.MinValue;
     // Array of four doors, reflecting open/closed state of each door
     public static bool[] openDoors = new bool[3];
 
