@@ -111,6 +111,9 @@ ehthumbs_vista.db
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
+#visual studios csproj
+*.csproj
+
 # Windows Installer files
 *.cab
 *.msi
