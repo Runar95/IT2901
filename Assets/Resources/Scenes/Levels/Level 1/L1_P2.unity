@@ -14047,6 +14047,7 @@ GameObject:
   - component: {fileID: 1542405961}
   - component: {fileID: 1542405960}
   - component: {fileID: 1542405959}
+  - component: {fileID: 1542405963}
   m_Layer: 0
   m_Name: Lit table star
   m_TagString: Untagged
@@ -14149,6 +14150,7 @@ MonoBehaviour:
   - {fileID: 1542405962}
   - {fileID: 1542405961}
   - {fileID: 1542405960}
+  - {fileID: 1542405963}
   - {fileID: 1542405959}
   - {fileID: 1542405952}
 --- !u!114 &1542405954
@@ -14178,7 +14180,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1542405953}
   selectedCommands:
-  - {fileID: 1542405959}
+  - {fileID: 1542405963}
   variables: []
   description: 
   stepPause: 0
@@ -14360,6 +14362,23 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1542405963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542405950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 6
+  indentLevel: 0
+  targetObject: {fileID: 1489910037}
+  methodName: FinishLevel
+  delay: 0
 --- !u!4 &1591541386 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878841090299667334, guid: 763a5f09552dca44e85db887ed5b1599,
@@ -14395,7 +14414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
+  selectedFlowchart: {fileID: 1542405954}
 --- !u!4 &1595382671
 Transform:
   m_ObjectHideFlags: 1
