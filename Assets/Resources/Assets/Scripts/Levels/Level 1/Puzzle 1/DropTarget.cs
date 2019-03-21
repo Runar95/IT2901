@@ -24,10 +24,10 @@ public class DropTarget : MonoBehaviour
 
             if (collision.gameObject == correctValue)
             {
-                cam.GetComponent<L1_P2Logic>().cc.Add("" + correctValue.GetInstanceID());
+                cam.GetComponent<L1_P1Logic>().cc.Add("" + correctValue.GetInstanceID());
             }
-            cam.GetComponent<L1_P2Logic>().pc.Add("" + collision.GetInstanceID());
-            cam.GetComponent<L1_P2Logic>().CheckLevelComplete();
+            cam.GetComponent<L1_P1Logic>().pc.Add("" + collision.GetInstanceID());
+            cam.GetComponent<L1_P1Logic>().CheckLevelComplete();
 
         }
     }
@@ -50,8 +50,8 @@ public class DropTarget : MonoBehaviour
 
         if (collision.gameObject == correctValue)
         {
-            cam.GetComponent<L1_P2Logic>().cc.Remove("" + correctValue.GetInstanceID());
+            cam.GetComponent<L1_P1Logic>().cc.Remove("" + correctValue.GetInstanceID());
         }
-        cam.GetComponent<L1_P2Logic>().pc.Remove("" + collision.GetInstanceID());
+        cam.GetComponent<L1_P1Logic>().pc.Remove("" + collision.GetInstanceID());
     }
 }
