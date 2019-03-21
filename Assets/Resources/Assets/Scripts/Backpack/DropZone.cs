@@ -40,6 +40,7 @@ public class DropZone: MonoBehaviour{
     }
     void OnTriggerEnter2D(Collider2D collision) {
         if(this.itemInSlot == null
+        && IsDraggableObject(collision.gameObject)
         && this.type != Type.take
         && (this.acceptingItem == BackpackVariables.Item.Any || this.acceptingItem == collision.gameObject.GetComponent<Dragable>().itemType))
         {
@@ -57,12 +58,17 @@ public class DropZone: MonoBehaviour{
         }
     }
      void OnTriggerStay2D(Collider2D collision) {
-         this.itemInSlot.SendMessage("SetSnapPos", gameObject.transform.position);
+         if (IsDraggableObject(collision.gameObject))
+            this.itemInSlot.SendMessage("SetSnapPos", gameObject.transform.position);
      }
     private void loadItem(GameObject itemType){//load correct item from loadbackpack into this slot.
             GameObject item = Instantiate(itemType, this.transform);
             item.transform.position = new Vector3(this.transform.position.x, this.transform.position.y ,this.transform.position.z);
             OnTriggerEnter2D(item.GetComponent<Collider2D>());
             this.itemInSlot = item;
+    }
+
+    private bool IsDraggableObject(GameObject g) {
+        return g.GetComponent<Dragable>() != null;
     }
 }
