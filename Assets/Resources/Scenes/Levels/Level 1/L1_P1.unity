@@ -4698,6 +4698,7 @@ MonoBehaviour:
   - {fileID: 1958185382}
   - {fileID: 1958185381}
   - {fileID: 1958185356}
+  - {fileID: 1958185379}
 --- !u!114 &1958185359
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5330,6 +5331,23 @@ MonoBehaviour:
     vector3Val: {x: 1, y: 1, z: 1}
   toTransformOLD: {fileID: 0}
   toScaleOLD: {x: 0, y: 0, z: 0}
+--- !u!114 &1958185379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958185351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 183
+  indentLevel: 0
+  targetObject: {fileID: 440715563}
+  methodName: FinishLevel
+  delay: 0
 --- !u!114 &1958185381
 MonoBehaviour:
   m_ObjectHideFlags: 2
