@@ -23,6 +23,10 @@ public static class Globals {
         { "L2_P1", "L2_P2", "L2_P3"}
     };
 
+    public static string[] levelCountries = new string [3] {
+        "norge", "eritrea", "syria"
+    };
+
     public static bool controlroomDoor = true;
 
     static Globals() {
@@ -78,5 +82,9 @@ public static class Globals {
 
     public static bool getControlroomDoor(int level) {
     	return controlroomDoor;
+    }
+
+    public static string getCurrentLevelString() {
+        return levelCountries[level-1];
     }
 }

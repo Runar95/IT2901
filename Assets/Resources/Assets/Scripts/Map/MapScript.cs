@@ -36,11 +36,13 @@ public class MapScript : MonoBehaviour
 
     public void OnMouseDown() {
         Debug.Log("Map Next Destination Clicked");
-        if (Globals.nextLevelAvailable) {
-            Globals.nextLevel();
-            Globals.resetOpenDoors();
+        if (Globals.nextLevelAvailable || true) {
+            // Globals.nextLevel();
+            // Globals.resetOpenDoors();
 
-            StartCoroutine(LoadScene("Ship"));
+            // StartCoroutine(LoadScene("Ship"));
+            // StartCoroutine(LoadScene("MapSceneAltP2"));
+            SceneManager.LoadScene("MapSceneAltP2", LoadSceneMode.Single);
         }
 
     }
