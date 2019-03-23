@@ -47,6 +47,9 @@ public class TravelScript : MonoBehaviour
 
         screenNewDest.SetActive(Globals.nextLevelAvailable);
 
+        Flowchart flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
+        flowchart.SetBooleanVariable("LevelComplete", Globals.nextLevelAvailable);
+
     }
 
     public void goToLastCamPos() {
