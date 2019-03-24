@@ -24,6 +24,10 @@ public static class Globals {
         { "L2_P1", "L2_P2", "L2_P3"}
     };
 
+    public static string[] levelCountries = new string [3] {
+        "norge", "eritrea", "syria"
+    };
+
     public static bool controlroomDoor = true;
 
     //struct which summs up the progrssion one has in the game
@@ -95,6 +99,10 @@ public static class Globals {
 
     public static bool getControlroomDoor(int level) {
     	return controlroomDoor;
+    }
+
+    public static string getCurrentLevelString() {
+        return levelCountries[level-1];
     }
 
     public static Progress GetProgress()
