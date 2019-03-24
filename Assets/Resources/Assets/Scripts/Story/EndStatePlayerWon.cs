@@ -118,13 +118,16 @@ public class EndStatePlayerWon : MonoBehaviour
         showCongratulation = false;
         screen.sprite = blackScreen;
         SpriteRenderer wanderer = GameObject.Find("ship_outside").GetComponent<SpriteRenderer>();
-        wanderer.sortingOrder = 3;
-        for(int i = 0; i < 50; i++)
+        for(int i = 0; i <= 200; i++)
         {
-            screen.color = new Color(1f, 1f, 1f, 0.2f*i);
-            yield return new WaitForSeconds(0.04f);
+            yield return new WaitForSeconds(0.01f);
+            screen.color = new Color(1f, 1f, 1f, 1f - 0.005f*i);
         }
-        yield return null;
+        flowchart.ExecuteBlock("villainMonolog");
+        while (flowchart.HasExecutingBlocks())
+        {
+            yield return new WaitForSeconds(0.5f);
+        }
     }
 
     public void Update()

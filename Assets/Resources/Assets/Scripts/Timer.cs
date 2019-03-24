@@ -9,7 +9,7 @@ public class Timer : MonoBehaviour
 {
     public Text text;
     private static string status;
-    private int timeLimitMinutes = 3;
+    private int timeLimitMinutes = 40;
     TimeSpan  timePassed;
 
     void Star(){

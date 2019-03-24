@@ -74,7 +74,7 @@ public static class Globals {
         level += 1;
         //if the game is completed, go to endstate
         //remember to move this someplace else
-        if(level == 3)
+        if(level == 4)
         {
             SceneManager.LoadScene("EndState_GameWon");
             return;
