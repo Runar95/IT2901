@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PuzzleComplete : MonoBehaviour {
 
@@ -17,7 +18,6 @@ public class PuzzleComplete : MonoBehaviour {
             Globals.nextLevelAvailable = true;
 
             //Alerts EventNotifier that one can now travel to a new location
-            //Debug.Log("Hallo");
             EventNotifier.NotifyNewLevel();
         }
     }
