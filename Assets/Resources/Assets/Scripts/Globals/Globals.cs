@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using System;
 
 public static class Globals {
@@ -28,6 +29,15 @@ public static class Globals {
     };
 
     public static bool controlroomDoor = true;
+
+    //struct which summs up the progrssion one has in the game
+    //at a given time
+    public struct Progress
+    {
+        public int level;
+        public int puzzle;
+        public string timerStatus;
+    }
 
     static Globals() {
         openDoors[0] = true;
@@ -87,4 +97,26 @@ public static class Globals {
     public static string getCurrentLevelString() {
         return levelCountries[level-1];
     }
+
+    public static Progress GetProgress()
+    {
+        Progress p;
+        p.level = level;
+        int current_puzzle = 0;
+        for(int i = 0; i < openDoors.Length; i++)
+        {
+            if(openDoors[i])
+            {
+                current_puzzle = i+1;
+            }
+            else
+            {
+                break;
+            }
+        }
+        p.puzzle = current_puzzle;
+        p.timerStatus = global::Timer.GetTimerStatus();
+        return p;
+    }
+
 }
