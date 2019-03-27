@@ -54,6 +54,9 @@ EditorBuildSettings:
     path: Assets/Resources/Scenes/Ship/MapSceneAltP3.unity
     guid: 9c0efb26075664987b817b96474ba11e
   - enabled: 1
+    path: Assets/Resources/Scenes/Story/S4/1_Syria.unity
+    guid: c56fe34112759494d896025f6cf400a5
+  - enabled: 1
     path: Assets/Resources/Scenes/Story/EndStates/EndState_TimeRunOut.unity
     guid: 9e76eac53673ad24486faecfe4581895
   - enabled: 1
