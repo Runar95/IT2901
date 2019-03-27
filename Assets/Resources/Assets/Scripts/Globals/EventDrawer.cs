@@ -1,6 +1,7 @@
 ﻿﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EventDrawer : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class EventDrawer : MonoBehaviour
     private static List<string> messages = new List<string>();
     //style to use when making the message appear on screen
     private GUIStyle gs = new GUIStyle();
+
+    private GameObject eventCanvas = null;
 
     //initializes variables before scenes are loaded
     private void Awake()
@@ -21,17 +24,25 @@ public class EventDrawer : MonoBehaviour
     //action to be done upon loadin a scene where the EwentDrawer is used
     private void Start()
     {
-          //if a message did not play to completion last time a scene was loaded,
-          //it is now discarded
-          if(displayMessage)
-          {
-              displayMessage = false;
-              messages.RemoveAt(0);
-              if(messages.Count != 0)
-              {
-                  initiateMessage = true;
-              }
-          }
+        //if a message did not play to completion last time a scene was loaded,
+        //it is now discarded
+        if(displayMessage)
+        {
+            displayMessage = false;
+            messages.RemoveAt(0);
+            if(messages.Count != 0)
+            {
+                initiateMessage = true;
+            }
+        }
+
+        if(eventCanvas == null)
+        {
+            eventCanvas = GameObject.Find("EventCanvas");
+        }
+        eventCanvas.SetActive(false);
+
+
     }
 
     public static void DrawMessage(string text)
@@ -68,7 +79,14 @@ public class EventDrawer : MonoBehaviour
     private void OnGUI()
     {
         if (displayMessage) {
-            GUI.Label(new Rect( (Screen.width / 8), (Screen.height / 8), 200, 200), messages[0], gs);
+            //GUI.Label(new Rect( (Screen.width / 8), (Screen.height / 8), 0, 0), messages[0], gs);
+            Text t = eventCanvas.GetComponentInChildren<Text>();
+            t.text = messages[0];
+            eventCanvas.SetActive(true);
+        }
+        else if(messages.Count == 0)
+        {
+            eventCanvas.SetActive(false);
         }
     }
 }
