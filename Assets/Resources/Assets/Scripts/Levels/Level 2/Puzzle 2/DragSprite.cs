@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DragSprite : MonoBehaviour
-{
+public class DragSprite : MonoBehaviour {
     public GameObject cam;
 
     private bool isPressed = false;
@@ -11,6 +10,8 @@ public class DragSprite : MonoBehaviour
     private Vector3 snapPos = Vector3.zero;
 
     private Transform lastTarget;
+
+    public bool isEnabled = true;
 
     // Start is called before the first frame update
     void Start()
@@ -21,11 +22,11 @@ public class DragSprite : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Pressed();
+        if (isEnabled)
+            Pressed();
     }
 
-    void OnMouseDown()
-    {
+    void OnMouseDown() {
         isPressed = true; 
         if (lastTarget != null) {
             lastTarget.gameObject.GetComponent<SpriteRenderer>().enabled = true;
@@ -46,11 +47,13 @@ public class DragSprite : MonoBehaviour
     }
 
     public void OnMouseOver() {
-        scaleUp();
+        if (isEnabled)
+            scaleUp();
     }
 
     public void OnMouseExit() {
-        scaleNormal();
+        if (isEnabled)
+            scaleNormal();
     }
 
     void Pressed()
