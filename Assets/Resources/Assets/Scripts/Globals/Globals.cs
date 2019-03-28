@@ -98,6 +98,22 @@ public static class Globals {
         return levelCountries[level-1];
     }
 
+    public static int getGurrentPuzzle() {
+        int current_puzzle = 0;
+        for(int i = 0; i < openDoors.Length; i++)
+        {
+            if(openDoors[i])
+            {
+                current_puzzle = i+1;
+            }
+            else
+            {
+                break;
+            }
+        }
+        return current_puzzle;
+    }
+
     public static Progress GetProgress()
     {
         Progress p;
