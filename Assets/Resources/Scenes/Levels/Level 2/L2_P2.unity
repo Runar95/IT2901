@@ -580,6 +580,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &485284259 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7878841090299667334, guid: 763a5f09552dca44e85db887ed5b1599,
+    type: 3}
+  m_PrefabInstance: {fileID: 1279005342}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &491760500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -590,11 +596,16 @@ PrefabInstance:
     - target: {fileID: 7878841090299667333, guid: 763a5f09552dca44e85db887ed5b1599,
         type: 3}
       propertyPath: m_Name
-      value: Backpack_NC
+      value: Backpack_NC_edit
       objectReference: {fileID: 0}
     - target: {fileID: 7878841090299667333, guid: 763a5f09552dca44e85db887ed5b1599,
         type: 3}
       propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878841090299667333, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878841090299667334, guid: 763a5f09552dca44e85db887ed5b1599,
@@ -965,6 +976,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 491760501}
+  - {fileID: 485284259}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1793,6 +1805,63 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &652181839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652181811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 31
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Sara Sara_Torso: Vi er i et omr\xE5de der det er \xF8rkenlandskap,
+      og der de skriver med en annen type bokstaver. Og de har nydelige lavendelblomster
+      og sommerfulger!"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &652181840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652181811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 279
+    y: 340
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 30
+  blockName: Notebook
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 652181839}
 --- !u!4 &674341869 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878841090486953530, guid: 763a5f09552dca44e85db887ed5b1599,
@@ -2048,6 +2117,80 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f21eec7ad7f004f70a665d721ed29a49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1279005342
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 560239051}
+    m_Modifications:
+    - target: {fileID: 7878841090299667333, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: m_Name
+      value: Backpack_NC
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878841090299667334, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878841090299667334, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878841090299667334, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878841090299667334, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878841090299667334, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878841090299667334, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878841090299667334, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878841090299667334, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878841090299667334, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878841090299667334, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878841090299667334, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878841091029818302, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 763a5f09552dca44e85db887ed5b1599, type: 3}
 --- !u!1001 &1314650224
 PrefabInstance:
   m_ObjectHideFlags: 0
