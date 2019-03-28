@@ -16,6 +16,7 @@ public class DoorScript : MonoBehaviour {
 
     private bool hoverEnabled = false;
 
+    private Flowchart flowchart;
 
     // Start is called before the first frame update
     void Start() {
@@ -37,6 +38,8 @@ public class DoorScript : MonoBehaviour {
         // Set sprite to closedDoor
         gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite = closedDoor;
 
+        flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
+
     }
 
     // Update is called once per frame
@@ -46,7 +49,13 @@ public class DoorScript : MonoBehaviour {
 
     void OnMouseDown() {
         if (Globals.openDoors[doorNumber-1]) {
-            SceneManager.LoadScene(Globals.getPuzzleSceneString(doorNumber), LoadSceneMode.Single);
+            if (Globals.getGurrentPuzzle() != doorNumber) {
+                flowchart.ExecuteBlock("DoorVisited");
+            } else {
+                SceneManager.LoadScene(Globals.getPuzzleSceneString(doorNumber), LoadSceneMode.Single);
+            }
+        } else {
+            flowchart.ExecuteBlock("DoorLocked");
         }
     }
 

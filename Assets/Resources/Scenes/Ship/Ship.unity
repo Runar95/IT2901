@@ -140,8 +140,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -159,8 +159,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
@@ -205,8 +205,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   selectedFlowchart: {fileID: 2136968287}
 --- !u!4 &35528321
 Transform:
@@ -405,8 +405,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 0
@@ -483,8 +483,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 122182997}
   FireOn: 4
 --- !u!114 &122182995
@@ -497,8 +497,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
   spriteRenderer: {fileID: 409456992}
@@ -517,8 +517,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
   spriteRenderer: {fileID: 122182992}
@@ -537,8 +537,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 84.03165
@@ -549,7 +549,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 0
   blockName: Hover
-  description:
+  description: 
   eventHandler: {fileID: 122182994}
   commandList:
   - {fileID: 122182996}
@@ -564,8 +564,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 122183001}
   FireOn: 8
 --- !u!114 &122182999
@@ -578,8 +578,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
   spriteRenderer: {fileID: 409456992}
@@ -598,8 +598,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
   spriteRenderer: {fileID: 122182992}
@@ -618,8 +618,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 201.96835
@@ -630,7 +630,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 6
   blockName: MouseExit
-  description:
+  description: 
   eventHandler: {fileID: 122182998}
   commandList:
   - {fileID: 122183000}
@@ -645,8 +645,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   version: 1
   scrollPos: {x: 0, y: 0}
   variablesScrollPos: {x: 0, y: 0}
@@ -664,12 +664,12 @@ MonoBehaviour:
   - {fileID: 122182997}
   selectedCommands: []
   variables: []
-  description:
+  description: 
   stepPause: 0
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
-  localizationId:
+  localizationId: 
   showLineNumbers: 0
   hideCommands: []
   luaEnvironment: {fileID: 0}
@@ -690,8 +690,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8dc75ea5eaee9454aa9765648a9d077a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   doorNumber: 1
   openDoor: {fileID: 21300000, guid: a7ff7af2d3a7b4ff88047a396d276d98, type: 3}
   peekDoor: {fileID: 21300000, guid: 113ccabe636f44426956055b386112b2, type: 3}
@@ -815,8 +815,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8dc75ea5eaee9454aa9765648a9d077a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   doorNumber: 2
   openDoor: {fileID: 21300000, guid: a7ff7af2d3a7b4ff88047a396d276d98, type: 3}
   peekDoor: {fileID: 21300000, guid: 113ccabe636f44426956055b386112b2, type: 3}
@@ -1020,6 +1020,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Reza
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 87a16a29886d74b37a61dcb7343af4f9,
+        type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameText
+      value: Reza
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameColor.b
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.32197
@@ -1064,15 +1089,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: portraits.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: portraits.Array.data[0]
-      value:
-      objectReference: {fileID: 21300000, guid: 87a16a29886d74b37a61dcb7343af4f9,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
 --- !u!4 &331767582 stripped
@@ -1091,8 +1107,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &375778974
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,8 +1185,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 0
@@ -1230,8 +1246,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 0
@@ -1445,8 +1461,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b5575e47f58e404b94b17546ff68238, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &478167050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1457,8 +1473,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 0
@@ -1492,8 +1508,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &569737611 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583,
@@ -1504,8 +1520,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &587103220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1570,8 +1586,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 0
@@ -1648,8 +1664,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   version: 1
   scrollPos: {x: -1, y: 0}
   variablesScrollPos: {x: 0, y: 0}
@@ -1666,12 +1682,12 @@ MonoBehaviour:
   - {fileID: 587103233}
   selectedCommands: []
   variables: []
-  description:
+  description: 
   stepPause: 0
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
-  localizationId:
+  localizationId: 
   showLineNumbers: 0
   hideCommands: []
   luaEnvironment: {fileID: 0}
@@ -1686,8 +1702,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 587103229}
   FireOn: 4
 --- !u!114 &587103227
@@ -1700,8 +1716,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
   spriteRenderer: {fileID: 1118583617}
@@ -1720,8 +1736,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
   spriteRenderer: {fileID: 587103223}
@@ -1740,8 +1756,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 85.03165
@@ -1752,7 +1768,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 0
   blockName: Hover
-  description:
+  description: 
   eventHandler: {fileID: 587103226}
   commandList:
   - {fileID: 587103228}
@@ -1767,8 +1783,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 587103233}
   FireOn: 8
 --- !u!114 &587103231
@@ -1781,8 +1797,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
   spriteRenderer: {fileID: 1118583617}
@@ -1801,8 +1817,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
   spriteRenderer: {fileID: 587103223}
@@ -1821,8 +1837,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 203.96835
@@ -1833,7 +1849,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 6
   blockName: MouseExit
-  description:
+  description: 
   eventHandler: {fileID: 587103230}
   commandList:
   - {fileID: 587103232}
@@ -1930,8 +1946,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67fc6a3d14a7346ef83f5af271ab8495, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   sprites:
   - {fileID: 21300000, guid: 5c98b64a60c8945808e26929942ff5a3, type: 3}
   - {fileID: 21300000, guid: 03689d09d6dd242948955f1c1c1d4504, type: 3}
@@ -1943,6 +1959,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Name
+      value: DoorMHToCtrl
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.82
@@ -1994,10 +2014,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_LocalScale.y
       value: 2.0764349
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Name
-      value: DoorMHToCtrl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
@@ -2068,6 +2084,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6291866637899853492, guid: 3a0606932760d6140a1b10a9cb5e68aa,
+        type: 3}
+      propertyPath: portraits.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291866637899853492, guid: 3a0606932760d6140a1b10a9cb5e68aa,
+        type: 3}
+      propertyPath: portraits.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: b20bcc4dd11994c428bc6834201b7145,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0606932760d6140a1b10a9cb5e68aa, type: 3}
 --- !u!1 &675308841
@@ -2213,8 +2240,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 0
@@ -2291,8 +2318,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   version: 1
   scrollPos: {x: 97.79723, y: 38.367916}
   variablesScrollPos: {x: 0, y: 0}
@@ -2310,12 +2337,12 @@ MonoBehaviour:
   selectedCommands:
   - {fileID: 713336135}
   variables: []
-  description:
+  description: 
   stepPause: 0
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
-  localizationId:
+  localizationId: 
   showLineNumbers: 0
   hideCommands: []
   luaEnvironment: {fileID: 0}
@@ -2330,8 +2357,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
   spriteRenderer: {fileID: 713336127}
@@ -2350,8 +2377,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 228.82912
@@ -2362,7 +2389,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 0
   blockName: Hover
-  description:
+  description: 
   eventHandler: {fileID: 713336133}
   commandList:
   - {fileID: 713336132}
@@ -2377,8 +2404,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
   spriteRenderer: {fileID: 478167047}
@@ -2397,8 +2424,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 713336131}
   FireOn: 4
 --- !u!114 &713336134
@@ -2411,8 +2438,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 713336137}
   FireOn: 8
 --- !u!114 &713336135
@@ -2425,8 +2452,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
   spriteRenderer: {fileID: 713336127}
@@ -2445,8 +2472,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
   spriteRenderer: {fileID: 478167047}
@@ -2465,8 +2492,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 345.5
@@ -2477,7 +2504,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 6
   blockName: MouseExit
-  description:
+  description: 
   eventHandler: {fileID: 713336134}
   commandList:
   - {fileID: 713336136}
@@ -2574,8 +2601,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67fc6a3d14a7346ef83f5af271ab8495, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   sprites:
   - {fileID: 21300000, guid: 30ab0ca8930dc4546b23258761251c0b, type: 3}
   - {fileID: 21300000, guid: fb7d7998cc8454aa7b022a5dc93ea39a, type: 3}
@@ -2653,6 +2680,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4205649291038701841, guid: 52741a46683600a469ee198b025d04d9,
+        type: 3}
+      propertyPath: portraits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4205649291038701841, guid: 52741a46683600a469ee198b025d04d9,
+        type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 60f0a44f5fb0a4d059c35060e091b0fb,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52741a46683600a469ee198b025d04d9, type: 3}
 --- !u!1 &877543655 stripped
@@ -2738,8 +2776,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b5575e47f58e404b94b17546ff68238, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &897611113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2750,8 +2788,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 0
@@ -2779,8 +2817,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &970181464
 GameObject:
   m_ObjectHideFlags: 0
@@ -2876,8 +2914,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67fc6a3d14a7346ef83f5af271ab8495, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   sprites:
   - {fileID: 21300000, guid: 76cdeab429a9a4bfbad44614e26bee5b, type: 3}
   - {fileID: 21300000, guid: a56cb4b0b7a2642e795eb37b9f5343d9, type: 3}
@@ -3015,8 +3053,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 0
@@ -3093,8 +3131,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   version: 1
   scrollPos: {x: 0, y: 0}
   variablesScrollPos: {x: 0, y: 0}
@@ -3112,12 +3150,12 @@ MonoBehaviour:
   - {fileID: 974370818}
   selectedCommands: []
   variables: []
-  description:
+  description: 
   stepPause: 0
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
-  localizationId:
+  localizationId: 
   showLineNumbers: 0
   hideCommands: []
   luaEnvironment: {fileID: 0}
@@ -3132,8 +3170,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 974370814}
   FireOn: 8
 --- !u!114 &974370812
@@ -3146,8 +3184,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
   spriteRenderer: {fileID: 974370808}
@@ -3166,8 +3204,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
   spriteRenderer: {fileID: 1172270313}
@@ -3186,8 +3224,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 178.96835
@@ -3198,7 +3236,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 6
   blockName: MouseExit
-  description:
+  description: 
   eventHandler: {fileID: 974370811}
   commandList:
   - {fileID: 974370813}
@@ -3213,8 +3251,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 974370818}
   FireOn: 4
 --- !u!114 &974370816
@@ -3227,8 +3265,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
   spriteRenderer: {fileID: 974370808}
@@ -3247,8 +3285,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
   spriteRenderer: {fileID: 1172270313}
@@ -3267,8 +3305,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 61.031647
@@ -3279,7 +3317,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 0
   blockName: Hover
-  description:
+  description: 
   eventHandler: {fileID: 974370815}
   commandList:
   - {fileID: 974370817}
@@ -3349,8 +3387,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 0
@@ -3427,8 +3465,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b5575e47f58e404b94b17546ff68238, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &976156398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3439,8 +3477,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   version: 1
   scrollPos: {x: 0, y: 0}
   variablesScrollPos: {x: 0, y: 0}
@@ -3457,12 +3495,12 @@ MonoBehaviour:
   - {fileID: 976156402}
   selectedCommands: []
   variables: []
-  description:
+  description: 
   stepPause: 0
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
-  localizationId:
+  localizationId: 
   showLineNumbers: 0
   hideCommands: []
   luaEnvironment: {fileID: 0}
@@ -3477,8 +3515,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 976156402}
   FireOn: 8
 --- !u!114 &976156400
@@ -3491,8 +3529,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
   spriteRenderer: {fileID: 976156395}
@@ -3511,8 +3549,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
   spriteRenderer: {fileID: 897611110}
@@ -3531,8 +3569,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 173
@@ -3543,7 +3581,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 6
   blockName: MouseExit
-  description:
+  description: 
   eventHandler: {fileID: 976156399}
   commandList:
   - {fileID: 976156401}
@@ -3558,8 +3596,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
   spriteRenderer: {fileID: 976156395}
@@ -3578,8 +3616,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
   spriteRenderer: {fileID: 897611110}
@@ -3598,8 +3636,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 976156406}
   FireOn: 4
 --- !u!114 &976156406
@@ -3612,8 +3650,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 50
@@ -3624,7 +3662,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 0
   blockName: Hover
-  description:
+  description: 
   eventHandler: {fileID: 976156405}
   commandList:
   - {fileID: 976156404}
@@ -3863,8 +3901,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 0
@@ -3958,8 +3996,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 0
@@ -4073,6 +4111,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door2
       objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.39
@@ -4125,14 +4171,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2.0764349
       objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value:
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
 --- !u!4 &1209483392 stripped
@@ -4151,8 +4189,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1224244531
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4460,6 +4498,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door3
       objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.26
@@ -4512,14 +4558,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2.0764349
       objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value:
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
 --- !u!1 &1276277777 stripped
@@ -4544,8 +4582,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8dc75ea5eaee9454aa9765648a9d077a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   doorNumber: 3
   openDoor: {fileID: 21300000, guid: a7ff7af2d3a7b4ff88047a396d276d98, type: 3}
   peekDoor: {fileID: 21300000, guid: 113ccabe636f44426956055b386112b2, type: 3}
@@ -4865,8 +4903,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 0
@@ -4943,8 +4981,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   version: 1
   scrollPos: {x: 1504.552, y: 791.17267}
   variablesScrollPos: {x: 0, y: 0}
@@ -4961,12 +4999,12 @@ MonoBehaviour:
   - {fileID: 1432891277}
   selectedCommands: []
   variables: []
-  description:
+  description: 
   stepPause: 0
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
-  localizationId:
+  localizationId: 
   showLineNumbers: 0
   hideCommands: []
   luaEnvironment: {fileID: 0}
@@ -4981,8 +5019,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
   spriteRenderer: {fileID: 1733914791}
@@ -5001,8 +5039,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 107.5
@@ -5013,7 +5051,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 0
   blockName: Hover (Copy)
-  description:
+  description: 
   eventHandler: {fileID: 1432891273}
   commandList:
   - {fileID: 1432891270}
@@ -5028,8 +5066,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
   spriteRenderer: {fileID: 1432891267}
@@ -5048,8 +5086,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1432891271}
   FireOn: 4
 --- !u!114 &1432891274
@@ -5062,8 +5100,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1432891277}
   FireOn: 8
 --- !u!114 &1432891275
@@ -5076,8 +5114,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
   spriteRenderer: {fileID: 1432891267}
@@ -5096,8 +5134,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
   spriteRenderer: {fileID: 1733914791}
@@ -5116,8 +5154,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 230.5
@@ -5128,7 +5166,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 6
   blockName: MouseExit (Copy)
-  description:
+  description: 
   eventHandler: {fileID: 1432891274}
   commandList:
   - {fileID: 1432891276}
@@ -5155,8 +5193,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1564721983
 GameObject:
   m_ObjectHideFlags: 0
@@ -5221,8 +5259,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 0
@@ -5299,8 +5337,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   version: 1
   scrollPos: {x: 165.33093, y: 50.028484}
   variablesScrollPos: {x: 0, y: 0}
@@ -5317,12 +5355,12 @@ MonoBehaviour:
   - {fileID: 1564721996}
   selectedCommands: []
   variables: []
-  description:
+  description: 
   stepPause: 0
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
-  localizationId:
+  localizationId: 
   showLineNumbers: 0
   hideCommands: []
   luaEnvironment: {fileID: 0}
@@ -5337,8 +5375,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1564721992}
   FireOn: 4
 --- !u!114 &1564721990
@@ -5351,8 +5389,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
   spriteRenderer: {fileID: 1564721986}
@@ -5371,8 +5409,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
   spriteRenderer: {fileID: 1967195902}
@@ -5391,8 +5429,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 51.031647
@@ -5403,7 +5441,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 0
   blockName: Hover
-  description:
+  description: 
   eventHandler: {fileID: 1564721989}
   commandList:
   - {fileID: 1564721990}
@@ -5418,8 +5456,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1564721996}
   FireOn: 8
 --- !u!114 &1564721994
@@ -5432,8 +5470,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
   spriteRenderer: {fileID: 1564721986}
@@ -5452,8 +5490,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
   spriteRenderer: {fileID: 1967195902}
@@ -5472,8 +5510,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 168.96835
@@ -5484,7 +5522,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 6
   blockName: MouseExit
-  description:
+  description: 
   eventHandler: {fileID: 1564721993}
   commandList:
   - {fileID: 1564721994}
@@ -5499,8 +5537,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1665854431
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5511,6 +5549,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_Name
       value: MapView
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5564,10 +5606,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.9487686
       objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
 --- !u!114 &1665854432 stripped
@@ -5580,8 +5618,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1667948259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5592,6 +5630,39 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_Name
       value: Back_button
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a6ec8cc4d6f95c6469cf590680eda0a7,
+        type: 3}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5643,39 +5714,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Sprite
-      value:
-      objectReference: {fileID: 21300000, guid: a6ec8cc4d6f95c6469cf590680eda0a7,
-        type: 3}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_SortingOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value:
-      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Color.b
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
@@ -5732,8 +5770,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 166
@@ -5744,7 +5782,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 6
   blockName: Mouseover
-  description:
+  description: 
   eventHandler: {fileID: 1667948264}
   commandList:
   - {fileID: 1667948265}
@@ -5759,8 +5797,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1667948263}
   FireOn: 16
 --- !u!114 &1667948265
@@ -5773,8 +5811,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
   spriteRenderer: {fileID: 1756664016}
@@ -5793,8 +5831,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
   spriteRenderer: {fileID: 1667948262}
@@ -5813,8 +5851,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1667948270}
   FireOn: 8
 --- !u!114 &1667948268
@@ -5827,8 +5865,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
   spriteRenderer: {fileID: 1756664016}
@@ -5847,8 +5885,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
   spriteRenderer: {fileID: 1667948262}
@@ -5867,8 +5905,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 306
@@ -5879,7 +5917,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 0
   blockName: MouseExit
-  description:
+  description: 
   eventHandler: {fileID: 1667948267}
   commandList:
   - {fileID: 1667948268}
@@ -5894,8 +5932,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   version: 1
   scrollPos: {x: 10.383001, y: 9.684984}
   variablesScrollPos: {x: 0, y: 0}
@@ -5912,12 +5950,12 @@ MonoBehaviour:
   - {fileID: 1667948270}
   selectedCommands: []
   variables: []
-  description:
+  description: 
   stepPause: 0
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
-  localizationId:
+  localizationId: 
   showLineNumbers: 0
   hideCommands: []
   luaEnvironment: {fileID: 0}
@@ -5932,8 +5970,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1733914787
 GameObject:
   m_ObjectHideFlags: 0
@@ -5976,8 +6014,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 0
@@ -6040,6 +6078,43 @@ PrefabInstance:
       propertyPath: m_Name
       value: Back_button_hover
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Name
+      value: Back_button_hover
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3d3b51586e6843f4baea24c3f65e8aa2,
+        type: 3}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Size.x
+      value: 19.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -6092,39 +6167,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Sprite
-      value:
-      objectReference: {fileID: 21300000, guid: 3d3b51586e6843f4baea24c3f65e8aa2,
-        type: 3}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_SortingOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Color.a
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Size.x
-      value: 19.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_Offset.x
       value: 0
@@ -6148,10 +6190,6 @@ PrefabInstance:
     - target: {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_Size.y
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Name
-      value: Back_button_hover
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
@@ -6241,8 +6279,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1894465426
 GameObject:
   m_ObjectHideFlags: 0
@@ -6307,8 +6345,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 0
@@ -6385,8 +6423,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   version: 1
   scrollPos: {x: 0, y: 0}
   variablesScrollPos: {x: 0, y: 0}
@@ -6402,12 +6440,12 @@ MonoBehaviour:
   selectedBlocks: []
   selectedCommands: []
   variables: []
-  description:
+  description: 
   stepPause: 0
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
-  localizationId:
+  localizationId: 
   showLineNumbers: 0
   hideCommands: []
   luaEnvironment: {fileID: 0}
@@ -6422,8 +6460,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1894465435}
   FireOn: 4
 --- !u!114 &1894465433
@@ -6436,8 +6474,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
   spriteRenderer: {fileID: 375778975}
@@ -6456,8 +6494,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
   spriteRenderer: {fileID: 1894465429}
@@ -6476,8 +6514,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 22.031647
@@ -6488,7 +6526,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 0
   blockName: Hover
-  description:
+  description: 
   eventHandler: {fileID: 1894465432}
   commandList:
   - {fileID: 1894465434}
@@ -6503,8 +6541,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1894465439}
   FireOn: 8
 --- !u!114 &1894465437
@@ -6517,8 +6555,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
   spriteRenderer: {fileID: 375778975}
@@ -6537,8 +6575,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
   spriteRenderer: {fileID: 1894465429}
@@ -6557,8 +6595,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 139.96835
@@ -6569,7 +6607,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 6
   blockName: MouseExit
-  description:
+  description: 
   eventHandler: {fileID: 1894465436}
   commandList:
   - {fileID: 1894465438}
@@ -6695,8 +6733,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 0
@@ -6764,12 +6802,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 215
   indentLevel: 0
   storyText: "Oi\u2026 "
-  description:
+  description: 
   character: {fileID: 331767583}
   portrait: {fileID: 21300000, guid: 87a16a29886d74b37a61dcb7343af4f9, type: 3}
   voiceOverClip: {fileID: 0}
@@ -6791,8 +6829,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   scope: 1
   key: CtrlRoomLocked
   value: 0
@@ -6806,8 +6844,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 130
   indentLevel: 0
   compareOperator: 0
@@ -6823,7 +6861,7 @@ MonoBehaviour:
     floatVal: 0
   stringData:
     stringRef: {fileID: 0}
-    stringVal:
+    stringVal: 
   animatorData:
     animatorRef: {fileID: 0}
     animatorVal: {fileID: 0}
@@ -6870,8 +6908,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   scope: 1
   key: LevelComplete
   value: 0
@@ -6885,19 +6923,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 56.254105
     y: 166.6672
-    width: 124.99975
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 212
   blockName: Indroduction
-  description:
+  description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1997413623}
@@ -6924,13 +6962,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 214
   indentLevel: 0
   storyText: "Dere har 40 minutter p\xE5 dere til \xE5 l\xF8se oppgavene. Nedtellingen
     starter n\xE5."
-  description:
+  description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
@@ -6952,15 +6990,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 213
   indentLevel: 1
   targetFlowchart: {fileID: 0}
   targetBlock: {fileID: 1997413622}
   startLabel:
     stringRef: {fileID: 0}
-    stringVal:
+    stringVal: 
   startIndex: 0
   callMode: 0
 --- !u!114 &1997413625
@@ -6973,13 +7011,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 220
   indentLevel: 0
   storyText: "Hvis du st\xE5r fast, kan du ta en kikk p\xE5 kartet , eller sp\xF8rre
     Reza eller Hana om hjelp. "
-  description:
+  description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
@@ -7001,8 +7039,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
   commenterName: //
@@ -7017,19 +7055,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 134.53181
     y: 498.1387
-    width: 134.6151
+    width: 131.1726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 7
   blockName: MH3_GoLeft
-  description:
+  description: 
   eventHandler: {fileID: 1997413628}
   commandList:
   - {fileID: 1997413626}
@@ -7046,8 +7084,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1997413627}
   clickableObject: {fileID: 1564721985}
   waitFrames: 1
@@ -7061,8 +7099,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
   duration: 0
@@ -7079,14 +7117,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 219
   indentLevel: 0
   storyText: "I ryggsekken finner du ogs\xE5 notatblokken til Sara. Her skriver hun
     ned notater om det hun finner og det som skjer underveis, som kan v\xE6re nyttig
     n\xE5r dere l\xF8ser oppgaver. "
-  description:
+  description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
@@ -7108,19 +7146,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: -45.301636
     y: 497.05136
-    width: 144.23044
+    width: 139.06438
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 11
   blockName: MH2_GoRight
-  description:
+  description: 
   eventHandler: {fileID: 1997413632}
   commandList:
   - {fileID: 1997413774}
@@ -7136,8 +7174,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1997413631}
   clickableObject: {fileID: 974370807}
   waitFrames: 1
@@ -7151,8 +7189,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
   duration: 0
@@ -7169,8 +7207,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 2
   duration: 0
@@ -7187,15 +7225,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
   targetTextObject: {fileID: 0}
   text:
     stringRef: {fileID: 0}
     stringVal: Enter a door
-  description:
+  description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &1997413636
 MonoBehaviour:
@@ -7207,15 +7245,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
   targetTextObject: {fileID: 0}
   text:
     stringRef: {fileID: 0}
-    stringVal:
-  description:
+    stringVal: 
+  description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &1997413637
 MonoBehaviour:
@@ -7227,8 +7265,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
   duration: 0
@@ -7245,19 +7283,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 266.75397
     y: 494.25897
-    width: 144.23044
+    width: 139.06438
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 71
   blockName: MH3_GoRight
-  description:
+  description: 
   eventHandler: {fileID: 1997413644}
   commandList:
   - {fileID: 1997413779}
@@ -7273,8 +7311,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1997413640}
   waitForFrames: 1
 --- !u!114 &1997413640
@@ -7287,8 +7325,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: -119.15391
@@ -7299,7 +7337,7 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 15
   blockName: GameStart
-  description:
+  description: 
   eventHandler: {fileID: 1997413639}
   commandList:
   - {fileID: 1997413724}
@@ -7324,15 +7362,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
   targetTextObject: {fileID: 0}
   text:
     stringRef: {fileID: 0}
-    stringVal:
-  description:
+    stringVal: 
+  description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &1997413642
 MonoBehaviour:
@@ -7344,8 +7382,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
   duration: 0
@@ -7362,14 +7400,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 218
   indentLevel: 0
   storyText: "I venstre kant av skjermen finner du ryggsekken. Denne kan du \xE5pne
     for \xE5 se n\xE6rmere p\xE5 eller bruke gjenstander du har tatt med deg. Klikk
     p\xE5 ryggsekken for \xE5 \xE5pne den. Klikk p\xE5 den igjen for \xE5 lukke den."
-  description:
+  description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
@@ -7391,8 +7429,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1997413638}
   clickableObject: {fileID: 1894465428}
   waitFrames: 1
@@ -7406,8 +7444,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1997413650}
   clickableObject: {fileID: 587103222}
   waitFrames: 1
@@ -7421,15 +7459,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
   targetTextObject: {fileID: 0}
   text:
     stringRef: {fileID: 0}
     stringVal: Enter a Door
-  description:
+  description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &1997413647
 MonoBehaviour:
@@ -7441,8 +7479,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
   duration: 0
@@ -7459,12 +7497,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 217
   indentLevel: 0
   storyText: "Klikk p\xE5 pilene for \xE5 bevege deg rundt.  "
-  description:
+  description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
@@ -7486,14 +7524,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 216
   indentLevel: 0
   storyText: "Nedtellingen har alt begynt. Jeg foresl\xE5r at vi begynner \xE5 l\xF8se
     oppgavene med \xE9n gang. Rommet er ikke s\xE5 stort. Vi kan rope p\xE5 hverandre
     om vi trenger hjelp.  "
-  description:
+  description: 
   character: {fileID: 1209483393}
   portrait: {fileID: 21300000, guid: 09cd3860fc0024f52974cf1fa5583a0b, type: 3}
   voiceOverClip: {fileID: 0}
@@ -7515,19 +7553,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 454.70236
     y: 494.00375
-    width: 134.6151
+    width: 131.1726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 27
   blockName: MH4_GoLeft
-  description:
+  description: 
   eventHandler: {fileID: 1997413645}
   commandList:
   - {fileID: 1997413778}
@@ -7543,8 +7581,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
   duration: 0
@@ -7561,19 +7599,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: -396.96826
     y: 496.81332
-    width: 144.23044
+    width: 139.06438
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 32
   blockName: MH1_GoRight
-  description:
+  description: 
   eventHandler: {fileID: 1997413653}
   commandList:
   - {fileID: 1997413773}
@@ -7588,8 +7626,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1997413652}
   clickableObject: {fileID: 1432891266}
   waitFrames: 1
@@ -7603,8 +7641,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1997413656}
   clickableObject: {fileID: 713336126}
   waitFrames: 1
@@ -7618,8 +7656,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
   duration: 0
@@ -7636,19 +7674,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: -187.02774
     y: 494.99185
-    width: 134.6151
+    width: 131.1726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 33
   blockName: MH2_GoLeft
-  description:
+  description: 
   eventHandler: {fileID: 1997413654}
   commandList:
   - {fileID: 1997413775}
@@ -7663,19 +7701,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: -113.02774
     y: 442.99185
-    width: 128.84589
+    width: 126.66301
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 37
   blockName: MH2_ToCtrl
-  description:
+  description: 
   eventHandler: {fileID: 1997413658}
   commandList:
   - {fileID: 1997413620}
@@ -7697,8 +7735,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1997413657}
   clickableObject: {fileID: 1501962822}
   waitFrames: 1
@@ -7712,8 +7750,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 39
   indentLevel: 0
   duration: 0
@@ -7730,19 +7768,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: -542.96826
     y: 495.81332
-    width: 134.6151
+    width: 131.1726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 40
   blockName: MH1_GoLeft
-  description:
+  description: 
   eventHandler: {fileID: 1997413661}
   commandList:
   - {fileID: 1997413776}
@@ -7757,8 +7795,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1997413660}
   clickableObject: {fileID: 976156394}
   waitFrames: 1
@@ -7772,8 +7810,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
   duration: 0
@@ -7790,19 +7828,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 586.7024
     y: 495.00375
-    width: 144.23044
+    width: 139.06438
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 46
   blockName: MH4_GoRight
-  description:
+  description: 
   eventHandler: {fileID: 1997413667}
   commandList:
   - {fileID: 1997413777}
@@ -7818,15 +7856,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 45
   indentLevel: 0
   targetTextObject: {fileID: 0}
   text:
     stringRef: {fileID: 0}
-    stringVal:
-  description:
+    stringVal: 
+  description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &1997413665
 MonoBehaviour:
@@ -7838,8 +7876,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: -118.63498
@@ -7850,7 +7888,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 72
   blockName: CH_ToMH
-  description:
+  description: 
   eventHandler: {fileID: 1997413670}
   commandList:
   - {fileID: 1997413792}
@@ -7866,11 +7904,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 231
   indentLevel: 0
-  description:
+  description: 
   targetObject: {fileID: 877543655}
   targetComponentAssemblyName: Timer, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
@@ -7880,7 +7918,7 @@ MonoBehaviour:
   targetMethodText: 'StartTimer (): Void'
   methodParameters: []
   saveReturnValue: 0
-  returnValueVariableKey:
+  returnValueVariableKey: 
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
@@ -7894,8 +7932,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1997413663}
   clickableObject: {fileID: 122182991}
   waitFrames: 1
@@ -7909,8 +7947,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 232
   indentLevel: 1
   compareOperator: 0
@@ -7926,7 +7964,7 @@ MonoBehaviour:
     floatVal: 0
   stringData:
     stringRef: {fileID: 0}
-    stringVal:
+    stringVal: 
   animatorData:
     animatorRef: {fileID: 0}
     animatorVal: {fileID: 0}
@@ -7973,8 +8011,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30cbb61ab588b1a4093d2ef0254045b0, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 221
   indentLevel: 0
   _targetObject:
@@ -8006,8 +8044,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1997413665}
   clickableObject: {fileID: 1667948272}
   waitFrames: 1
@@ -8021,8 +8059,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30cbb61ab588b1a4093d2ef0254045b0, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 222
   indentLevel: 0
   _targetObject:
@@ -8054,8 +8092,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30cbb61ab588b1a4093d2ef0254045b0, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 223
   indentLevel: 0
   _targetObject:
@@ -8087,8 +8125,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30cbb61ab588b1a4093d2ef0254045b0, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 224
   indentLevel: 0
   _targetObject:
@@ -8120,8 +8158,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30cbb61ab588b1a4093d2ef0254045b0, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 226
   indentLevel: 0
   _targetObject:
@@ -8153,8 +8191,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30cbb61ab588b1a4093d2ef0254045b0, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 225
   indentLevel: 0
   _targetObject:
@@ -8186,8 +8224,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1997413678}
   clickableObject: {fileID: 0}
   waitFrames: 1
@@ -8201,8 +8239,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 61
   indentLevel: 0
   duration: 0
@@ -8219,8 +8257,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: -192.24734
@@ -8231,7 +8269,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 76
   blockName: CH_GoLeft
-  description:
+  description: 
   eventHandler: {fileID: 1997413676}
   commandList:
   - {fileID: 1997413797}
@@ -8246,12 +8284,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 228
   indentLevel: 0
   storyText: "Hva lurer du p\xE5? "
-  description:
+  description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
@@ -8273,8 +8311,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 67.9733
@@ -8285,7 +8323,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 227
   blockName: Help
-  description:
+  description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1997413679}
@@ -8299,12 +8337,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 230
   indentLevel: 0
   storyText: 'Jeg har ikke srevet noe i notatboken enda. '
-  description:
+  description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
@@ -8326,8 +8364,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1997413684}
   clickableObject: {fileID: 0}
   waitFrames: 1
@@ -8341,8 +8379,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 53
   indentLevel: 0
   duration: 0
@@ -8359,8 +8397,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: -50.521263
@@ -8371,7 +8409,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 78
   blockName: CH_GoRight
-  description:
+  description: 
   eventHandler: {fileID: 1997413682}
   commandList:
   - {fileID: 1997413796}
@@ -8386,8 +8424,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 202.3999
@@ -8398,7 +8436,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 229
   blockName: Notebook
-  description:
+  description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1997413681}
@@ -8412,15 +8450,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 234
   indentLevel: 2
   _sceneName:
     stringRef: {fileID: 0}
     stringVal: MapSceneAlt
   loadingImage: {fileID: 0}
-  sceneNameOLD:
+  sceneNameOLD: 
 --- !u!114 &1997413687
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8431,8 +8469,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 233
   indentLevel: 1
 --- !u!114 &1997413688
@@ -8445,8 +8483,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 235
   indentLevel: 2
   targetObject: {fileID: 2092030689}
@@ -8462,8 +8500,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 237
   indentLevel: 0
 --- !u!114 &1997413690
@@ -8476,10 +8514,121 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 236
   indentLevel: 1
+--- !u!114 &1997413691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997413617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 241
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Hani Hani_Torso: D\xF8ren er l\xE5st... Det ser ut som en av de andre
+      er \xE5pen, la oss pr\xF8ve den!"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1997413692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997413617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 535.21014
+    y: 161.24274
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 240
+  blockName: DoorLocked
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1997413691}
+--- !u!114 &1997413693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997413617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 239
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Reza Reza_Torso: Her har vi v\xE6rt allerede. Pr\xF8v en annen d\xF8r."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1997413694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997413617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 539.7452
+    y: 106.82106
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 238
+  blockName: DoorVisited
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1997413693}
 --- !u!114 &1997413715
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8490,8 +8639,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1997413717}
   clickableObject: {fileID: 0}
   waitFrames: 1
@@ -8505,8 +8654,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
   duration: 0
@@ -8523,8 +8672,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 520.00256
@@ -8535,7 +8684,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 109
   blockName: MH4_ToEng
-  description:
+  description: 
   eventHandler: {fileID: 1997413715}
   commandList:
   - {fileID: 1997413789}
@@ -8550,14 +8699,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 112
   indentLevel: 1
   storyText: "Beveg deg rundt p\xE5 skipet ved \xE5 trykke p\xE5 pilene p\xE5 kanten
     av skjermen. Du kan ogs\xE5 g\xE5 inn i ulike rom ved \xE5 trykke p\xE5 d\xF8rer
     dersom de er \xE5pne. "
-  description:
+  description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
@@ -8579,8 +8728,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 110
   indentLevel: 1
   duration: 0
@@ -8597,12 +8746,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 111
   indentLevel: 1
   storyText: Velkommen ombord!
-  description:
+  description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
@@ -8624,8 +8773,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   scope: 2
   key: FirstVisit1
   value: 1
@@ -8639,8 +8788,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 115
   indentLevel: 1
   variable: {fileID: 1997413721}
@@ -8656,7 +8805,7 @@ MonoBehaviour:
     floatVal: 0
   stringData:
     stringRef: {fileID: 0}
-    stringVal:
+    stringVal: 
   animatorData:
     animatorRef: {fileID: 0}
     animatorVal: {fileID: 0}
@@ -8703,8 +8852,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 114
   indentLevel: 0
 --- !u!114 &1997413724
@@ -8717,8 +8866,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 113
   indentLevel: 0
   compareOperator: 0
@@ -8734,7 +8883,7 @@ MonoBehaviour:
     floatVal: 0
   stringData:
     stringRef: {fileID: 0}
-    stringVal:
+    stringVal: 
   animatorData:
     animatorRef: {fileID: 0}
     animatorVal: {fileID: 0}
@@ -8781,8 +8930,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 117
   indentLevel: 1
   duration: 0
@@ -8799,8 +8948,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 116
   indentLevel: 0
 --- !u!114 &1997413730
@@ -8813,8 +8962,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 165
   indentLevel: 0
   spriteRenderer: {fileID: 675308842}
@@ -8833,8 +8982,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: -117
@@ -8845,7 +8994,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 124
   blockName: CH_ToMap
-  description:
+  description: 
   eventHandler: {fileID: 1997413734}
   commandList:
   - {fileID: 1997413735}
@@ -8861,8 +9010,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   parentBlock: {fileID: 1997413733}
   clickableObject: {fileID: 1665854432}
   waitFrames: 1
@@ -8876,11 +9025,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 125
   indentLevel: 0
-  commenterName:
+  commenterName: 
   commentText: '// TODO: load map scene'
 --- !u!114 &1997413736
 MonoBehaviour:
@@ -8892,15 +9041,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 126
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
     stringVal: MapScene
   loadingImage: {fileID: 0}
-  sceneNameOLD:
+  sceneNameOLD: 
 --- !u!114 &1997413738
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8911,11 +9060,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 127
   indentLevel: 1
-  commenterName:
+  commenterName: 
   commentText: '// TODO: call GoToLastPositionView'
 --- !u!114 &1997413739
 MonoBehaviour:
@@ -8927,8 +9076,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 129
   indentLevel: 0
   targetObject: {fileID: 2092030689}
@@ -8944,8 +9093,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 128
   indentLevel: 1
   targetObject: {fileID: 2092030689}
@@ -8961,19 +9110,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
     x: 772.09686
     y: 402.16846
-    width: 198.07642
+    width: 193.17944
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 164
   blockName: Update_Controlroom_Door
-  description:
+  description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1997413730}
@@ -8988,8 +9137,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 162
   indentLevel: 0
   spriteRenderer: {fileID: 675308842}
@@ -9008,8 +9157,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 166
   indentLevel: 0
   spriteRenderer: {fileID: 0}
@@ -9028,8 +9177,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: da11b7f1e975ad641bdb387cbe363869, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   flowchart: {fileID: 0}
 --- !u!114 &1997413766
 MonoBehaviour:
@@ -9041,12 +9190,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 180
   indentLevel: 1
   storyText: Se deg litt rundt!
-  description:
+  description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
@@ -9068,11 +9217,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 185
   indentLevel: 0
-  description:
+  description: 
   targetObject: {fileID: 2103922484}
   targetComponentAssemblyName: Map, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
@@ -9088,7 +9237,7 @@ MonoBehaviour:
       intValue: 1
       boolValue: 0
       floatValue: 0
-      stringValue:
+      stringValue: 
       colorValue: {r: 0, g: 0, b: 0, a: 0}
       gameObjectValue: {fileID: 0}
       materialValue: {fileID: 0}
@@ -9097,9 +9246,9 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey:
+    variableKey: 
   saveReturnValue: 0
-  returnValueVariableKey:
+  returnValueVariableKey: 
   returnValueType: System.Void
   showInherited: 1
   callMode: 0
@@ -9113,11 +9262,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 188
   indentLevel: 0
-  description:
+  description: 
   targetObject: {fileID: 2103922484}
   targetComponentAssemblyName: Map, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
@@ -9133,7 +9282,7 @@ MonoBehaviour:
       intValue: 2
       boolValue: 0
       floatValue: 0
-      stringValue:
+      stringValue: 
       colorValue: {r: 0, g: 0, b: 0, a: 0}
       gameObjectValue: {fileID: 0}
       materialValue: {fileID: 0}
@@ -9142,9 +9291,9 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey:
+    variableKey: 
   saveReturnValue: 0
-  returnValueVariableKey:
+  returnValueVariableKey: 
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
@@ -9158,11 +9307,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 187
   indentLevel: 0
-  description:
+  description: 
   targetObject: {fileID: 2103922484}
   targetComponentAssemblyName: Map, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
@@ -9178,7 +9327,7 @@ MonoBehaviour:
       intValue: 0
       boolValue: 0
       floatValue: 0
-      stringValue:
+      stringValue: 
       colorValue: {r: 0, g: 0, b: 0, a: 0}
       gameObjectValue: {fileID: 0}
       materialValue: {fileID: 0}
@@ -9187,9 +9336,9 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey:
+    variableKey: 
   saveReturnValue: 0
-  returnValueVariableKey:
+  returnValueVariableKey: 
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
@@ -9203,11 +9352,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 186
   indentLevel: 0
-  description:
+  description: 
   targetObject: {fileID: 2103922484}
   targetComponentAssemblyName: Map, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
@@ -9223,7 +9372,7 @@ MonoBehaviour:
       intValue: 3
       boolValue: 0
       floatValue: 0
-      stringValue:
+      stringValue: 
       colorValue: {r: 0, g: 0, b: 0, a: 0}
       gameObjectValue: {fileID: 0}
       materialValue: {fileID: 0}
@@ -9232,9 +9381,9 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey:
+    variableKey: 
   saveReturnValue: 0
-  returnValueVariableKey:
+  returnValueVariableKey: 
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
@@ -9248,11 +9397,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 192
   indentLevel: 0
-  description:
+  description: 
   targetObject: {fileID: 2103922484}
   targetComponentAssemblyName: Map, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
@@ -9268,7 +9417,7 @@ MonoBehaviour:
       intValue: 0
       boolValue: 0
       floatValue: 0
-      stringValue:
+      stringValue: 
       colorValue: {r: 0, g: 0, b: 0, a: 0}
       gameObjectValue: {fileID: 0}
       materialValue: {fileID: 0}
@@ -9277,9 +9426,9 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey:
+    variableKey: 
   saveReturnValue: 0
-  returnValueVariableKey:
+  returnValueVariableKey: 
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
@@ -9293,11 +9442,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 191
   indentLevel: 0
-  description:
+  description: 
   targetObject: {fileID: 2103922484}
   targetComponentAssemblyName: Map, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
@@ -9313,7 +9462,7 @@ MonoBehaviour:
       intValue: 2
       boolValue: 0
       floatValue: 0
-      stringValue:
+      stringValue: 
       colorValue: {r: 0, g: 0, b: 0, a: 0}
       gameObjectValue: {fileID: 0}
       materialValue: {fileID: 0}
@@ -9322,9 +9471,9 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey:
+    variableKey: 
   saveReturnValue: 0
-  returnValueVariableKey:
+  returnValueVariableKey: 
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
@@ -9338,11 +9487,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 190
   indentLevel: 0
-  description:
+  description: 
   targetObject: {fileID: 2103922484}
   targetComponentAssemblyName: Map, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
@@ -9358,7 +9507,7 @@ MonoBehaviour:
       intValue: 3
       boolValue: 0
       floatValue: 0
-      stringValue:
+      stringValue: 
       colorValue: {r: 0, g: 0, b: 0, a: 0}
       gameObjectValue: {fileID: 0}
       materialValue: {fileID: 0}
@@ -9367,9 +9516,9 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey:
+    variableKey: 
   saveReturnValue: 0
-  returnValueVariableKey:
+  returnValueVariableKey: 
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
@@ -9383,11 +9532,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 189
   indentLevel: 0
-  description:
+  description: 
   targetObject: {fileID: 2103922484}
   targetComponentAssemblyName: Map, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
@@ -9403,7 +9552,7 @@ MonoBehaviour:
       intValue: 1
       boolValue: 0
       floatValue: 0
-      stringValue:
+      stringValue: 
       colorValue: {r: 0, g: 0, b: 0, a: 0}
       gameObjectValue: {fileID: 0}
       materialValue: {fileID: 0}
@@ -9412,9 +9561,9 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey:
+    variableKey: 
   saveReturnValue: 0
-  returnValueVariableKey:
+  returnValueVariableKey: 
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
@@ -9428,11 +9577,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 201
   indentLevel: 0
-  description:
+  description: 
   targetObject: {fileID: 2103922484}
   targetComponentAssemblyName: Map, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
@@ -9448,7 +9597,7 @@ MonoBehaviour:
       intValue: 11
       boolValue: 0
       floatValue: 0
-      stringValue:
+      stringValue: 
       colorValue: {r: 0, g: 0, b: 0, a: 0}
       gameObjectValue: {fileID: 0}
       materialValue: {fileID: 0}
@@ -9457,9 +9606,9 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey:
+    variableKey: 
   saveReturnValue: 0
-  returnValueVariableKey:
+  returnValueVariableKey: 
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
@@ -9473,11 +9622,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 211
   indentLevel: 2
-  description:
+  description: 
   targetObject: {fileID: 2103922484}
   targetComponentAssemblyName: Map, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
@@ -9493,7 +9642,7 @@ MonoBehaviour:
       intValue: 5
       boolValue: 0
       floatValue: 0
-      stringValue:
+      stringValue: 
       colorValue: {r: 0, g: 0, b: 0, a: 0}
       gameObjectValue: {fileID: 0}
       materialValue: {fileID: 0}
@@ -9502,9 +9651,9 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey:
+    variableKey: 
   saveReturnValue: 0
-  returnValueVariableKey:
+  returnValueVariableKey: 
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
@@ -9518,11 +9667,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 210
   indentLevel: 0
-  description:
+  description: 
   targetObject: {fileID: 2103922484}
   targetComponentAssemblyName: Map, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
@@ -9538,7 +9687,7 @@ MonoBehaviour:
       intValue: 1
       boolValue: 0
       floatValue: 0
-      stringValue:
+      stringValue: 
       colorValue: {r: 0, g: 0, b: 0, a: 0}
       gameObjectValue: {fileID: 0}
       materialValue: {fileID: 0}
@@ -9547,9 +9696,9 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey:
+    variableKey: 
   saveReturnValue: 0
-  returnValueVariableKey:
+  returnValueVariableKey: 
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
@@ -9563,11 +9712,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 206
   indentLevel: 0
-  description:
+  description: 
   targetObject: {fileID: 2103922484}
   targetComponentAssemblyName: Map, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
@@ -9583,7 +9732,7 @@ MonoBehaviour:
       intValue: 6
       boolValue: 0
       floatValue: 0
-      stringValue:
+      stringValue: 
       colorValue: {r: 0, g: 0, b: 0, a: 0}
       gameObjectValue: {fileID: 0}
       materialValue: {fileID: 0}
@@ -9592,9 +9741,9 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey:
+    variableKey: 
   saveReturnValue: 0
-  returnValueVariableKey:
+  returnValueVariableKey: 
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
@@ -9608,11 +9757,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 205
   indentLevel: 0
-  description:
+  description: 
   targetObject: {fileID: 2103922484}
   targetComponentAssemblyName: Map, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
@@ -9628,7 +9777,7 @@ MonoBehaviour:
       intValue: 4
       boolValue: 0
       floatValue: 0
-      stringValue:
+      stringValue: 
       colorValue: {r: 0, g: 0, b: 0, a: 0}
       gameObjectValue: {fileID: 0}
       materialValue: {fileID: 0}
@@ -9637,9 +9786,9 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey:
+    variableKey: 
   saveReturnValue: 0
-  returnValueVariableKey:
+  returnValueVariableKey: 
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
@@ -9653,6 +9802,18 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_Name
       value: Door1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9705,18 +9866,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_LocalScale.y
       value: 2.0889523
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value:
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_UsedByEffector
@@ -9820,8 +9969,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67fc6a3d14a7346ef83f5af271ab8495, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   sprites:
   - {fileID: 21300000, guid: 0cb089c31a0424b8789ff5afc466387f, type: 3}
   - {fileID: 21300000, guid: ef98cd5b490f44a02a8ed92aca14cab9, type: 3}
@@ -10186,7 +10335,7 @@ PrefabInstance:
     - target: {fileID: 6895377270461244000, guid: bb3afe9d7e12f6e459c1c41b8d5fdd43,
         type: 3}
       propertyPath: tr
-      value:
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6895377270461244000, guid: bb3afe9d7e12f6e459c1c41b8d5fdd43,
         type: 3}
@@ -10241,7 +10390,7 @@ PrefabInstance:
     - target: {fileID: 6895377270944274190, guid: bb3afe9d7e12f6e459c1c41b8d5fdd43,
         type: 3}
       propertyPath: tr
-      value:
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6895377270944274190, guid: bb3afe9d7e12f6e459c1c41b8d5fdd43,
         type: 3}
@@ -10404,8 +10553,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd17242cc64fc468fb5aefd0b82d0c08, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   screenNewDest: {fileID: 2106354126}
   defaultView: {fileID: 569737611}
   controlroomWindow: {fileID: 1192746973}
@@ -10426,8 +10575,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3e8b611245bfac4a846b7d7fb93d540, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2103922484 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 585851459027397656, guid: bb3afe9d7e12f6e459c1c41b8d5fdd43,
@@ -10522,11 +10671,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: cam
-      value:
+      value: 
       objectReference: {fileID: 2092030691}
     - target: {fileID: 0}
       propertyPath: view
-      value:
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 142980, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: m_Name
@@ -10558,15 +10707,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: selectedBlocks.Array.data[0]
-      value:
+      value: 
       objectReference: {fileID: 1997413652}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: selectedCommands.Array.data[0]
-      value:
+      value: 
       objectReference: {fileID: 1997413635}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: variables.Array.data[0]
-      value:
+      value: 
       objectReference: {fileID: 1997413721}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: zoom
@@ -10574,19 +10723,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: variables.Array.data[1]
-      value:
+      value: 
       objectReference: {fileID: 1997413619}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: variables.Array.data[2]
-      value:
+      value: 
       objectReference: {fileID: 1997413621}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: variables.Array.data[3]
-      value:
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: variables.Array.data[4]
-      value:
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: blockViewHeight
@@ -10642,7 +10791,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: eventHandler
-      value:
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: nodeRect.x
@@ -10654,15 +10803,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[0]
-      value:
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[1]
-      value:
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[2]
-      value:
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: blockName
@@ -10680,8 +10829,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2729455656840832457
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10868,11 +11017,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7878841089023398886, guid: 763a5f09552dca44e85db887ed5b1599,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7878841091029818302, guid: 763a5f09552dca44e85db887ed5b1599,
         type: 3}
       propertyPath: m_IsActive
@@ -10882,6 +11026,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878841089023398886, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 763a5f09552dca44e85db887ed5b1599, type: 3}
