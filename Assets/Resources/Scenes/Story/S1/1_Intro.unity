@@ -202,6 +202,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sara_Character
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 09cd3860fc0024f52974cf1fa5583a0b,
+        type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 9133f2601497b4657b3c46d7e94825aa,
+        type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameText
+      value: Sara
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: b20bcc4dd11994c428bc6834201b7145,
+        type: 3}
     - target: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -246,20 +281,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: portraits.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: portraits.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: 09cd3860fc0024f52974cf1fa5583a0b,
-        type: 3}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: portraits.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300000, guid: 9133f2601497b4657b3c46d7e94825aa,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
 --- !u!1 &125137296
@@ -1012,7 +1033,7 @@ Transform:
   m_LocalScale: {x: 0.475, y: 0.977, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: -16.1, y: 73.1, z: -42.2}
 --- !u!1 &770518672 stripped
 GameObject:
@@ -1080,7 +1101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 404
+    x: 405
     y: 62
     width: 120
     height: 40
@@ -1252,8 +1273,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Sara_Character Sara rigth: Hvor er jeg? Hva skjedde egentlig i g\xE5r?
-      Det m\xE5 v\xE6re noe her som kan gi meg et hint\u2026 "
+    stringVal: "Sara_Character Sara_Torso rigth: Hvor er jeg? Hva skjedde egentlig
+      i g\xE5r? Det m\xE5 v\xE6re noe her som kan gi meg et hint\u2026 "
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -1282,8 +1303,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Sara_Character Sara rigth: Mmmmm\u2026 For en herlig m\xE5te \xE5
-      v\xE5kne p\xE5! En deilig, myk seng, perfekt pute, b\xF8lgeskvulp og m\xE5keskrik\u2026 "
+    stringVal: "Sara_Character Sara_Torso rigth: Mmmmm\u2026 For en herlig m\xE5te
+      \xE5 v\xE5kne p\xE5! En deilig, myk seng, perfekt pute, b\xF8lgeskvulp og m\xE5keskrik\u2026 "
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -1746,7 +1767,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 218
-    y: 182
+    y: 181
     width: 139
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1828,9 +1849,9 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Sara_Character Sara rigth: Notatblokken min \u2013 det viktigste redskapet
-      til en journalist. Jeg skulle dekke en viktig sak\u2026 Men jeg har ikke skrevet
-      ned noe enda? \n"
+    stringVal: "Sara_Character Sara_Torso rigth: Notatblokken min \u2013 det viktigste
+      redskapet til en journalist. Jeg skulle dekke en viktig sak\u2026 Men jeg har
+      ikke skrevet ned noe enda? \n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -1984,7 +2005,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Sara_Character Sara rigth: Men flaks at jeg fant ryggsekken min uansett!  '
+    stringVal: 'Sara_Character Sara_Torso rigth: Men flaks at jeg fant ryggsekken
+      min uansett!  '
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -2033,8 +2055,6 @@ MonoBehaviour:
   - {fileID: 770518721}
   - {fileID: 770518715}
   - {fileID: 770518720}
-  - {fileID: 770518718}
-  - {fileID: 770518738}
   - {fileID: 770518729}
 --- !u!114 &770518709
 MonoBehaviour:
@@ -2114,8 +2134,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Sara_Character Sara rigth: Hvor er mobilen min? Jeg har den jo alltid
-      i sekken!  '
+    stringVal: 'Sara_Character Sara_Torso rigth: Hvor er mobilen min? Jeg har den
+      jo alltid i sekken!  '
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -2191,7 +2211,8 @@ MonoBehaviour:
       intValue: 0
       boolValue: 0
       floatValue: 0
-      stringValue: "Du kan \xE5pne ryggsekken ved \xE5"
+      stringValue: "Du kan \xE5pne ryggsekken ved \xE5  klikke p\xE5 ryggsekkikonet.
+        \ "
       colorValue: {r: 0, g: 0, b: 0, a: 0}
       gameObjectValue: {fileID: 0}
       materialValue: {fileID: 0}
@@ -2269,51 +2290,6 @@ MonoBehaviour:
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
---- !u!114 &770518718
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 770518672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 44
-  indentLevel: 0
-  description: 
-  targetObject: {fileID: 395912742}
-  targetComponentAssemblyName: StoryEventNotifier, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: StoryEventNotifier
-  targetMethod: NewQuest
-  targetMethodText: 'NewQuest (String): Void'
-  methodParameters:
-  - objValue:
-      typeAssemblyname: System.String, mscorlib, Version=2.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      typeFullname: System.String
-      intValue: 0
-      boolValue: 0
-      floatValue: 0
-      stringValue: " klikke p\xE5 ryggsekkikonet \xF8verst i h\xF8yre hj\xF8rne.  "
-      colorValue: {r: 0, g: 0, b: 0, a: 0}
-      gameObjectValue: {fileID: 0}
-      materialValue: {fileID: 0}
-      objectValue: {fileID: 0}
-      spriteValue: {fileID: 0}
-      textureValue: {fileID: 0}
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
-    variableKey: 
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
 --- !u!114 &770518719
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2811,24 +2787,6 @@ MonoBehaviour:
   waitUntilFinished: 1
   durationOLD: 0
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
---- !u!114 &770518738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 770518672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 62
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 2
-  durationOLD: 0
 --- !u!1 &876024429
 GameObject:
   m_ObjectHideFlags: 0
@@ -3561,6 +3519,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seagull_Character
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 8ce0a5bc2d24f4a73a7b55488bd69bca,
+        type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: acc6f5c72b2004b1883ccca97244a22a,
+        type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameText
+      value: "M\xE5ke"
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameColor.b
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3604,24 +3592,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: portraits.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: portraits.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: 8ce0a5bc2d24f4a73a7b55488bd69bca,
-        type: 3}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: portraits.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300000, guid: acc6f5c72b2004b1883ccca97244a22a,
-        type: 3}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: nameText
-      value: "M\xE5ke"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
@@ -3853,6 +3823,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: variables.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
+      propertyPath: selectedCommands.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
