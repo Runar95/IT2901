@@ -7,6 +7,7 @@ public class BackButton : MonoBehaviour
 {
 
     public Sprite hoverSprite;
+    public string fungusBlock;
 
     private Sprite normalSprite;
     private SpriteRenderer spriteRenderer;
@@ -40,7 +41,8 @@ public class BackButton : MonoBehaviour
     }
 
     void OnMouseUpAsButton() {
-        flowchart.ExecuteBlock("MainViewBlock");
+        // flowchart.ExecuteBlock("MainViewBlock");
+        flowchart.ExecuteBlock(fungusBlock);
     }
 
 

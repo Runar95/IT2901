@@ -413,6 +413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSprite: {fileID: 21300000, guid: 3d3b51586e6843f4baea24c3f65e8aa2, type: 3}
+  fungusBlock: MainViewBlock
 --- !u!1001 &405296896
 PrefabInstance:
   m_ObjectHideFlags: 0
