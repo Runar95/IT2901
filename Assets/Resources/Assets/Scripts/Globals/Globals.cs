@@ -135,4 +135,5 @@ public static class Globals {
         return p;
     }
 
+    public static bool ctrlRoomDoorOpen = false;
 }
