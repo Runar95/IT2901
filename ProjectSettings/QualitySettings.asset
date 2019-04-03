@@ -77,7 +77,6 @@ QualitySettings:
     resolutionScalingFixedDPIFactor: 1
     excludedTargetPlatforms:
     - WebGL
-    - Standalone
   - serializedVersion: 2
     name: Medium
     pixelLightCount: 1
@@ -114,7 +113,6 @@ QualitySettings:
     resolutionScalingFixedDPIFactor: 1
     excludedTargetPlatforms:
     - WebGL
-    - Standalone
   - serializedVersion: 2
     name: High
     pixelLightCount: 2
@@ -150,7 +148,6 @@ QualitySettings:
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
     excludedTargetPlatforms:
-    - Standalone
     - WebGL
   - serializedVersion: 2
     name: Very High
@@ -187,7 +184,6 @@ QualitySettings:
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
     excludedTargetPlatforms:
-    - Standalone
     - WebGL
   - serializedVersion: 2
     name: Ultra
@@ -224,7 +220,6 @@ QualitySettings:
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
     excludedTargetPlatforms:
-    - Standalone
     - WebGL
   m_PerPlatformDefaultQuality:
     Standalone: 0
