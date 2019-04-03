@@ -60,4 +60,5 @@ public class TravelScript : MonoBehaviour
     public void saveLastCamPos() {
         Globals.lastCamPos = gameObject.transform.position;
     }
+
 }
