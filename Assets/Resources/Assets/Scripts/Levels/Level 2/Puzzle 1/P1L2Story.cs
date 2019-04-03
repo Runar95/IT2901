@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class P1L2Story : MonoBehaviour
 {
     public static bool playNextAct = false;
-    private static int act = 0;
+    public static int act = 0;
     private Flowchart flowchart;
     private SpriteRenderer star;
 
