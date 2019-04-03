@@ -121,7 +121,7 @@ public class Puzzle1Level2 : MonoBehaviour
             Block b = instance.flowchart.FindBlock("PrintProgress");
             Say s = (Say) b.CommandList[0];
             s.SetStandardText(progressString);
-            instance.flowchart.ExecuteBlock("PrintProgress");           
+            instance.flowchart.ExecuteBlock("PrintProgress");
         }
     }
 
@@ -133,7 +133,7 @@ public class Puzzle1Level2 : MonoBehaviour
             yield return new WaitForSeconds(0.3f);
         }
         TearDownScene();
-        ReturnToPlane();
+        ReturnToLibrary();
     }
 
     //destroys gameobjects not needed after scene, and resets static variables
@@ -160,12 +160,12 @@ public class Puzzle1Level2 : MonoBehaviour
     }
 
     //returns to the inside plane scene
-    static void ReturnToPlane()
+    static void ReturnToLibrary()
     {
         //set puzzle completed
         Camera.main.GetComponent<PuzzleComplete>().FinishLevel();
-        //set next level available
-        SceneManager.LoadScene("Ship");
+        //loads library
+        SceneManager.LoadScene("L2_P1");
     }
 
     //function called when a saying is clicked
@@ -318,6 +318,7 @@ public class Puzzle1Level2 : MonoBehaviour
 
     //draws the lines on screen
     public void Update(){
+        /*
         //if return button is clicked, one return to ship
         if(flowchart.GetBooleanVariable("leaveShip") == true)
         {
@@ -325,6 +326,7 @@ public class Puzzle1Level2 : MonoBehaviour
             TearDownScene();
             ReturnToPlane();
         }
+        */
         //makes sure one does not attempt to draw lines that are being deleted
         if (teardown)
         {
