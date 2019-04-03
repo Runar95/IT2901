@@ -18,5 +18,9 @@ public class ToggleBackpack : MonoBehaviour
     {
         canvas.SetActive(true);
     }
+     public void close()
+    {
+        canvas.SetActive(false);
+    }
 
 }
