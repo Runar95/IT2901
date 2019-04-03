@@ -19,7 +19,8 @@ public static class BackpackVariables
         {"Zone2", Item.Empty },
         {"Zone3", Item.Empty },
         {"Zone4", Item.Empty },
-        {"BDZ", Item.Empty}
+        {"BDZ", Item.Empty},
+        {"keyHole", Item.Empty}
     };
 
     public static Item GetItemInSlot(string itemName){
