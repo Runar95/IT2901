@@ -19,9 +19,10 @@ public static class Globals {
     public static Vector3 lastCamPos = new Vector3(0.0f, 0.0f, -10.0f);
 
     // Scene names of puzzles, index=level-1
-    public static string[,] levelPuzzleScenes = new string [2, 3] {
+    public static string[,] levelPuzzleScenes = new string [3, 3] {
         { "L1_P1", "L1_P2", "L1_P3"},
-        { "L2_P1", "L2_P2", "L2_P3"}
+        { "L2_P1", "L2_P2", "L2_P3"},
+        { "L3_P1", "L3_P2", "L3_P3"}
     };
 
     public static string[] levelCountries = new string [3] {
@@ -136,4 +137,7 @@ public static class Globals {
     }
 
     public static bool ctrlRoomDoorOpen = false;
+
+    public static string lastView = "";
+
 }
