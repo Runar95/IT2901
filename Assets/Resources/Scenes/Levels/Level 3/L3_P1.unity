@@ -10637,7 +10637,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2136517844}
   - component: {fileID: 2146559228}
-  - component: {fileID: 4624661036178543418}
   - component: {fileID: 1997413619}
   - component: {fileID: 1997413620}
   - component: {fileID: 1997413621}
@@ -10747,7 +10746,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &2136842971
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10923,20 +10922,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4d4fa05a2bcbb848958ade507cc3adb, type: 3}
---- !u!114 &4624661036178543418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136842970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8629746cdd02e6f49b6cf51f9d880e99, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  flowchart: {fileID: 2146559228}
-  dialogue: 0
 --- !u!1001 &7878841089532762636
 PrefabInstance:
   m_ObjectHideFlags: 0
