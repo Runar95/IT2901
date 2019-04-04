@@ -5,7 +5,7 @@ public static class BackpackVariables
     public enum Item { wrong, Any, Key, Empty, Coin, Stone, Man, Mushroom, Face, CoffeeCup ,Star };
 
     private static Dictionary<string, Item> items = new Dictionary<string, Item>(){
-        {"1", Item.Empty},
+        {"1", Item.Key},
         {"2", Item.Empty },
         {"3", Item.Empty },
         {"4", Item.Empty },
