@@ -11,7 +11,6 @@ public class ToggleNotebook : MonoBehaviour
     }
     public void Toggle()
     {
-        NotebookController.HideNotes();
-        canvas.SetActive(!canvas.activeSelf);
+        canvas.SetActive(!canvas.activeSelf);        
     }
 }

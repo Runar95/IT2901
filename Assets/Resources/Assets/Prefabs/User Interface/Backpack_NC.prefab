@@ -1139,6 +1139,7 @@ GameObject:
   - component: {fileID: 7878841089859751306}
   - component: {fileID: 7878841089859751305}
   - component: {fileID: 4898910244204335786}
+  - component: {fileID: 2318113107721056436}
   m_Layer: 0
   m_Name: Slot 9
   m_TagString: Untagged
@@ -1247,6 +1248,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scaleMultiplier: 0.3
+--- !u!114 &2318113107721056436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7878841089859751309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60d1e89d598da040a021ce3d9cdbfc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
 --- !u!1 &7878841089977275822
 GameObject:
   m_ObjectHideFlags: 0

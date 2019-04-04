@@ -28,6 +28,10 @@ public static class Globals {
         "norge", "eritrea", "syria"
     };
 
+    public static string[] noteLabels = {
+        "ShipL1", "ShipL2", "ShipL3"
+    };
+
     public static bool controlroomDoor = true;
 
     //struct which summs up the progrssion one has in the game
@@ -56,6 +60,8 @@ public static class Globals {
 
         //notify EventNotifier that the doors are reset
         EventNotifier.NotifyNewPuzzle(1);
+        //Updates the notebook
+        NotebookController.SetAccess(1, noteLabels[GetProgress().level - 1]);
     }
 
     // Sets the open/close-value of a door
@@ -66,6 +72,8 @@ public static class Globals {
             EventNotifier.NotifyNewPuzzle(door);
         }
         openDoors[door - 1] = open;
+        //Updates notebook
+        NotebookController.SetAccess(1, levelPuzzleScenes[GetProgress().level - 1, GetProgress().puzzle - 2]);
     }
 
     // Gets the open/close-value of a door

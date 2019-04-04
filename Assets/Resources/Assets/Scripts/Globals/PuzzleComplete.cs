@@ -19,6 +19,8 @@ public class PuzzleComplete : MonoBehaviour {
 
             //Alerts EventNotifier that one can now travel to a new location
             EventNotifier.NotifyNewLevel();
+
+            NotebookController.SetAccess(1, "L" + Globals.GetProgress().level + "_P3");
         }
     }
 }

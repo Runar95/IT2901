@@ -1,20 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Note : MonoBehaviour
 {    
-    private Notebook nb;
+    public Text text;
     
-    void Awake() 
+    void Start() 
     {
-        var notebook = (Notebook) ScriptableObject.CreateInstance("Notebook");
-        nb = notebook;
+        text.GetComponent<Text>();
+        if (NotebookController.GetAccess(gameObject.name) == 1)
+        {
+            gameObject.SetActive(true);
+        } else 
+        {
+            gameObject.SetActive(false);
+        }
     }
 
     public void OnMouseDown() {
-        nb.SetText(gameObject.name);
-        NotebookController.ShowNote(gameObject.name, nb);
-        nb.SetAccess(1, gameObject.name);
+        text.text = NotebookController.GetNote(gameObject.name);
+
     }
 }
