@@ -8,10 +8,8 @@ public static class NotebookController
         "ShipL1", "ShipL2", "ShipL3" 
     };
 
-    private static string[,] PuzzleKeys= {
-        {"L1_P1", "L1_P2", "L1_P3"},
-        {"L2_P1", "L2_P2", "L2_P3"},
-        {"L3_P1", "L3_P2", "L3_P3"}
+    private static string[] PuzzleKeys= {
+        "L1_P1", "L1_P2", "L1_P3", "L2_P1", "L2_P2", "L2_P3", "L3_P1", "L3_P2", "L3_P3"
     };
 
     //NotesAccess tracks which notes should be available to the player. 0 - locked, 1 - unlocked and current level, 2 - unlocked, but previous level
@@ -67,14 +65,35 @@ public static class NotebookController
         return NotesText[key];
     } 
 
-    public static string GetLevelKey(int level) 
+    public static string[] GetLevelKey(int level) 
     {
-        return LevelKeys[level - 1];
+        if (level <= 3)
+        {
+            List<string> keys = new List<string>();
+            for (int i = 0; i < ((level - 1) * 3); i++) 
+            {
+                keys.Add(PuzzleKeys[i]);
+            }
+            for (int i = 0; i < (level); i++) {
+                keys.Add(LevelKeys[i]);
+            } 
+            return keys.ToArray();
+        } 
+        else
+        {
+        return LevelKeys;
+        }
+
     }
     
-    public static string GetPuzzleKey(int level, int puzzle) 
+    public static string[] GetPuzzleKey(int level, int puzzle) 
     {
-        return PuzzleKeys[level - 1, puzzle - 1];
+        List<string> keys = new List<string>();
+        for (int i = 0; i < ((level - 1) * 3 + puzzle); i++) 
+        {
+            keys.Add(PuzzleKeys[i]);
+        }
+        return keys.ToArray();
     }
 }
 
