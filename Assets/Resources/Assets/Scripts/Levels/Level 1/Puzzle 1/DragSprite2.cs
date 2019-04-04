@@ -48,7 +48,7 @@ public class DragSprite2 : MonoBehaviour
         }
 
         // TODO: check if puzzle is finished
-        //cam.GetComponent<L1_P2Logic>().CheckLevelComplete();
+        Camera.main.GetComponent<L1_P1Logic>().CheckLevelComplete();
     }
 
     public void OnMouseOver() {
