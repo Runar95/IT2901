@@ -74,4 +74,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Resources/Scenes/Story/S4/1_Eritrea.unity
     guid: e6a33f3508ff64a3ca8d16be527c7f2f
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/Level 3/L3_P2.unity
+    guid: efd2a79b58b63c749b670af4a52aa849
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/Level 3/L3_P3.unity
+    guid: feb0143be44a047779d74df838919772
   m_configObjects: {}
