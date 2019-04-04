@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using Fungus;
 
 public class Map : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
@@ -13,6 +14,8 @@ public class Map : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
  
     public void Start()
     {
+        Flowchart flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
+        flowchart.SetStringVariable("enterView", Globals.lastView);
         anim = gameObject.GetComponent<Animator>();
         positionAnim = YouAreHere.GetComponent<Animator>();
     }
@@ -70,5 +73,11 @@ public class Map : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
               break;
       }
 
+    }
+    public void SetLastView(string lastView){
+        Globals.lastView = lastView;
+    }
+    public string GetLastView(){
+        return Globals.lastView;
     }
 }

@@ -27,7 +27,7 @@ public class DropTarget : MonoBehaviour
                 cam.GetComponent<L1_P1Logic>().cc.Add("" + correctValue.GetInstanceID());
             }
             cam.GetComponent<L1_P1Logic>().pc.Add("" + collision.GetInstanceID());
-            cam.GetComponent<L1_P1Logic>().CheckLevelComplete();
+            //cam.GetComponent<L1_P1Logic>().CheckLevelComplete();
 
         }
     }

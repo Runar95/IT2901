@@ -4,6 +4,16 @@ using UnityEngine;
 
 public static class NotebookController
 {
+    private static string[] LevelKeys= {
+        "ShipL1", "ShipL2", "ShipL3" 
+    };
+
+    private static string[,] PuzzleKeys= {
+        {"L1_P1", "L1_P2", "L1_P3"},
+        {"L2_P1", "L2_P2", "L2_P3"},
+        {"L3_P1", "L3_P2", "L3_P3"}
+    };
+
     //NotesAccess tracks which notes should be available to the player. 0 - locked, 1 - unlocked and current level, 2 - unlocked, but previous level
     private static Dictionary<string, int> NotesAccess = new Dictionary<string, int> 
         {
@@ -42,6 +52,7 @@ public static class NotebookController
     {
         foreach (var note in notes)
         {
+            Debug.Log(note);
             NotesAccess[note] = access;
         }
     }
@@ -55,5 +66,15 @@ public static class NotebookController
     {
         return NotesText[key];
     } 
+
+    public static string GetLevelKey(int level) 
+    {
+        return LevelKeys[level - 1];
+    }
+    
+    public static string GetPuzzleKey(int level, int puzzle) 
+    {
+        return PuzzleKeys[level - 1, puzzle - 1];
+    }
 }
 
