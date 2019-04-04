@@ -71,4 +71,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Resources/Scenes/Story/EndStates/EndState_TimeRunOut.unity
     guid: a9bb99100e2aaff42bd2fcde2da5cbb3
+  - enabled: 1
+    path: Assets/Resources/Scenes/Story/S4/1_Eritrea.unity
+    guid: e6a33f3508ff64a3ca8d16be527c7f2f
   m_configObjects: {}
