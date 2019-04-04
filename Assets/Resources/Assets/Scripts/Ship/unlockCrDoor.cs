@@ -21,6 +21,7 @@ public class unlockCrDoor : MonoBehaviour
          if(keySlot.GetComponent<DropZone>().itemInSlot != null){
             flowchart.ExecuteBlock("UnlcokCtrlRoom");
             gameObject.SetActive(false);
+            BackpackVariables.SetItemInSlot("keyHole", BackpackVariables.Item.Empty);
             Globals.ctrlRoomDoorOpen = true;
         }else{
             check = true;
