@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 using Fungus;
+using UnityEngine.SceneManagement;
 
 public class EndStatePlayerWon : MonoBehaviour
 {
@@ -179,9 +180,9 @@ public class EndStatePlayerWon : MonoBehaviour
             yield return new WaitForSeconds(0.01f);
         }
 
-        yield return new WaitForSeconds(5f);
-        //should make the game quit if one is playing an executable (does not work in editor)
-        Application.Quit();
+        yield return new WaitForSeconds(10f);
+        //goes back to the start menue
+        SceneManager.LoadScene("start_menu");
     }
 
     //updates the screen

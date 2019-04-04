@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 using Fungus;
+using UnityEngine.SceneManagement;
 
 public class EndStatePlayerTimeOut : MonoBehaviour
 {
@@ -171,7 +172,8 @@ public class EndStatePlayerTimeOut : MonoBehaviour
         int p = prog.puzzle;
         progressMessage = "Dere nådde puzzle " + p + " på nivå " + l + ".";
         drawProgress = true;
-        yield return null;
+        yield return new WaitForSeconds(10f);
+        SceneManager.LoadScene("start_menu");
     }
 
     public void Update()
