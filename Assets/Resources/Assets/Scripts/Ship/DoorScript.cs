@@ -48,14 +48,18 @@ public class DoorScript : MonoBehaviour {
     }
 
     void OnMouseDown() {
-        if (Globals.openDoors[doorNumber-1]) {
+        if (Globals.openDoors[doorNumber-1] && !Globals.nextLevelAvailable) {
             if (Globals.getGurrentPuzzle() != doorNumber) {
                 flowchart.ExecuteBlock("DoorVisited");
             } else {
                 SceneManager.LoadScene(Globals.getPuzzleSceneString(doorNumber), LoadSceneMode.Single);
             }
-        } else {
+        } else if (!Globals.nextLevelAvailable) {
             flowchart.ExecuteBlock("DoorLocked");
+        } else {
+            flowchart.ExecuteBlock("DoorLocked"); 
+            // TODO: chage this to new block...
+            // tell user to go to ctr-room and travel
         }
     }
 
