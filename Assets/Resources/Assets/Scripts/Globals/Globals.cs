@@ -57,6 +57,8 @@ public static class Globals {
 
         //notify EventNotifier that the doors are reset
         EventNotifier.NotifyNewPuzzle(1);
+        //Updates the notebook
+        NotebookController.SetAccess(1, NotebookController.GetLevelKey(level));
     }
 
     // Sets the open/close-value of a door
@@ -124,7 +126,7 @@ public static class Globals {
         {
             if(openDoors[i])
             {
-                current_puzzle = i+1;
+                current_puzzle = i + 1;
             }
             else
             {
