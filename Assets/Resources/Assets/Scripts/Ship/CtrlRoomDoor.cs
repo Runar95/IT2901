@@ -1,6 +1,4 @@
-﻿ using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using Fungus;
 
@@ -20,6 +18,7 @@ public class CtrlRoomDoor : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
+     
 
         hoverEnabled = doorOpen;
 
@@ -30,6 +29,10 @@ public class CtrlRoomDoor : MonoBehaviour {
         gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite = closedDoor;
 
         flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
+        
+        if(Globals.level != 1){
+            flowchart.ExecuteBlock("UnlcokCtrlRoom");
+        }
 
     }
 
