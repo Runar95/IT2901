@@ -7689,7 +7689,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
 --- !u!114 &1997413635
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7734,7 +7734,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1997413636
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7882,7 +7882,7 @@ MonoBehaviour:
   - {fileID: 1997413723}
 --- !u!114 &1997413641
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
