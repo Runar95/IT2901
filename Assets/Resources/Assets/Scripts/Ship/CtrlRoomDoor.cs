@@ -30,7 +30,7 @@ public class CtrlRoomDoor : MonoBehaviour {
 
         flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
         
-        if(Globals.level != 1){
+        if(Globals.level != 1 || Globals.ctrlRoomDoorOpen){
             flowchart.ExecuteBlock("UnlcokCtrlRoom");
         }
 
