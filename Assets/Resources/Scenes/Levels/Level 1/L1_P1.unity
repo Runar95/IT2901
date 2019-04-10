@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Reza
+  nameText: Tarek
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -3007,7 +3007,7 @@ MonoBehaviour:
   scrollPos: {x: 203.3254, y: 50.38063}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
+  blockViewHeight: 324
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -3015,8 +3015,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1958185358}
+  selectedCommands:
+  - {fileID: 1958185356}
   variables:
   - {fileID: 1958185357}
   - {fileID: 1958185445}
@@ -3183,7 +3185,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 230.51103
     y: 132.16872
-    width: 138
+    width: 138.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3294,7 +3296,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 234.51103
     y: 80.16865
-    width: 120
+    width: 120.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3373,7 +3375,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 58.62666
     y: 125.50215
-    width: 121
+    width: 121.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3471,7 +3473,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 19.149498
     y: 200.06667
-    width: 229
+    width: 227.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

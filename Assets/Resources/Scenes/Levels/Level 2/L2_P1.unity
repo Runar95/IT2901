@@ -570,7 +570,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 51
     y: 85
-    width: 150
+    width: 150.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -666,7 +666,7 @@ MonoBehaviour:
   - {fileID: 1042464033}
 --- !u!114 &1042464035
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -693,7 +693,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1042464036
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -720,7 +720,7 @@ MonoBehaviour:
   - {fileID: 1042464035}
 --- !u!114 &1042464037
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

@@ -1231,7 +1231,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 401
     y: 124.144165
-    width: 127
+    width: 133.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1463,7 +1463,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Reza_Character Reza_Torso right: Jeg heter Reza. Jeg er kunstner.
+    stringVal: "Reza_Character Reza_Torso right: Jeg heter Tarek. Jeg er kunstner.
       Hyggelig \xE5 treffe deg. \n"
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -2084,7 +2084,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 404.04187
     y: 309.33374
-    width: 120
+    width: 123.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3562,7 +3562,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: nameText
-      value: Reza
+      value: Tarek
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3725,6 +3725,10 @@ PrefabInstance:
       propertyPath: selectedCommands.Array.data[0]
       value: 
       objectReference: {fileID: 770518678}
+    - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
+      propertyPath: blockViewHeight
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 467082, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
