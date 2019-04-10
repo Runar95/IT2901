@@ -410,7 +410,7 @@ MonoBehaviour:
   - {fileID: 261099730}
 --- !u!114 &261099699
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1042,7 +1042,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  storyText: "Ja. Det m\xE5 vere den rette. "
+  storyText: "Ja. Det m\xE5 v\xE6re den rette. "
   description: 
   character: {fileID: 1838748401}
   portrait: {fileID: 21300000, guid: 04c14e950e45b264ea95e727a414eeeb, type: 3}
@@ -1084,7 +1084,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &261099726
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1111,7 +1111,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &261099727
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1495,10 +1495,10 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "Sara_Character Sara: Hei! S\xE5 bra vi fant deg! Vi har s\xE5 mange
       sp\xF8rsm\xE5l! Om hvorfor vi er her, om skipet vi er i\u2026\n\nBiblotekar_character
-      Biblotekar-overkropp:Det vet jeg ingenting om. Det eneste jeg vet noe om, er
-      jobben min.\n\nHani_Character Hani-half-size: Men hva er jobben din, da?\n\nBiblotekar_character
-      Biblotekar-overkropp: Jeg skriver ned ord og uttrykk slik at de aldri forsvinner!\n\nBiblotekar_character
-      Biblotekar-overkropp: Men n\xE5 er det en del uttrykk jeg er usikker p\xE5\u2026
+      Librarian_torso:Det vet jeg ingenting om. Det eneste jeg vet noe om, er jobben
+      min.\n\nHani_Character Hani-half-size: Men hva er jobben din, da?\n\nBiblotekar_character
+      Librarian_torso: Jeg skriver ned ord og uttrykk slik at de aldri forsvinner!\n\nBiblotekar_character
+      Librarian_torso: Men n\xE5 er det en del uttrykk jeg er usikker p\xE5\u2026
       Kan dere hjelpe meg?"
   clearPrevious:
     booleanRef: {fileID: 0}
