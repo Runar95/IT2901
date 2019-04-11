@@ -1031,7 +1031,7 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: nameText
-      value: Reza
+      value: Tarek
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: nameColor.r
@@ -7483,7 +7483,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 52.48764
     y: 196.39105
-    width: 120
+    width: 120.05622
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7570,7 +7570,7 @@ MonoBehaviour:
   itemId: 220
   indentLevel: 0
   storyText: "Hvis du st\xE5r fast, kan du ta en kikk p\xE5 kartet , eller sp\xF8rre
-    Reza eller Hana om hjelp. "
+    Tarek eller Hana om hjelp. "
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7615,7 +7615,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 134.53181
     y: 498.1387
-    width: 126.35808
+    width: 135.12207
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7705,7 +7705,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -45.301636
     y: 497.05136
-    width: 133.7002
+    width: 142.655
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7892,7 +7892,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 277.44916
     y: 497.82404
-    width: 133.7002
+    width: 142.655
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8173,7 +8173,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 477.37155
     y: 496.9291
-    width: 126.35808
+    width: 135.12207
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8219,7 +8219,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -369.75748
     y: 494.74152
-    width: 133.7002
+    width: 142.655
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8294,7 +8294,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -187.02774
     y: 494.99185
-    width: 126.35808
+    width: 135.12207
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8321,7 +8321,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -113.02774
     y: 442.99185
-    width: 120.484375
+    width: 129.84903
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8391,7 +8391,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -515.75745
     y: 493.74152
-    width: 126.35808
+    width: 135.12207
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8451,7 +8451,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 624.43805
     y: 497.9291
-    width: 133.7002
+    width: 142.655
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8478,7 +8478,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -110.142456
     y: 372.40988
-    width: 120
+    width: 121.562805
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9225,7 +9225,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -348.62616
     y: 299.701
-    width: 132.23178
+    width: 141.1484
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11402,7 +11402,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: blockViewHeight
-      value: 421
+      value: 275
       objectReference: {fileID: 0}
     - target: {fileID: 467082, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: m_LocalPosition.x

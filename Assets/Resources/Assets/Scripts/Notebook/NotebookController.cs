@@ -5,7 +5,7 @@ using UnityEngine;
 public static class NotebookController
 {
     private static string[] LevelKeys= {
-        "ShipL1", "ShipL2", "ShipL3" 
+        "ShipL1", "ShipL2", "ShipL3"
     };
 
     private static string[] PuzzleKeys= {
@@ -13,26 +13,26 @@ public static class NotebookController
     };
 
     //NotesAccess tracks which notes should be available to the player. 0 - locked, 1 - unlocked and current level, 2 - unlocked, but previous level
-    private static Dictionary<string, int> NotesAccess = new Dictionary<string, int> 
+    private static Dictionary<string, int> NotesAccess = new Dictionary<string, int>
         {
-            {"ShipL1",  1}, 
+            {"ShipL1",  1},
             {"L1_P1",   0},
             {"L1_P2",   0},
             {"L1_P3",   0},
-            {"ShipL2",  0}, 
+            {"ShipL2",  0},
             {"L2_P1",   0},
             {"L2_P2",   0},
-            {"L2_P3",   0},  
-            {"ShipL3",  0}, 
+            {"L2_P3",   0},
+            {"ShipL3",  0},
             {"L3_P1",   0},
             {"L3_P2",   0},
-            {"L3_P3",   0} 
+            {"L3_P3",   0}
         };
-        
+
     //The NotesText dictionary stores all the notebook text under the appropriate key. L is shorthand for level. P is shorthand for puzzle
     private static Dictionary<string, string> NotesText = new Dictionary<string, string>
-        {  
-            { "ShipL1",     "Jeg våknet opp i et rom, til min store forundrelse husker jeg ingenting fra i går. Like etter at jeg våknet, møtte jeg Reza og Hani. Sammen prøver vi å finne ut av hva vi skal gjøre videre..." },
+        {
+            { "ShipL1",     "Jeg våknet opp i et rom, til min store forundrelse husker jeg ingenting fra i går. Like etter at jeg våknet, møtte jeg Tarek og Hani. Sammen prøver vi å finne ut av hva vi skal gjøre videre..." },
             { "L1_P1",       "Landet vi er i, har fjorder og fjell. De bruker også noen ganger en rar måte å telle på, men jeg tror det er ganske gammeldags." },
             { "L1_P2",       "En ting er sikkert: De spiser mye merkelig mat i dette landet! Hvem skulle tro at noen ville spise et sauehode?" },
             { "L1_P3",       "Nå har jeg notert ned ordtakene! \"Ikke selg skinnet før du har skutt bjørnen.\", \"Snakker du om sola, så skinner den.\"" },
@@ -46,7 +46,7 @@ public static class NotebookController
             { "L3_P3",       "En ting er sikkert: Landet vi er i, er gode på mat! Aubergine, kikerter, lammekjøtt… men svinekjøtt så jeg ikke der. Jeg tipper de har gode søtsaker også!" }
         };
 
-    public static void SetAccess(int access, params string[] notes) 
+    public static void SetAccess(int access, params string[] notes)
     {
         foreach (var note in notes)
         {
@@ -55,45 +55,44 @@ public static class NotebookController
         }
     }
 
-    public static int GetAccess(string name) 
+    public static int GetAccess(string name)
     {
         return NotesAccess[name];
     }
 
-    public static string GetNote(string key) 
+    public static string GetNote(string key)
     {
         return NotesText[key];
-    } 
+    }
 
-    public static string[] GetLevelKey(int level) 
+    public static string[] GetLevelKey(int level)
     {
         if (level <= 3)
         {
             List<string> keys = new List<string>();
-            for (int i = 0; i < ((level - 1) * 3); i++) 
+            for (int i = 0; i < ((level - 1) * 3); i++)
             {
                 keys.Add(PuzzleKeys[i]);
             }
             for (int i = 0; i < (level); i++) {
                 keys.Add(LevelKeys[i]);
-            } 
+            }
             return keys.ToArray();
-        } 
+        }
         else
         {
         return LevelKeys;
         }
 
     }
-    
-    public static string[] GetPuzzleKey(int level, int puzzle) 
+
+    public static string[] GetPuzzleKey(int level, int puzzle)
     {
         List<string> keys = new List<string>();
-        for (int i = 0; i < ((level - 1) * 3 + puzzle); i++) 
+        for (int i = 0; i < ((level - 1) * 3 + puzzle); i++)
         {
             keys.Add(PuzzleKeys[i]);
         }
         return keys.ToArray();
     }
 }
-
