@@ -5741,7 +5741,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1149403953}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1149403952}
   variables:
   - {fileID: 1149403933}
   description: 
@@ -5869,7 +5870,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 227.53165
     y: 50
-    width: 142.40503
+    width: 124.683525
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6002,8 +6003,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Wow! S\xE5 mye mat!"
   description: 
-  character: {fileID: 1988516749}
-  portrait: {fileID: 21300000, guid: f63976e420f28428da32e1e41e6cb48b, type: 3}
+  character: {fileID: 370236743}
+  portrait: {fileID: 21300000, guid: 468ff4a9a267049b18d04b0464a7ffdf, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6030,7 +6031,7 @@ MonoBehaviour:
   storyText: "Det ligger en lapp p\xE5 bordet. Jeg lurer p\xE5 hva det st\xE5r?"
   description: 
   character: {fileID: 1988516749}
-  portrait: {fileID: 21300000, guid: f63976e420f28428da32e1e41e6cb48b, type: 3}
+  portrait: {fileID: 21300000, guid: 5eaac82b853184fb38c2744263e30718, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6057,7 +6058,7 @@ MonoBehaviour:
   storyText: "Jeg blir mett bare av \xE5 se p\xE5 dette..."
   description: 
   character: {fileID: 1747479239}
-  portrait: {fileID: 21300000, guid: 09cd3860fc0024f52974cf1fa5583a0b, type: 3}
+  portrait: {fileID: 21300000, guid: fda353acdb8964f4b88e51dbc5561b1c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6151,7 +6152,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63
     y: 49
-    width: 136.07593
+    width: 120.886055
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6222,7 +6223,7 @@ MonoBehaviour:
     det er en spesiell h\xF8ytid.\n"
   description: 
   character: {fileID: 370236743}
-  portrait: {fileID: 21300000, guid: 433e00cbd4ab2604fa23a8a4f0ef0cbb, type: 3}
+  portrait: {fileID: 21300000, guid: 876ae7f5eb98b437e881fd13c5b1879a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6267,8 +6268,38 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: m_Name
-      value: Reza_Character
+      value: Tarek_Character
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5eaac82b853184fb38c2744263e30718,
+        type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameText
+      value: Tarek
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: ea4a53bbf9ed24d21882019ddd09071f,
+        type: 3}
     - target: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -6311,31 +6342,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: portraits.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: portraits.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: f63976e420f28428da32e1e41e6cb48b,
-        type: 3}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: nameText
-      value: Tarek
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: nameColor.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: nameColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: nameColor.b
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -8035,7 +8041,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 50
     y: 50
-    width: 121
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8077,7 +8083,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1542405953}
   selectedCommands:
-  - {fileID: 1542405963}
+  - {fileID: 1542405960}
   variables: []
   description: 
   stepPause: 0
@@ -8195,7 +8201,7 @@ MonoBehaviour:
     d\xE5rlig tid!"
   description: 
   character: {fileID: 370236743}
-  portrait: {fileID: 21300000, guid: 433e00cbd4ab2604fa23a8a4f0ef0cbb, type: 3}
+  portrait: {fileID: 21300000, guid: 87577becde6a44ef8967db0c992c6849, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8222,7 +8228,7 @@ MonoBehaviour:
   storyText: "Men hva med all maten, da? Skal vi bare g\xE5 fra den?"
   description: 
   character: {fileID: 1747479239}
-  portrait: {fileID: 21300000, guid: 09cd3860fc0024f52974cf1fa5583a0b, type: 3}
+  portrait: {fileID: 21300000, guid: 026d46ccbbe474383aa7ed0f297af63c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8249,7 +8255,7 @@ MonoBehaviour:
   storyText: "Den lyden kjenner jeg igjen n\xE5. Kom igjen, vi g\xE5r videre!"
   description: 
   character: {fileID: 1988516749}
-  portrait: {fileID: 21300000, guid: f63976e420f28428da32e1e41e6cb48b, type: 3}
+  portrait: {fileID: 21300000, guid: ea4a53bbf9ed24d21882019ddd09071f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8317,7 +8323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 2016876938}
+  selectedFlowchart: {fileID: 942657828}
 --- !u!4 &1595382671
 Transform:
   m_ObjectHideFlags: 1
@@ -8693,7 +8699,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 1784064806}
+  - {fileID: 1784064804}
   selectedCommands: []
   variables: []
   description: 
@@ -8740,7 +8746,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 35.96373
     y: 88.03627
-    width: 183.72787
+    width: 169.52667
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9276,18 +9282,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: 69.83657, y: 3.981067}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.9209992
   scrollViewRect:
     serializedVersion: 2
     x: 0
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 2016876937}
   selectedCommands: []
   variables:
   - {fileID: 2016876943}

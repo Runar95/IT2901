@@ -534,7 +534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -106.901924, y: -64.78255}
+  scrollPos: {x: -69.75905, y: -10.496855}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 302
@@ -546,8 +546,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 652181840}
-  selectedCommands: []
+  - {fileID: 652181816}
+  selectedCommands:
+  - {fileID: 652181813}
   variables: []
   description: 
   stepPause: 0
@@ -614,6 +615,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &479066399 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c,
+    type: 3}
+  m_PrefabInstance: {fileID: 875573176}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &485284259 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878841090299667334, guid: 763a5f09552dca44e85db887ed5b1599,
@@ -924,7 +937,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Reza Reza_Torso: S\xE5 det som st\xE5r p\xE5 kortene er sannsynligvis
+    stringVal: "Sara Sara_dreaming: S\xE5 det som st\xE5r p\xE5 kortene er sannsynligvis
       navnet p\xE5 farger\u2026 Men hvilket skriftspr\xE5k er det p\xE5? Ikke noe
       europeisk spr\xE5k, i hvert fall?"
   clearPrevious:
@@ -955,8 +968,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Herlig! Vi vet hva den lyden betyr - la oss komme oss videre!
   description: 
-  character: {fileID: 572179559}
-  portrait: {fileID: 21300000, guid: 87a16a29886d74b37a61dcb7343af4f9, type: 3}
+  character: {fileID: 479066399}
+  portrait: {fileID: 21300000, guid: 93f1aea5d0bc5429a8dea88c53126a05, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1066,7 +1079,7 @@ MonoBehaviour:
     som kan Tigrinja?"
   description: 
   character: {fileID: 572179559}
-  portrait: {fileID: 21300000, guid: 87a16a29886d74b37a61dcb7343af4f9, type: 3}
+  portrait: {fileID: 21300000, guid: 0e9570c468d23422b9c35ab4997f5621, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1092,7 +1105,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 255
     y: 136
-    width: 135.71425
+    width: 129.99997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1245,7 +1258,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Reza Reza_Torso: Flaks at jeg har med skisseblokken!
+    stringVal: 'Tarek Tarek_happy: Flaks at jeg har med skisseblokken!
 
 '
   clearPrevious:
@@ -1276,7 +1289,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Sara Sara_Torso: Sommerfugler! For et herlig sted! \n"
+    stringVal: "Sara Sara_happy: Sommerfugler! For et herlig sted! \n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -1305,7 +1318,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Sara Sara_Torso: Litt av en kontrast til \xF8rkenlandskapet utenfor\u2026\n"
+    stringVal: "Sara Sara_neutral: Litt av en kontrast til \xF8rkenlandskapet utenfor\u2026\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -1334,7 +1347,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Hani Hani_Torso: Wow! S\xE5 Vandreren har en hage plutselig?\n"
+    stringVal: "Hani Hani_surprised: Wow! S\xE5 Vandreren har en hage plutselig?\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -1363,8 +1376,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Sara Sara_Torso: \u201CPlasseres etter farge\u201D. Det er alt som
-      st\xE5r."
+    stringVal: "Sara Sara_dreaming: \u201CPlasseres etter farge\u201D. Det er alt
+      som st\xE5r."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -1466,7 +1479,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Sara Sara_Torso: Vi er i et omr\xE5de der det er \xF8rkenlandskap,
+    stringVal: "Sara Sara_dreaming: Vi er i et omr\xE5de der det er \xF8rkenlandskap,
       og der de skriver med en annen type bokstaver. Og de har nydelige lavendelblomster
       og sommerfulger!"
   clearPrevious:
@@ -1598,6 +1611,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2362939495435111146, guid: ee364186bf24b4b00849edb38397ffad,
+        type: 3}
+      propertyPath: portraits.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2362939495435111146, guid: ee364186bf24b4b00849edb38397ffad,
+        type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 468ff4a9a267049b18d04b0464a7ffdf,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee364186bf24b4b00849edb38397ffad, type: 3}
 --- !u!1001 &875573176
@@ -1611,6 +1635,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sara
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: fda353acdb8964f4b88e51dbc5561b1c,
+        type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameText
+      value: Sara
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 93f1aea5d0bc5429a8dea88c53126a05,
+        type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 3339bba462c214c1c9f1f281c1c991a8,
+        type: 3}
     - target: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1654,31 +1713,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: portraits.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: nameColor.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: nameColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: nameColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: portraits.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: b20bcc4dd11994c428bc6834201b7145,
-        type: 3}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: nameText
-      value: Sara
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
@@ -1947,10 +1981,50 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 560239051}
     m_Modifications:
-    - target: {fileID: 7878841090299667333, guid: 95004926b937de146a5075bea687de60,
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 149fee5adb22f4dc6848f7cdb2584788,
         type: 3}
-      propertyPath: m_Name
-      value: Notebook
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Size.x
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Size.y
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1996,50 +2070,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 149fee5adb22f4dc6848f7cdb2584788,
+    - target: {fileID: 7878841090299667333, guid: 95004926b937de146a5075bea687de60,
         type: 3}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Size.x
-      value: 0.92
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Size.y
-      value: 0.92
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.92
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.92
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 0.92
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 0.92
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Size.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
+      propertyPath: m_Name
+      value: Notebook
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
@@ -2144,12 +2178,26 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 426249282, guid: 577f09e7072514bbf8d04601d6852f0c, type: 3}
       propertyPath: m_Name
-      value: Reza
+      value: Tarek
+      objectReference: {fileID: 0}
+    - target: {fileID: 572179559, guid: 577f09e7072514bbf8d04601d6852f0c, type: 3}
+      propertyPath: portraits.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 572179559, guid: 577f09e7072514bbf8d04601d6852f0c, type: 3}
       propertyPath: nameText
       value: Tarek
       objectReference: {fileID: 0}
+    - target: {fileID: 572179559, guid: 577f09e7072514bbf8d04601d6852f0c, type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 610ed0b39379e4a7da91deabb6258007,
+        type: 3}
+    - target: {fileID: 572179559, guid: 577f09e7072514bbf8d04601d6852f0c, type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 0e9570c468d23422b9c35ab4997f5621,
+        type: 3}
     - target: {fileID: 426249283, guid: 577f09e7072514bbf8d04601d6852f0c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

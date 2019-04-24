@@ -47,9 +47,16 @@ MonoBehaviour:
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 09cd3860fc0024f52974cf1fa5583a0b, type: 3}
-  - {fileID: 21300000, guid: 9133f2601497b4657b3c46d7e94825aa, type: 3}
-  - {fileID: 21300000, guid: 2ca6c132194d595459e578466b8ca60a, type: 3}
+  - {fileID: 21300000, guid: 610c51781d1b74ef4bf115245642bf39, type: 3}
+  - {fileID: 21300000, guid: 028fb7bed9d1f466682cd41f79d2b9fd, type: 3}
+  - {fileID: 21300000, guid: bcebd0ab0e1ca4be8b4126a029816385, type: 3}
+  - {fileID: 21300000, guid: 3339bba462c214c1c9f1f281c1c991a8, type: 3}
+  - {fileID: 21300000, guid: 191767e9bf6884367989e17fdda2bf69, type: 3}
+  - {fileID: 21300000, guid: 93f1aea5d0bc5429a8dea88c53126a05, type: 3}
+  - {fileID: 21300000, guid: fda353acdb8964f4b88e51dbc5561b1c, type: 3}
+  - {fileID: 21300000, guid: 026d46ccbbe474383aa7ed0f297af63c, type: 3}
+  - {fileID: 21300000, guid: bdca91179a5054d908ef2eb1e601c1f1, type: 3}
+  - {fileID: 21300000, guid: 16d00fc56eeec4a8fa87b3c33664a842, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 

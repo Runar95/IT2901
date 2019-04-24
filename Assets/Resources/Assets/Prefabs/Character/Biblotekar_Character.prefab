@@ -48,8 +48,16 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 8ce0a5bc2d24f4a73a7b55488bd69bca, type: 3}
-  - {fileID: 21300000, guid: 9cbafe1e264988e449b29ce4db8201f2, type: 3}
-  - {fileID: 21300000, guid: 04c14e950e45b264ea95e727a414eeeb, type: 3}
+  - {fileID: 21300000, guid: 05e838a896a464661a9b74f725fcd06f, type: 3}
+  - {fileID: 21300000, guid: 698d797645b6d4ba3884831cc73027f9, type: 3}
+  - {fileID: 21300000, guid: 35880be37214844baaf4ae082b8fabb7, type: 3}
+  - {fileID: 21300000, guid: 4736a7f8901c64ff1b720c29db044c0b, type: 3}
+  - {fileID: 21300000, guid: df5b8aecccf2845f7ae8028d257862bb, type: 3}
+  - {fileID: 21300000, guid: 1e7ca84f6fb8b422f9bdf1391c359027, type: 3}
+  - {fileID: 21300000, guid: b1f77554b76eb4346a62ddc12bb07aa9, type: 3}
+  - {fileID: 21300000, guid: 52d29e27a7d13493094ef0d193ce3b3a, type: 3}
+  - {fileID: 21300000, guid: 5f371e489c73743d4b1ce1860bd31ce3, type: 3}
+  - {fileID: 21300000, guid: 3da820200b7ed420498ca9f18ae79efe, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 

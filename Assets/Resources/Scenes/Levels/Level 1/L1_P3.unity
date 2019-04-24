@@ -112,6 +112,85 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &112074263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 112074265}
+  - component: {fileID: 112074264}
+  m_Layer: 0
+  m_Name: Tarek
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &112074264
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112074263}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9e73cca64888c43f1b5bd52aa219874e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 39.999996, y: 99.619995}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &112074265
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112074263}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6, y: -0, z: -0.034883317}
+  m_LocalScale: {x: 0.075, y: 0.075, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &181205629
 GameObject:
   m_ObjectHideFlags: 0
@@ -256,7 +335,7 @@ Transform:
   m_LocalScale: {x: 0.95, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &181205635
 MonoBehaviour:
@@ -291,10 +370,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: "Her er n\xF8kken som jeg fant. Kanskje du f\xE5r bruk for den senere. "
+  storyText: "Her er n\xF8kkelen som jeg fant. Kanskje du f\xE5r bruk for den senere."
   description: 
   character: {fileID: 1838748401}
-  portrait: {fileID: 21300000, guid: 04c14e950e45b264ea95e727a414eeeb, type: 3}
+  portrait: {fileID: 21300000, guid: b1f77554b76eb4346a62ddc12bb07aa9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -394,7 +473,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 526.85016
     y: 39
-    width: 122.957985
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -483,7 +562,7 @@ MonoBehaviour:
   storyText: "Self\xF8lgelig. N\xE5 husker jeg det. "
   description: 
   character: {fileID: 1838748401}
-  portrait: {fileID: 21300000, guid: 04c14e950e45b264ea95e727a414eeeb, type: 3}
+  portrait: {fileID: 21300000, guid: 1e7ca84f6fb8b422f9bdf1391c359027, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -611,7 +690,7 @@ MonoBehaviour:
   storyText: "Det h\xF8res ikke riktig ut. Pr\xF8v igjen. "
   description: 
   character: {fileID: 1838748401}
-  portrait: {fileID: 21300000, guid: 04c14e950e45b264ea95e727a414eeeb, type: 3}
+  portrait: {fileID: 21300000, guid: 4736a7f8901c64ff1b720c29db044c0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -860,7 +939,7 @@ MonoBehaviour:
   storyText: "Pr\xF8v igjen. "
   description: 
   character: {fileID: 1838748401}
-  portrait: {fileID: 21300000, guid: 04c14e950e45b264ea95e727a414eeeb, type: 3}
+  portrait: {fileID: 21300000, guid: b1f77554b76eb4346a62ddc12bb07aa9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -887,7 +966,7 @@ MonoBehaviour:
   storyText: "N\xE5 n\xE5r dere sier det h\xF8yt, h\xF8res det ikke helt riktig ut. "
   description: 
   character: {fileID: 1838748401}
-  portrait: {fileID: 21300000, guid: 04c14e950e45b264ea95e727a414eeeb, type: 3}
+  portrait: {fileID: 21300000, guid: 4736a7f8901c64ff1b720c29db044c0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1018,7 +1097,7 @@ MonoBehaviour:
   storyText: Takk for hjelpen!
   description: 
   character: {fileID: 1838748401}
-  portrait: {fileID: 21300000, guid: 04c14e950e45b264ea95e727a414eeeb, type: 3}
+  portrait: {fileID: 21300000, guid: 1e7ca84f6fb8b422f9bdf1391c359027, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1045,7 +1124,7 @@ MonoBehaviour:
   storyText: "Ja. Det m\xE5 v\xE6re den rette. "
   description: 
   character: {fileID: 1838748401}
-  portrait: {fileID: 21300000, guid: 04c14e950e45b264ea95e727a414eeeb, type: 3}
+  portrait: {fileID: 21300000, guid: 1e7ca84f6fb8b422f9bdf1391c359027, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1072,7 +1151,7 @@ MonoBehaviour:
   storyText: 'Der hadde dere flaks, men klarer dere denne? '
   description: 
   character: {fileID: 1838748401}
-  portrait: {fileID: 21300000, guid: 04c14e950e45b264ea95e727a414eeeb, type: 3}
+  portrait: {fileID: 21300000, guid: b1f77554b76eb4346a62ddc12bb07aa9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1096,10 +1175,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 71
   indentLevel: 0
-  storyText: "Hjelp meg \xE5 finne de riktige utrykkene. "
+  storyText: "Jeg tror dette er ordtak og uttrykk, det er vanskelig \xE5 sl\xE5 opp
+    i en ordbok. Kanskje det er lettere \xE5 sp\xF8rre noen?"
   description: 
-  character: {fileID: 1838748401}
-  portrait: {fileID: 21300000, guid: 04c14e950e45b264ea95e727a414eeeb, type: 3}
+  character: {fileID: 1179590928}
+  portrait: {fileID: 21300000, guid: 3339bba462c214c1c9f1f281c1c991a8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1467,7 +1547,7 @@ MonoBehaviour:
   storyText: Dra den inn i ryggsekken din.
   description: 
   character: {fileID: 1838748401}
-  portrait: {fileID: 21300000, guid: 04c14e950e45b264ea95e727a414eeeb, type: 3}
+  portrait: {fileID: 21300000, guid: b1f77554b76eb4346a62ddc12bb07aa9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1493,12 +1573,12 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Sara_Character Sara: Hei! S\xE5 bra vi fant deg! Vi har s\xE5 mange
-      sp\xF8rsm\xE5l! Om hvorfor vi er her, om skipet vi er i\u2026\n\nBiblotekar_character
-      Librarian_torso:Det vet jeg ingenting om. Det eneste jeg vet noe om, er jobben
-      min.\n\nHani_Character Hani-half-size: Men hva er jobben din, da?\n\nBiblotekar_character
-      Librarian_torso: Jeg skriver ned ord og uttrykk slik at de aldri forsvinner!\n\nBiblotekar_character
-      Librarian_torso: Men n\xE5 er det en del uttrykk jeg er usikker p\xE5\u2026
+    stringVal: "Sara_Character Sara_happy: Hei! S\xE5 bra vi fant deg! Vi har s\xE5
+      mange sp\xF8rsm\xE5l! Om hvorfor vi er her, om skipet vi er i\u2026\n\nBiblotekar_character
+      Wilhelmsen_neutral:Det vet jeg ingenting om. Det eneste jeg vet noe om, er jobben
+      min.\n\nHani_Character Hani_surprised: Men hva er jobben din, da?\n\nBiblotekar_character
+      Wilhelmsen_happy: Jeg skriver ned ord og uttrykk slik at de aldri forsvinner!\n\nBiblotekar_character
+      Wilhelmsen_dreaming: Men n\xE5 er det en del uttrykk jeg er usikker p\xE5\u2026
       Kan dere hjelpe meg?"
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -1678,35 +1758,15 @@ PrefabInstance:
       propertyPath: itemType
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 7878841089237444520, guid: 763a5f09552dca44e85db887ed5b1599,
-        type: 3}
-      propertyPath: acceptingItem
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7878841089334070172, guid: 763a5f09552dca44e85db887ed5b1599,
         type: 3}
       propertyPath: itemType
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 7878841089381232184, guid: 763a5f09552dca44e85db887ed5b1599,
-        type: 3}
-      propertyPath: acceptingItem
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7878841089678357776, guid: 763a5f09552dca44e85db887ed5b1599,
         type: 3}
       propertyPath: itemType
       value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878841089977275816, guid: 763a5f09552dca44e85db887ed5b1599,
-        type: 3}
-      propertyPath: acceptingItem
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878841090393636011, guid: 763a5f09552dca44e85db887ed5b1599,
-        type: 3}
-      propertyPath: acceptingItem
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7878841090871366618, guid: 763a5f09552dca44e85db887ed5b1599,
         type: 3}
@@ -1722,6 +1782,26 @@ PrefabInstance:
         type: 3}
       propertyPath: itemType
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878841089237444520, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: acceptingItem
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878841089381232184, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: acceptingItem
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878841089977275816, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: acceptingItem
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878841090393636011, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: acceptingItem
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 763a5f09552dca44e85db887ed5b1599, type: 3}
@@ -1866,12 +1946,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 2075df34a21faba469745c361f4a3cc4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3b23435e8db6d45dca3ede5ae11ba824, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4.26, y: 7.65}
+  m_Size: {x: 40, y: 118.28}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1886,7 +1966,7 @@ Transform:
   m_GameObject: {fileID: 619925324}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.37, y: 0.44076714, z: 0.12755814}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.065, y: 0.065, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
@@ -1941,7 +2021,7 @@ PrefabInstance:
     - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 2729455656643061026, guid: b4d4fa05a2bcbb848958ade507cc3adb,
         type: 3}
@@ -2307,12 +2387,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 2ca6c132194d595459e578466b8ca60a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 191767e9bf6884367989e17fdda2bf69, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4.26, y: 7.65}
+  m_Size: {x: 40, y: 115.71}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2327,11 +2407,23 @@ Transform:
   m_GameObject: {fileID: 1036031093}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.47, y: 0.44076714, z: 0.12755814}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.065, y: 0.065, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1179590928 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6291866637899853492, guid: 3a0606932760d6140a1b10a9cb5e68aa,
+    type: 3}
+  m_PrefabInstance: {fileID: 268624456}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1266354294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2399,6 +2491,65 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1838748401, guid: 32f93dc542eaf6d4c97859b3f61b7e3d, type: 3}
+      propertyPath: portraits.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1838748401, guid: 32f93dc542eaf6d4c97859b3f61b7e3d, type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 05e838a896a464661a9b74f725fcd06f,
+        type: 3}
+    - target: {fileID: 1838748401, guid: 32f93dc542eaf6d4c97859b3f61b7e3d, type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 698d797645b6d4ba3884831cc73027f9,
+        type: 3}
+    - target: {fileID: 1838748401, guid: 32f93dc542eaf6d4c97859b3f61b7e3d, type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 35880be37214844baaf4ae082b8fabb7,
+        type: 3}
+    - target: {fileID: 1838748401, guid: 32f93dc542eaf6d4c97859b3f61b7e3d, type: 3}
+      propertyPath: portraits.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 4736a7f8901c64ff1b720c29db044c0b,
+        type: 3}
+    - target: {fileID: 1838748401, guid: 32f93dc542eaf6d4c97859b3f61b7e3d, type: 3}
+      propertyPath: portraits.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: df5b8aecccf2845f7ae8028d257862bb,
+        type: 3}
+    - target: {fileID: 1838748401, guid: 32f93dc542eaf6d4c97859b3f61b7e3d, type: 3}
+      propertyPath: portraits.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1e7ca84f6fb8b422f9bdf1391c359027,
+        type: 3}
+    - target: {fileID: 1838748401, guid: 32f93dc542eaf6d4c97859b3f61b7e3d, type: 3}
+      propertyPath: portraits.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: b1f77554b76eb4346a62ddc12bb07aa9,
+        type: 3}
+    - target: {fileID: 1838748401, guid: 32f93dc542eaf6d4c97859b3f61b7e3d, type: 3}
+      propertyPath: portraits.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: 52d29e27a7d13493094ef0d193ce3b3a,
+        type: 3}
+    - target: {fileID: 1838748401, guid: 32f93dc542eaf6d4c97859b3f61b7e3d, type: 3}
+      propertyPath: portraits.Array.data[8]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5f371e489c73743d4b1ce1860bd31ce3,
+        type: 3}
+    - target: {fileID: 1838748401, guid: 32f93dc542eaf6d4c97859b3f61b7e3d, type: 3}
+      propertyPath: portraits.Array.data[9]
+      value: 
+      objectReference: {fileID: 21300000, guid: 3da820200b7ed420498ca9f18ae79efe,
+        type: 3}
+    - target: {fileID: 1838748401, guid: 32f93dc542eaf6d4c97859b3f61b7e3d, type: 3}
+      propertyPath: portraits.Array.data[10]
+      value: 
+      objectReference: {fileID: 21300000, guid: f1a1a83fc2c4040f899e8662864c1381,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32f93dc542eaf6d4c97859b3f61b7e3d, type: 3}
 --- !u!1 &1399350215
@@ -2430,7 +2581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
+  selectedFlowchart: {fileID: 261099743}
 --- !u!4 &1399350217
 Transform:
   m_ObjectHideFlags: 1
@@ -2456,7 +2607,7 @@ GameObject:
   - component: {fileID: 1591981706}
   - component: {fileID: 1591981705}
   m_Layer: 0
-  m_Name: Biblotekar
+  m_Name: Bibliotekaren
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2499,12 +2650,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 9cbafe1e264988e449b29ce4db8201f2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: df5b8aecccf2845f7ae8028d257862bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4.26, y: 7.65}
+  m_Size: {x: 31.24, y: 106.909996}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2519,10 +2670,10 @@ Transform:
   m_GameObject: {fileID: 1591981704}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.3, y: 0.46, z: 0.14649013}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.08, y: 0.08, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1599419748
 PrefabInstance:
