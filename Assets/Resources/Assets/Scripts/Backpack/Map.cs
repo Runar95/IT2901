@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using Fungus;
 
-public class Map : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class Map : MonoBehaviour
 {
     public GameObject map;
     Animator anim;
@@ -19,16 +19,6 @@ public class Map : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         anim = gameObject.GetComponent<Animator>();
         positionAnim = YouAreHere.GetComponent<Animator>();
     }
-
-    public void OnPointerEnter(PointerEventData eventData)//When mouse is over map, make it bigger
-    {
-        anim.SetBool("Big", true);
-    }
-
-    public void OnPointerExit(PointerEventData eventData)//When mouse is no longer over map, make it smaler 
-    {
-        anim.SetBool("Big", false);
-    } 
 
     public void updatePosition(mapPosition position){
       switch (position)
