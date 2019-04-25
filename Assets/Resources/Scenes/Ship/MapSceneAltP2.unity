@@ -376,7 +376,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 205
     y: 104
-    width: 135
+    width: 139
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -401,7 +401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: Correct!
+  storyText: Riktig!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -430,7 +430,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 56
     y: 105
-    width: 143
+    width: 148
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -454,7 +454,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: Incorrect!
+  storyText: Feil!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -483,7 +483,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 361
     y: 129
-    width: 120
+    width: 121
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
