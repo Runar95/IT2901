@@ -185,7 +185,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112074263}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6, y: -0, z: -0.034883317}
+  m_LocalPosition: {x: -4.8, y: -1.8, z: -0.034883317}
   m_LocalScale: {x: 0.075, y: 0.075, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -559,7 +559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: "Self\xF8lgelig. N\xE5 husker jeg det. "
+  storyText: "Selvf\xF8lgelig. N\xE5 husker jeg det. "
   description: 
   character: {fileID: 1838748401}
   portrait: {fileID: 21300000, guid: 1e7ca84f6fb8b422f9bdf1391c359027, type: 3}
@@ -763,7 +763,7 @@ MonoBehaviour:
   storyText: 'Hvilken av disse er riktig? '
   description: 
   character: {fileID: 1838748401}
-  portrait: {fileID: 21300000, guid: 04c14e950e45b264ea95e727a414eeeb, type: 3}
+  portrait: {fileID: 21300000, guid: b1f77554b76eb4346a62ddc12bb07aa9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -790,7 +790,7 @@ MonoBehaviour:
   storyText: 'Takk. '
   description: 
   character: {fileID: 1838748401}
-  portrait: {fileID: 21300000, guid: 04c14e950e45b264ea95e727a414eeeb, type: 3}
+  portrait: {fileID: 21300000, guid: 1e7ca84f6fb8b422f9bdf1391c359027, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1758,15 +1758,35 @@ PrefabInstance:
       propertyPath: itemType
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7878841089237444520, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: acceptingItem
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7878841089334070172, guid: 763a5f09552dca44e85db887ed5b1599,
         type: 3}
       propertyPath: itemType
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7878841089381232184, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: acceptingItem
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7878841089678357776, guid: 763a5f09552dca44e85db887ed5b1599,
         type: 3}
       propertyPath: itemType
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878841089977275816, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: acceptingItem
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878841090393636011, guid: 763a5f09552dca44e85db887ed5b1599,
+        type: 3}
+      propertyPath: acceptingItem
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7878841090871366618, guid: 763a5f09552dca44e85db887ed5b1599,
         type: 3}
@@ -1782,26 +1802,6 @@ PrefabInstance:
         type: 3}
       propertyPath: itemType
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878841089237444520, guid: 763a5f09552dca44e85db887ed5b1599,
-        type: 3}
-      propertyPath: acceptingItem
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878841089381232184, guid: 763a5f09552dca44e85db887ed5b1599,
-        type: 3}
-      propertyPath: acceptingItem
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878841089977275816, guid: 763a5f09552dca44e85db887ed5b1599,
-        type: 3}
-      propertyPath: acceptingItem
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878841090393636011, guid: 763a5f09552dca44e85db887ed5b1599,
-        type: 3}
-      propertyPath: acceptingItem
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 763a5f09552dca44e85db887ed5b1599, type: 3}
@@ -1965,7 +1965,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 619925324}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.37, y: 0.44076714, z: 0.12755814}
+  m_LocalPosition: {x: -2.7, y: -1.6, z: 0.12755814}
   m_LocalScale: {x: 0.065, y: 0.065, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2144,7 +2144,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9fd0ec3f8a5606344a508d72b877b3a0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a85daf1e059ac4b34b4a03299602f1ba, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2406,8 +2406,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1036031093}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.47, y: 0.44076714, z: 0.12755814}
-  m_LocalScale: {x: 0.065, y: 0.065, z: 1}
+  m_LocalPosition: {x: -0.4, y: -2, z: 0.12755814}
+  m_LocalScale: {x: 0.06, y: 0.06, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -2669,7 +2669,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591981704}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.3, y: 0.46, z: 0.14649013}
+  m_LocalPosition: {x: 4, y: -1.7, z: 0.14649013}
   m_LocalScale: {x: 0.08, y: 0.08, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
