@@ -261,6 +261,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 35880be37214844baaf4ae082b8fabb7,
         type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameText
+      value: Wilhelmsen
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -658,7 +662,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 51
     y: 85
-    width: 143
+    width: 150.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -698,7 +702,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1042464033
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -930,6 +934,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: fda353acdb8964f4b88e51dbc5561b1c,
         type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameText
+      value: Sara
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1637,6 +1645,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 5eaac82b853184fb38c2744263e30718,
         type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameText
+      value: Tarek
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
