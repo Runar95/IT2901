@@ -84,6 +84,7 @@ public class Puzzle1Level2 : MonoBehaviour
     {
         GameObject gO = new GameObject();
         LineRenderer lr = gO.AddComponent<LineRenderer>();
+        lr.sortingOrder = 2;
         lr.material = new Material(Shader.Find("Sprites/Default"));
         lr.widthMultiplier = 0.2f;
 
