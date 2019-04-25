@@ -24,21 +24,21 @@ public class TravelScript : MonoBehaviour
     {
         if (Globals.level == 1) {
             //Debug.Log("Level 1");
-            controlroomWindow.sprite = lvl1Window;
+            //controlroomWindow.sprite = lvl1Window;
             mainHall1.ChangeSpriteTo(0);
             mainHall2.ChangeSpriteTo(0);
             mainHall3.ChangeSpriteTo(0);
             mainHall4.ChangeSpriteTo(0);
         } else if (Globals.level == 2) {
             //Debug.Log("Level 2");
-            controlroomWindow.sprite = lvl2Window;
+            //controlroomWindow.sprite = lvl2Window;
             mainHall1.ChangeSpriteTo(1);
             mainHall2.ChangeSpriteTo(1);
             mainHall3.ChangeSpriteTo(1);
             mainHall4.ChangeSpriteTo(1);
         } else if (Globals.level == 3) {
             //Debug.Log("Level 3");
-            controlroomWindow.sprite = lvl3Window;
+            //controlroomWindow.sprite = lvl3Window;
             mainHall1.ChangeSpriteTo(2);
             mainHall2.ChangeSpriteTo(2);
             mainHall3.ChangeSpriteTo(2);
