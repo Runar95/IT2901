@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 using System;
 
 public static class Globals {
+    public static bool Debug = false;
 
  public static DateTime startGameTime = DateTime.MinValue;
     // Array of four doors, reflecting open/closed state of each door
@@ -78,8 +79,11 @@ public static class Globals {
 
     // Sets next level
     public static void nextLevel() {
-        level += 1;
-        nextLevelAvailable = false;
+        if (level <3){
+            level += 1;
+            nextLevelAvailable = false;
+        }
+   
     }
 
     public static string getPuzzleSceneString(int puzzle) {
