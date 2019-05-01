@@ -26,7 +26,7 @@ public class CtrlRoomDoor : MonoBehaviour {
         gameObject.GetComponent<Clickable2D>().ClickEnabled = doorOpen;
 
         // Set sprite to closedDoor
-        gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite = closedDoor;
+        gameObject.transform.parent.gameObject.GetComponent<SpriteRenderer>().sprite = closedDoor;
 
         flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
         
@@ -45,7 +45,7 @@ public class CtrlRoomDoor : MonoBehaviour {
         AudioSource audioSource = GetComponent<AudioSource>();
 
         if (hoverEnabled) {
-            gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite = peekDoor;
+            gameObject.transform.parent.gameObject.GetComponent<SpriteRenderer>().sprite = peekDoor;
             if (!audioSource.isPlaying) {
                 audioSource.PlayOneShot(doorSound, 0.7f);
             }
@@ -54,7 +54,7 @@ public class CtrlRoomDoor : MonoBehaviour {
 
     void OnMouseExit() {
         if (hoverEnabled) {
-            gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite = closedDoor;
+            gameObject.transform.parent.gameObject.GetComponent<SpriteRenderer>().sprite = closedDoor;
         }
     }
     public void openTheDoor(){
