@@ -19,6 +19,7 @@ public class TravelScript : MonoBehaviour
     public SpriteChanger mainHall2;
     public SpriteChanger mainHall3;
     public SpriteChanger mainHall4;
+    public SpriteChanger controlRoom;
 
     void Start()
     {
@@ -29,6 +30,7 @@ public class TravelScript : MonoBehaviour
             mainHall2.ChangeSpriteTo(0);
             mainHall3.ChangeSpriteTo(0);
             mainHall4.ChangeSpriteTo(0);
+            controlRoom.ChangeSpriteTo(0);
         } else if (Globals.level == 2) {
             //Debug.Log("Level 2");
             //controlroomWindow.sprite = lvl2Window;
@@ -36,6 +38,7 @@ public class TravelScript : MonoBehaviour
             mainHall2.ChangeSpriteTo(1);
             mainHall3.ChangeSpriteTo(1);
             mainHall4.ChangeSpriteTo(1);
+            controlRoom.ChangeSpriteTo(1);
         } else if (Globals.level == 3) {
             //Debug.Log("Level 3");
             //controlroomWindow.sprite = lvl3Window;
@@ -43,6 +46,7 @@ public class TravelScript : MonoBehaviour
             mainHall2.ChangeSpriteTo(2);
             mainHall3.ChangeSpriteTo(2);
             mainHall4.ChangeSpriteTo(2);
+            controlRoom.ChangeSpriteTo(2);
         }
 
         screenNewDest.SetActive(Globals.nextLevelAvailable);
