@@ -1393,7 +1393,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: b5cf4d95414d0454581158f5a1baebc7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 94a23b047bd94c4438c76d30a12e5226, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1820,7 +1820,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 202.73538
     y: 47.11918
-    width: 134.5
+    width: 134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2155,9 +2155,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1958185387}
-  selectedCommands:
-  - {fileID: 1958185386}
+  - {fileID: 1958185358}
+  selectedCommands: []
   variables:
   - {fileID: 1958185357}
   - {fileID: 1958185445}
