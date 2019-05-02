@@ -34,14 +34,15 @@ public class TravelCountryChecker : MonoBehaviour, IPointerClickHandler {
 
                 //if the game is completed, go to endstate
                 //remember to move this someplace else
-                if (Globals.level == 4)
+                Debug.Log(Globals.level);
+                if (Globals.level >= 4)
                 {
                     Debug.Log("går til end state");
                     SceneManager.LoadScene("EndState_GameWon");
                     return;
                 }
 
-                // StartCoroutine(LoadScene("MapSceneAltP3")); 
+                // StartCoroutine(LoadScene("MapSceneAltP3"));
                 SceneManager.LoadScene("MapSceneAltP3", LoadSceneMode.Single);
             } else {
                 // Show user they answered incorrectly

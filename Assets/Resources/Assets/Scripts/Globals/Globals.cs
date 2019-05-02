@@ -76,16 +76,11 @@ public static class Globals {
     public static bool getDoor(int door) {
         return openDoors[door -1];
     }
-
     // Sets next level
     public static void nextLevel() {
-        if (level <3){
-            level += 1;
-            nextLevelAvailable = false;
-        }
-   
+        level += 1;
+        nextLevelAvailable = false;
     }
-
     public static string getPuzzleSceneString(int puzzle) {
         return levelPuzzleScenes[level - 1, puzzle - 1];
     }
