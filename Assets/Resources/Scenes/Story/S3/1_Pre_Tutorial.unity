@@ -569,7 +569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 158774818}
   keyPressType: 0
-  keyCode: 32
+  keyCode: 122
 --- !u!114 &158774824
 MonoBehaviour:
   m_ObjectHideFlags: 2

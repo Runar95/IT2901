@@ -473,7 +473,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 526.85016
     y: 39
-    width: 120
+    width: 122.957985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2707,6 +2707,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: f1a1a83fc2c4040f899e8662864c1381,
         type: 3}
+    - target: {fileID: 1838748401, guid: 32f93dc542eaf6d4c97859b3f61b7e3d, type: 3}
+      propertyPath: nameText
+      value: Wilhelmsen
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32f93dc542eaf6d4c97859b3f61b7e3d, type: 3}
 --- !u!1 &1399350215

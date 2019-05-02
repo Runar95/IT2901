@@ -2436,7 +2436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 770518739}
   keyPressType: 0
-  keyCode: 32
+  keyCode: 122
 --- !u!1 &1087111699
 GameObject:
   m_ObjectHideFlags: 0

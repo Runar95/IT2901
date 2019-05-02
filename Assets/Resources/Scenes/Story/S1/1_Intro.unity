@@ -3855,7 +3855,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 1936252760}
   keyPressType: 0
-  keyCode: 32
+  keyCode: 122
 --- !u!4 &1936576856
 Transform:
   m_ObjectHideFlags: 0
