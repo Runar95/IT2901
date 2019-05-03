@@ -7,8 +7,11 @@ public class UnloadUnused: MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Screen.SetResolution(1280, 720, false, 60);
-        Application.targetFrameRate = 60;
+	Screen.fullScreenMode = FullScreenMode.ExclusiveFullScreen;
+        Screen.SetResolution(1920, 1080, false, 60);
+	Screen.fullScreen = true;
+        
+	Application.targetFrameRate = 60;
         StartCoroutine(Unload());
     }
 
