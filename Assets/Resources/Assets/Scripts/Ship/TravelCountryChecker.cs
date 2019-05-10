@@ -21,8 +21,6 @@ public class TravelCountryChecker : MonoBehaviour, IPointerClickHandler {
     public void OnPointerClick(PointerEventData pointerEventData){
         //Use this to tell when the user left-clicks on the Button
         if (pointerEventData.button == PointerEventData.InputButton.Left){
-            Debug.Log(name + " Game Object Left Clicked!");
-            Debug.Log(inputField.text);
 
             if (inputField.text.Trim().ToLower() == Globals.getCurrentLevelString()) {
                 // Show user they answered correctly (fungus block)

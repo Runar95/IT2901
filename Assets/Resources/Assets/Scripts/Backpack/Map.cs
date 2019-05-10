@@ -7,7 +7,7 @@ using Fungus;
 public class Map : MonoBehaviour
 {
     public GameObject map;
-    Animator anim;
+
     public GameObject YouAreHere;
     Animator positionAnim;
     public enum mapPosition{MH_View1, MH_View2, MH_View3, MH_View4, CH_View1, CH_View2, CH_View3, CH_View4, EH_View1, EH_View2, EH_View3, EH_View4}
@@ -16,7 +16,6 @@ public class Map : MonoBehaviour
     {
         Flowchart flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
         flowchart.SetStringVariable("enterView", Globals.lastView);
-        anim = gameObject.GetComponent<Animator>();
         positionAnim = YouAreHere.GetComponent<Animator>();
     }
 

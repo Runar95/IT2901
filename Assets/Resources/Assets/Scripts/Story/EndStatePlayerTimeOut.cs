@@ -122,7 +122,6 @@ public class EndStatePlayerTimeOut : MonoBehaviour
     {
         showTimesOut = false;
         screen.sprite = blackScreen;
-        SpriteRenderer wanderer = GameObject.Find("ship_outside").GetComponent<SpriteRenderer>();
         for(int i = 1; i < 6; i++)
         {
             if(i == 1)

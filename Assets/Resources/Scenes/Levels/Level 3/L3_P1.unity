@@ -4327,6 +4327,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: image3View
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
+      propertyPath: viewSize
+      value: 1.3084207
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalPosition.x
       value: -17.1
@@ -4371,10 +4375,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
-      propertyPath: viewSize
-      value: 1.3084207
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
 --- !u!1001 &1011194078
@@ -4387,6 +4387,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_Name
       value: image2View
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
+      propertyPath: viewSize
+      value: 1.2064025
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4436,10 +4440,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
-      propertyPath: viewSize
-      value: 1.2064025
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
 --- !u!1001 &1065674030
@@ -4452,6 +4452,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_Name
       value: image1View
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
+      propertyPath: viewSize
+      value: 1.1499828
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4496,10 +4500,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
-      propertyPath: viewSize
-      value: 1.1499828
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
@@ -4910,6 +4910,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: cat
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
+      propertyPath: viewSize
+      value: 5.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
+      propertyPath: primaryAspectRatio.x
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
+      propertyPath: primaryAspectRatio.y
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.8
@@ -4961,18 +4973,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
-      propertyPath: viewSize
-      value: 5.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
-      propertyPath: primaryAspectRatio.x
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
-      propertyPath: primaryAspectRatio.y
-      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 21200000, guid: 0e6bcf37a2876432fa58eff8888bf177, type: 3}
       propertyPath: m_Sprite
@@ -6249,6 +6249,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: deskView
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
+      propertyPath: viewSize
+      value: 2.0059242
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.25
@@ -6292,10 +6296,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
-      propertyPath: viewSize
-      value: 2.0059242
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
@@ -7092,7 +7092,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -15.683899
     y: 281.83826
-    width: 138.0737
+    width: 129.6875
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7123,7 +7123,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -217.23401
     y: 278.10703
-    width: 138.0737
+    width: 132.8125
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7186,7 +7186,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -135.95982
     y: 480.10593
-    width: 141.74344
+    width: 131.25
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7198,7 +7198,6 @@ MonoBehaviour:
   - {fileID: 1997413626}
   - {fileID: 1997413780}
   - {fileID: 1997413629}
-  - {fileID: 1997413636}
 --- !u!114 &1997413628
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7248,7 +7247,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -17.901001
     y: 177.33562
-    width: 138.0737
+    width: 129.6875
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7279,7 +7278,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -181.36713
     y: 564.26447
-    width: 150.91777
+    width: 139.0625
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7290,7 +7289,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 1997413774}
   - {fileID: 1997413633}
-  - {fileID: 1997413635}
 --- !u!114 &1997413632
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7343,46 +7341,6 @@ MonoBehaviour:
     stringVal: Ship
   loadingImage: {fileID: 0}
   sceneNameOLD: 
---- !u!114 &1997413635
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136842970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 14
-  indentLevel: 0
-  targetTextObject: {fileID: 0}
-  text:
-    stringRef: {fileID: 0}
-    stringVal: Enter a door
-  description: 
-  _textObjectObsolete: {fileID: 0}
---- !u!114 &1997413636
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136842970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 13
-  indentLevel: 0
-  targetTextObject: {fileID: 0}
-  text:
-    stringRef: {fileID: 0}
-    stringVal: 
-  description: 
-  _textObjectObsolete: {fileID: 0}
 --- !u!114 &1997413637
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7417,7 +7375,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4.4590454
     y: 479.50488
-    width: 150.91777
+    width: 139.0625
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7428,7 +7386,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 1997413779}
   - {fileID: 1997413637}
-  - {fileID: 1997413641}
 --- !u!114 &1997413639
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7472,26 +7429,6 @@ MonoBehaviour:
   - {fileID: 1997413668}
   - {fileID: 1997413665}
   - {fileID: 1997413658}
---- !u!114 &1997413641
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136842970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 20
-  indentLevel: 0
-  targetTextObject: {fileID: 0}
-  text:
-    stringRef: {fileID: 0}
-    stringVal: 
-  description: 
-  _textObjectObsolete: {fileID: 0}
 --- !u!114 &1997413643
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7586,26 +7523,6 @@ MonoBehaviour:
   parentBlock: {fileID: 1997413650}
   clickableObject: {fileID: 587103222}
   waitFrames: 1
---- !u!114 &1997413646
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136842970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 25
-  indentLevel: 0
-  targetTextObject: {fileID: 0}
-  text:
-    stringRef: {fileID: 0}
-    stringVal: Enter a Door
-  description: 
-  _textObjectObsolete: {fileID: 0}
 --- !u!114 &1997413647
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7668,7 +7585,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 41.58786
     y: 561.2168
-    width: 141.74344
+    width: 131.25
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7679,7 +7596,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 1997413778}
   - {fileID: 1997413647}
-  - {fileID: 1997413646}
 --- !u!114 &1997413651
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7714,7 +7630,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -375.6568
     y: 478.78055
-    width: 150.91777
+    width: 139.0625
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7789,7 +7705,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -328.01126
     y: 563.8443
-    width: 141.74344
+    width: 131.25
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7875,9 +7791,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -521.6568
+    x: -524.8064
     y: 477.78055
-    width: 141.74344
+    width: 131.25
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7937,7 +7853,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 176.86658
     y: 562.2168
-    width: 150.91777
+    width: 139.0625
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7948,27 +7864,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 1997413777}
   - {fileID: 1997413662}
-  - {fileID: 1997413664}
---- !u!114 &1997413664
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136842970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 45
-  indentLevel: 0
-  targetTextObject: {fileID: 0}
-  text:
-    stringRef: {fileID: 0}
-    stringVal: 
-  description: 
-  _textObjectObsolete: {fileID: 0}
 --- !u!114 &1997413665
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9238,7 +9133,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -18.122986
     y: 229.09937
-    width: 138.0737
+    width: 129.6875
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9296,7 +9191,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -10.425903
     y: 338.65558
-    width: 121.559875
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9329,7 +9224,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -215.44398
     y: 235.8351
-    width: 127.064476
+    width: 123.43751
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10791,17 +10686,13 @@ GameObject:
   - component: {fileID: 1997413632}
   - component: {fileID: 1997413633}
   - component: {fileID: 1997413634}
-  - component: {fileID: 1997413635}
-  - component: {fileID: 1997413636}
   - component: {fileID: 1997413637}
   - component: {fileID: 1997413638}
   - component: {fileID: 1997413639}
   - component: {fileID: 1997413640}
-  - component: {fileID: 1997413641}
   - component: {fileID: 1997413643}
   - component: {fileID: 1997413644}
   - component: {fileID: 1997413645}
-  - component: {fileID: 1997413646}
   - component: {fileID: 1997413647}
   - component: {fileID: 1997413648}
   - component: {fileID: 1997413649}
@@ -10819,7 +10710,6 @@ GameObject:
   - component: {fileID: 1997413661}
   - component: {fileID: 1997413662}
   - component: {fileID: 1997413663}
-  - component: {fileID: 1997413664}
   - component: {fileID: 1997413665}
   - component: {fileID: 1997413666}
   - component: {fileID: 1997413667}
@@ -10961,7 +10851,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -399.65247
     y: 290.29596
-    width: 136.23883
+    width: 131.25
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11201,7 +11091,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &2136842983
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11239,7 +11129,7 @@ MonoBehaviour:
   toScaleOLD: {x: 0, y: 0, z: 0}
 --- !u!114 &2136842984
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11288,11 +11178,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 853.76074, y: -197.81703}
+  scrollPos: {x: 749.79645, y: 34.027763}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 420
-  zoom: 0.54499817
+  zoom: 0.6399999
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -11300,9 +11190,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1997413640}
-  selectedCommands:
-  - {fileID: 2136842983}
+  - {fileID: 1997413710}
+  selectedCommands: []
   variables:
   - {fileID: 1997413619}
   - {fileID: 1997413657}

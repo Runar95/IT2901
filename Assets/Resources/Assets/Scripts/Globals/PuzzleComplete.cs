@@ -11,7 +11,6 @@ public class PuzzleComplete : MonoBehaviour {
 
     // Open next puzzle
     public void FinishLevel() {
-        Debug.Log("Finish puzzle: " + puzzle);
         NotebookController.SetAccess(1, NotebookController.GetPuzzleKey(level, puzzle));
         if (puzzle >= 0 && puzzle < 3) {
             Globals.setDoor(puzzle + 1, true);

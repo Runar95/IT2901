@@ -50,7 +50,6 @@ public static class NotebookController
     {
         foreach (var note in notes)
         {
-            Debug.Log(note);
             NotesAccess[note] = access;
         }
     }

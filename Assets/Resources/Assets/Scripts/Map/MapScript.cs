@@ -35,7 +35,6 @@ public class MapScript : MonoBehaviour
     }
 
     public void OnMouseDown() {
-        Debug.Log("Map Next Destination Clicked");
         if (Globals.nextLevelAvailable) {
             // Globals.nextLevel();
             // Globals.resetOpenDoors();
