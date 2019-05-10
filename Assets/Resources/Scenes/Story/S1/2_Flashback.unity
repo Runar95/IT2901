@@ -249,17 +249,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ship_Entrance_View
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
-      propertyPath: viewSize
-      value: 1.92
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.45
+      value: 4.33
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2
+      value: -1.15
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalPosition.z
@@ -296,6 +292,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
+      propertyPath: viewSize
+      value: 2.7262845
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
@@ -353,7 +353,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 591abdd03710379449b650c9f6b9f602, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8d9668b66e319184e9ad72b4b0e216d1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -389,17 +389,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door_View
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
-      propertyPath: viewSize
-      value: 0.94
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.78
+      value: 3.79
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -1.18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalPosition.z
@@ -437,6 +433,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
+      propertyPath: viewSize
+      value: 1.2763221
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
 --- !u!114 &752202989 stripped
@@ -462,9 +462,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fullscreen
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
-      propertyPath: viewSize
-      value: 5.4
+    - target: {fileID: 100000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalPosition.x
@@ -509,6 +509,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
+      propertyPath: viewSize
+      value: 5.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0d427add844a4d9faf970a3afa07583, type: 3}
@@ -732,7 +736,7 @@ MonoBehaviour:
     \u2013 Vandreren. "
   description: 
   character: {fileID: 1661886730}
-  portrait: {fileID: 21300000, guid: 09cd3860fc0024f52974cf1fa5583a0b, type: 3}
+  portrait: {fileID: 21300000, guid: fda353acdb8964f4b88e51dbc5561b1c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -761,7 +765,7 @@ MonoBehaviour:
     \r"
   description: 
   character: {fileID: 1661886730}
-  portrait: {fileID: 21300000, guid: 09cd3860fc0024f52974cf1fa5583a0b, type: 3}
+  portrait: {fileID: 21300000, guid: fda353acdb8964f4b88e51dbc5561b1c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -807,7 +811,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 258.86365
     y: 205.53275
-    width: 125.294106
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -857,7 +861,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 240.71703
     y: 283.53137
-    width: 171.17645
+    width: 166
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -928,7 +932,7 @@ MonoBehaviour:
     m\xE5ll\xF8s! Jeg hadde aldri sett noe liknende!"
   description: 
   character: {fileID: 1661886730}
-  portrait: {fileID: 21300000, guid: 09cd3860fc0024f52974cf1fa5583a0b, type: 3}
+  portrait: {fileID: 21300000, guid: fda353acdb8964f4b88e51dbc5561b1c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1068,7 +1072,7 @@ MonoBehaviour:
   storyText: "Jeg var s\xE5 spent p\xE5 \xE5 g\xE5 inn at jeg l\xF8p ned og inn d\xF8ra. "
   description: 
   character: {fileID: 1661886730}
-  portrait: {fileID: 21300000, guid: 09cd3860fc0024f52974cf1fa5583a0b, type: 3}
+  portrait: {fileID: 21300000, guid: fda353acdb8964f4b88e51dbc5561b1c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1135,7 +1139,7 @@ MonoBehaviour:
     ikke var noen andre mennesker der p\xE5 selveste \xE5pningsdagen. \r"
   description: 
   character: {fileID: 1661886730}
-  portrait: {fileID: 21300000, guid: 09cd3860fc0024f52974cf1fa5583a0b, type: 3}
+  portrait: {fileID: 21300000, guid: fda353acdb8964f4b88e51dbc5561b1c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1192,7 +1196,7 @@ MonoBehaviour:
     ute, og jeg var t\xF8rst etter \xE5 ha l\xF8pt ned til Vandreren."
   description: 
   character: {fileID: 1661886730}
-  portrait: {fileID: 21300000, guid: 09cd3860fc0024f52974cf1fa5583a0b, type: 3}
+  portrait: {fileID: 21300000, guid: fda353acdb8964f4b88e51dbc5561b1c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1238,7 +1242,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 265.6879
     y: 374.05176
-    width: 125.294106
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1310,7 +1314,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 221.88376
     y: 422.03323
-    width: 214.70586
+    width: 206
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1415,7 +1419,7 @@ MonoBehaviour:
   storyText: "Jeg tenkte dette var et venterom, som p\xE5 togstasjoner eller flyplasser."
   description: 
   character: {fileID: 1661886730}
-  portrait: {fileID: 21300000, guid: 09cd3860fc0024f52974cf1fa5583a0b, type: 3}
+  portrait: {fileID: 21300000, guid: fda353acdb8964f4b88e51dbc5561b1c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1441,7 +1445,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 422.1371
     y: 326.84155
-    width: 124.11764
+    width: 121
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1470,7 +1474,7 @@ MonoBehaviour:
   storyText: "D\xF8ra \xE5pnet seg automatisk, og jeg kom inn i lite rom."
   description: 
   character: {fileID: 1661886730}
-  portrait: {fileID: 21300000, guid: 09cd3860fc0024f52974cf1fa5583a0b, type: 3}
+  portrait: {fileID: 21300000, guid: fda353acdb8964f4b88e51dbc5561b1c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1612,8 +1616,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 560
-    y: 327
+    x: 577
+    y: 372
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1661,7 +1665,7 @@ MonoBehaviour:
     skjedde f\xF8r jeg v\xE5knet opp her. \r"
   description: 
   character: {fileID: 1661886730}
-  portrait: {fileID: 21300000, guid: 09cd3860fc0024f52974cf1fa5583a0b, type: 3}
+  portrait: {fileID: 21300000, guid: fda353acdb8964f4b88e51dbc5561b1c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1721,7 +1725,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &844718913
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1778,6 +1782,39 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sara_Character
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: fda353acdb8964f4b88e51dbc5561b1c,
+        type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameText
+      value: Sara
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: nameColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1820,36 +1857,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: portraits.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: portraits.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: 09cd3860fc0024f52974cf1fa5583a0b,
-        type: 3}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: portraits.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300000, guid: 9133f2601497b4657b3c46d7e94825aa,
-        type: 3}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: nameText
-      value: Sara
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: nameColor.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: nameColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
-      propertyPath: nameColor.b
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1908,7 +1915,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2af576881ee1ce940bcd055206d7ce44, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 906f1208bf787274e976a463e58abca5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
@@ -1928,7 +1935,7 @@ Transform:
   m_GameObject: {fileID: 1152966893}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.35, y: 2.35, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -1987,7 +1994,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ef2446ce0c610b446bf50962381a7f08, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0c95ae52930a8064ba8e736f6f653b54, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
@@ -2035,6 +2042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1745325192}
   - component: {fileID: 1745325191}
+  - component: {fileID: 1745325193}
   m_Layer: 0
   m_Name: Square 1
   m_TagString: Untagged
@@ -2049,7 +2057,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745325190}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -2104,6 +2112,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1745325193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745325190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 727b302aaee584a9a93965fc34b00a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1772405308
 GameObject:
   m_ObjectHideFlags: 0
@@ -2212,7 +2232,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1897904372
 SpriteRenderer:
   m_ObjectHideFlags: 0

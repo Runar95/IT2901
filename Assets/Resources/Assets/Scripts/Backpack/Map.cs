@@ -2,30 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using Fungus;
 
-public class Map : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class Map : MonoBehaviour
 {
     public GameObject map;
-    Animator anim;
+
     public GameObject YouAreHere;
     Animator positionAnim;
     public enum mapPosition{MH_View1, MH_View2, MH_View3, MH_View4, CH_View1, CH_View2, CH_View3, CH_View4, EH_View1, EH_View2, EH_View3, EH_View4}
  
     public void Start()
     {
-        anim = gameObject.GetComponent<Animator>();
+        Flowchart flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
+        flowchart.SetStringVariable("enterView", Globals.lastView);
         positionAnim = YouAreHere.GetComponent<Animator>();
     }
-
-    public void OnPointerEnter(PointerEventData eventData)//When mouse is over map, make it bigger
-    {
-        anim.SetBool("Big", true);
-    }
-
-    public void OnPointerExit(PointerEventData eventData)//When mouse is no longer over map, make it smaler 
-    {
-        anim.SetBool("Big", false);
-    } 
 
     public void updatePosition(mapPosition position){
       switch (position)
@@ -70,5 +62,11 @@ public class Map : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
               break;
       }
 
+    }
+    public void SetLastView(string lastView){
+        Globals.lastView = lastView;
+    }
+    public string GetLastView(){
+        return Globals.lastView;
     }
 }

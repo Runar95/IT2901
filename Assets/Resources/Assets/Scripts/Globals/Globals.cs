@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System;
 
 public static class Globals {
 
+ public static DateTime startGameTime = DateTime.MinValue;
     // Array of four doors, reflecting open/closed state of each door
     public static bool[] openDoors = new bool[3];
 
@@ -16,12 +19,26 @@ public static class Globals {
     public static Vector3 lastCamPos = new Vector3(0.0f, 0.0f, -10.0f);
 
     // Scene names of puzzles, index=level-1
-    public static string[,] levelPuzzleScenes = new string [2, 3] {
+    public static string[,] levelPuzzleScenes = new string [3, 3] {
         { "L1_P1", "L1_P2", "L1_P3"},
-        { "L2_P1", "L2_P2", "L2_P3"}
+        { "L2_P1", "L2_P2", "L2_P3"},
+        { "L3_P1", "L3_P2", "L3_P3"}
+    };
+
+    public static string[] levelCountries = new string [3] {
+        "norge", "eritrea", "syria"
     };
 
     public static bool controlroomDoor = true;
+
+    //struct which summs up the progrssion one has in the game
+    //at a given time
+    public struct Progress
+    {
+        public int level;
+        public int puzzle;
+        public string timerStatus;
+    }
 
     static Globals() {
         openDoors[0] = true;
@@ -40,6 +57,8 @@ public static class Globals {
 
         //notify EventNotifier that the doors are reset
         EventNotifier.NotifyNewPuzzle(1);
+        //Updates the notebook
+        NotebookController.SetAccess(1, NotebookController.GetLevelKey(level));
     }
 
     // Sets the open/close-value of a door
@@ -76,5 +95,60 @@ public static class Globals {
 
     public static bool getControlroomDoor(int level) {
     	return controlroomDoor;
+    }
+
+    public static string getCurrentLevelString() {
+        return levelCountries[level-1];
+    }
+
+    public static int getGurrentPuzzle() {
+        int current_puzzle = 0;
+        for(int i = 0; i < openDoors.Length; i++)
+        {
+            if(openDoors[i])
+            {
+                current_puzzle = i+1;
+            }
+            else
+            {
+                break;
+            }
+        }
+        return current_puzzle;
+    }
+
+    public static Progress GetProgress()
+    {
+        Progress p;
+        p.level = level;
+        int current_puzzle = 0;
+        for(int i = 0; i < openDoors.Length; i++)
+        {
+            if(openDoors[i])
+            {
+                current_puzzle = i + 1;
+            }
+            else
+            {
+                break;
+            }
+        }
+        p.puzzle = current_puzzle;
+        p.timerStatus = global::Timer.GetTimerStatus();
+        return p;
+    }
+
+    public static bool ctrlRoomDoorOpen = false;
+
+    public static string lastView = "";
+
+
+    public static void ResetGlobals(){
+        startGameTime = DateTime.MinValue;
+        level = 1; 
+        resetOpenDoors();
+        ctrlRoomDoorOpen = false;
+        setControlroomDoor(false);
+        BackpackVariables.SetItemInSlot("L1P3KeySlot", BackpackVariables.Item.Key);
     }
 }

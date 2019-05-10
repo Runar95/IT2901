@@ -16,6 +16,7 @@ public class DoorScript : MonoBehaviour {
 
     private bool hoverEnabled = false;
 
+    private Flowchart flowchart;
 
     // Start is called before the first frame update
     void Start() {
@@ -35,7 +36,9 @@ public class DoorScript : MonoBehaviour {
         gameObject.GetComponent<Clickable2D>().ClickEnabled = doorOpen;
 
         // Set sprite to closedDoor
-        gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite = closedDoor;
+        //gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite = closedDoor;
+
+        flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
 
     }
 
@@ -45,8 +48,18 @@ public class DoorScript : MonoBehaviour {
     }
 
     void OnMouseDown() {
-        if (Globals.openDoors[doorNumber-1]) {
-            SceneManager.LoadScene(Globals.getPuzzleSceneString(doorNumber), LoadSceneMode.Single);
+        if (Globals.openDoors[doorNumber-1] && !Globals.nextLevelAvailable) {
+            if (Globals.getGurrentPuzzle() != doorNumber) {
+                flowchart.ExecuteBlock("DoorVisited");
+            } else {
+                SceneManager.LoadScene(Globals.getPuzzleSceneString(doorNumber), LoadSceneMode.Single);
+            }
+        } else if (!Globals.nextLevelAvailable) {
+            flowchart.ExecuteBlock("DoorLocked");
+        } else {
+            flowchart.ExecuteBlock("DoorLocked"); 
+            // TODO: chage this to new block...
+            // tell user to go to ctr-room and travel
         }
     }
 
@@ -54,7 +67,7 @@ public class DoorScript : MonoBehaviour {
         AudioSource audioSource = GetComponent<AudioSource>();
 
         if (hoverEnabled) {
-            gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite = peekDoor;
+            gameObject.transform.parent.gameObject.GetComponent<SpriteRenderer>().sprite = peekDoor;
             if (!audioSource.isPlaying) {
                 audioSource.PlayOneShot(doorSound, 0.7f);
             }
@@ -63,7 +76,7 @@ public class DoorScript : MonoBehaviour {
 
     void OnMouseExit() {
         if (hoverEnabled) {
-            gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite = closedDoor;
+            gameObject.transform.parent.gameObject.GetComponent<SpriteRenderer>().sprite = closedDoor;
         }
     }
 }

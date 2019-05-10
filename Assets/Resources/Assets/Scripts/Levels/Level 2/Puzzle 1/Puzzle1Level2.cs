@@ -6,7 +6,6 @@ using Fungus;
 
 public class Puzzle1Level2 : MonoBehaviour
 {
-    private bool puzzleIsFinished = false;
     private SayingMatcher sm;
     private Dictionary<string, string> playerCombinations;
     private static string[] keys = { "norsk_metafor_1", "norsk_metafor_2", "norsk_metafor_3", "norsk_metafor_4" };
@@ -27,10 +26,9 @@ public class Puzzle1Level2 : MonoBehaviour
     //variable that tells the update function to stop updating during teardown
     private bool teardown = false;
 
-    //dialog component to be used for dialog
-    private SayDialog sayDialog;
-    private List<string> toSay = new List<string>();
-    private bool isWriting = false;
+
+    //flowchart for printing messages
+    Flowchart flowchart;
 
     //struct representing a line in the scene
     public struct Line
@@ -49,6 +47,8 @@ public class Puzzle1Level2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
+
         //creates the SayingMatcher
         this.sm = new SayingMatcher(keys, solutions);
         //sets dictionary with player combinations
@@ -69,50 +69,14 @@ public class Puzzle1Level2 : MonoBehaviour
         }
 
         instance = this;
-
-        //flowchart components for dialog
-        this.gameObject.AddComponent<Flowchart>();
-        sayDialog = SayDialog.GetSayDialog();
-        sayDialog.SetActive(true);
-        InvokeRepeating("SayNextString", 1f, 1f);
         PlayWelcomeMessage();
     }
 
     //plays the dialogs for the begining of the game
     private void PlayWelcomeMessage()
     {
-        toSay.Add("Til venstre ser dere norske uttrykk");
-        toSay.Add("Til høyre ser dere uttrykk på tigrinja");
-        toSay.Add("Prøv å koble sammen uttrykk på begge sidene");
-        toSay.Add("Sjekk svar ved å trykke på knappen kalt sjekk svar");
-        SayNextString();
-
+        flowchart.ExecuteBlock("IntroMessage");
     }
-
-    //function called after dialog boxes are called
-    private void Done() {
-        isWriting = false;
-        //after the last dialog box one should returm to the plane
-        if(puzzleIsFinished){
-            PuzzleComplete pc = gameObject.GetComponent<PuzzleComplete>();
-            pc.FinishLevel();
-            TearDownScene();
-            ReturnToPlane();
-        }
-    }
-
-    private void SayNextString() {
-        if (toSay.Count != 0 && !isWriting) {
-            isWriting = true;
-            string s = toSay[0];
-            toSay.RemoveRange(0,1);
-            sayDialog = SayDialog.GetSayDialog();
-            sayDialog.SetActive(true);
-            sayDialog.Say(s, true, true, true, true, false, null, Done);
-        }
-    }
-
-
 
 
     //creates a new object in the scene with a lineRenderer component, to be attached to Line structs
@@ -120,6 +84,7 @@ public class Puzzle1Level2 : MonoBehaviour
     {
         GameObject gO = new GameObject();
         LineRenderer lr = gO.AddComponent<LineRenderer>();
+        lr.sortingOrder = 2;
         lr.material = new Material(Shader.Find("Sprites/Default"));
         lr.widthMultiplier = 0.2f;
 
@@ -149,15 +114,27 @@ public class Puzzle1Level2 : MonoBehaviour
         int[] fraction = instance.sm.CheckCorrectAnswers(instance.playerCombinations);
         if (fraction[0] == fraction[1])
         {
-            instance.toSay.Add("Gratulerer, dere klarte det!");
-            instance.SayNextString();
-            instance.puzzleIsFinished = true;
+            instance.StartCoroutine("FinishPuzzle");
         }
         else
         {
-            instance.toSay.Add("" + fraction[0] + " av " + fraction[1] + " fullført");
-            instance.SayNextString();
+            string progressString = "" + fraction[0] + " av " + fraction[1] + " er rett";
+            Block b = instance.flowchart.FindBlock("PrintProgress");
+            Say s = (Say) b.CommandList[0];
+            s.SetStandardText(progressString);
+            instance.flowchart.ExecuteBlock("PrintProgress");
         }
+    }
+
+    IEnumerator FinishPuzzle()
+    {
+        flowchart.ExecuteBlock("FinishedPuzzle");
+        while (flowchart.HasExecutingBlocks())
+        {
+            yield return new WaitForSeconds(0.3f);
+        }
+        TearDownScene();
+        ReturnToLibrary();
     }
 
     //destroys gameobjects not needed after scene, and resets static variables
@@ -184,10 +161,12 @@ public class Puzzle1Level2 : MonoBehaviour
     }
 
     //returns to the inside plane scene
-    static void ReturnToPlane()
+    static void ReturnToLibrary()
     {
-        //set next level available
-        SceneManager.LoadScene("Ship");
+        //set puzzle completed
+        Camera.main.GetComponent<PuzzleComplete>().FinishLevel();
+        //loads library
+        SceneManager.LoadScene("L2_P1");
     }
 
     //function called when a saying is clicked
@@ -340,6 +319,15 @@ public class Puzzle1Level2 : MonoBehaviour
 
     //draws the lines on screen
     public void Update(){
+        /*
+        //if return button is clicked, one return to ship
+        if(flowchart.GetBooleanVariable("leaveShip") == true)
+        {
+            flowchart.SetBooleanVariable("leaveShip", false);
+            TearDownScene();
+            ReturnToPlane();
+        }
+        */
         //makes sure one does not attempt to draw lines that are being deleted
         if (teardown)
         {

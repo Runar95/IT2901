@@ -19,8 +19,8 @@ public class L1_P2Logic : MonoBehaviour
 
     public void CheckLevelComplete()
     {
-        Debug.Log(cc.Count);
-        Debug.Log(pc.Count);
+        //Debug.Log(cc.Count);
+        //Debug.Log(pc.Count);
 
         if (cc.Count == 7)
         {
