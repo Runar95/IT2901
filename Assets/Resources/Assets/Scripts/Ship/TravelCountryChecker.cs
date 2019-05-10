@@ -34,7 +34,6 @@ public class TravelCountryChecker : MonoBehaviour, IPointerClickHandler {
                 //remember to move this someplace else
                 if (Globals.level == 4)
                 {
-                    Debug.Log("går til end state");
                     SceneManager.LoadScene("EndState_GameWon");
                     return;
                 }
