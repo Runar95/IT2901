@@ -142,4 +142,13 @@ public static class Globals {
 
     public static string lastView = "";
 
+
+    public static void ResetGlobals(){
+        startGameTime = DateTime.MinValue;
+        level = 1; 
+        resetOpenDoors();
+        ctrlRoomDoorOpen = false;
+        setControlroomDoor(false);
+        BackpackVariables.SetItemInSlot("L1P3KeySlot", BackpackVariables.Item.Key);
+    }
 }

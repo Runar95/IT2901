@@ -173,6 +173,7 @@ public class EndStatePlayerTimeOut : MonoBehaviour
         progressMessage = "Dere nådde puzzle " + p + " på nivå " + l + ".";
         drawProgress = true;
         yield return new WaitForSeconds(10f);
+        Globals.ResetGlobals();
         SceneManager.LoadScene("start_menu");
     }
 

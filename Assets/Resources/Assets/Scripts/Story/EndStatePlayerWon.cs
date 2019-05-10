@@ -182,6 +182,7 @@ public class EndStatePlayerWon : MonoBehaviour
 
         yield return new WaitForSeconds(10f);
         //goes back to the start menue
+        Globals.ResetGlobals();
         SceneManager.LoadScene("start_menu");
     }
 
